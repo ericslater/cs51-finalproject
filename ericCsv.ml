@@ -3,6 +3,7 @@ open Core
 open Str
 open String
 open Char
+open Array
 #load "str.cma"
 
   
@@ -27,6 +28,7 @@ let csv_parser strl =
 	     done	     
 ;;
 
+
 let a = read_file file;;
 csv_parser a;
 
@@ -38,9 +40,18 @@ let dd = match a with
 
 let reggy = Str.split (Str.regexp ",")  dd;;
 
+let rec datamake slist a = 
+  if a then 
+    match slist with 
+    | [] -> [||]
+    | _::_::_::_::tl -> datamake tl false
+  else 
+    match slist with
+    | [] -> [||]
+    | hd::tl -> Array.append [|hd|] (datamake tl false)
+;;
 
-
-
+let arrayreggy = datamake reggy true;;
 
 (*  
 let () =
