@@ -1,8 +1,8 @@
 ### Starting build.
 # Target: UserInput.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:UserInput.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamldep -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules UserInput.ml > UserInput.ml.depends # cached
+ocamlfind ocamldep -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules UserInput.ml > UserInput.ml.depends
 # Target: RankingAlgorithms.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:RankingAlgorithms.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamldep -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules RankingAlgorithms.ml > RankingAlgorithms.ml.depends # cached
+ocamlfind ocamldep -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules RankingAlgorithms.ml > RankingAlgorithms.ml.depends
 # Target: LinearAlgebra.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:LinearAlgebra.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
 ocamlfind ocamldep -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules LinearAlgebra.ml > LinearAlgebra.ml.depends
 # Target: LinearAlgebra.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:LinearAlgebra.cmo, file:LinearAlgebra.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
@@ -20,29 +20,6 @@ File "LinearAlgebra.ml", line 175, characters 26-36:
 Warning 6: labels were omitted in the application of this function.
 File "LinearAlgebra.ml", line 139, characters 18-20:
 Warning 27: unused variable c1.
-# Target: RankingAlgorithms.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:RankingAlgorithms.cmo, file:RankingAlgorithms.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o RankingAlgorithms.cmo RankingAlgorithms.ml # cached
-# Target: UserInput.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:UserInput.cmo, file:UserInput.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o UserInput.cmo UserInput.ml # cached
-# Target: LinearAlgebra.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:LinearAlgebra.cmx, file:LinearAlgebra.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o LinearAlgebra.cmx LinearAlgebra.ml
-+ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o LinearAlgebra.cmx LinearAlgebra.ml
-File "LinearAlgebra.ml", line 82, characters 32-49:
-Warning 6: labels were omitted in the application of this function.
-File "LinearAlgebra.ml", line 87, characters 22-32:
-Warning 6: labels were omitted in the application of this function.
-File "LinearAlgebra.ml", line 129, characters 2-12:
-Warning 6: labels were omitted in the application of this function.
-File "LinearAlgebra.ml", line 171, characters 18-27:
-Warning 6: labels were omitted in the application of this function.
-File "LinearAlgebra.ml", line 175, characters 26-36:
-Warning 6: labels were omitted in the application of this function.
-File "LinearAlgebra.ml", line 139, characters 18-20:
-Warning 27: unused variable c1.
-# Target: RankingAlgorithms.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:RankingAlgorithms.cmx, file:RankingAlgorithms.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o RankingAlgorithms.cmx RankingAlgorithms.ml # cached
-# Target: UserInput.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:UserInput.cmx, file:UserInput.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o UserInput.cmx UserInput.ml # cached
-# Target: UserInput.native, tags: { annot, bin_annot, debug, dont_link_with, extension:native, file:UserInput.native, link, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), program, quiet, short_paths, syntax(camlp4o), thread }
-ocamlfind ocamlopt str.cmxa -linkpkg -g -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core LinearAlgebra.cmx RankingAlgorithms.cmx UserInput.cmx -o UserInput.native
-# Compilation successful.
+Fatal error: exception Out_of_memory
+Command exited with code 2.
+# Compilation unsuccessful.

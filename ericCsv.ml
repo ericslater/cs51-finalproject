@@ -4,11 +4,9 @@ open Str
 open String
 open Char
 open Array
-#load "str.cma"
 
   
 let file = "basketballSimple.csv"
-
 
 let csv_to_data (file : string) (b : bool) : string array = 
 
@@ -45,7 +43,7 @@ let csv_to_data (file : string) (b : bool) : string array =
   datamake (onereg (csv_parser (read_file file))) b
 		 
 ;;
-
+(*
 let here = csv_to_data "basketballSimple.csv" true;;
 
   open_in "basketballSimple.csv";;
