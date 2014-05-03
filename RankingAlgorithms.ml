@@ -3,6 +3,10 @@ open Array
 open LinearAlgebra
 open Matrix
 
+
+(* The RankingAlgorithms module contains the implementations of 
+   our three algorithms: Massey, Minton, and Colley *)
+
 module RankingAlgorithms =
 struct 
    type m = Matrix.m
@@ -27,10 +31,10 @@ struct
 		      [("Cornell", 0); ("Columnia", 34)]; 
 		      [("Harvard", 27); ("Yale", 20)]]
 
-   (* places all unique teams found in a data set into a list *)
-   let rec team_list (teams: (string * int) list list) 
-	   : string list =
-     (* removes duplicates *)
+   (* places all unique teams found in a data set into a list.
+      i.e. each distinct team is counted once in team_list *)
+   let rec team_list (teams: (string * int) list list) : string list =
+     (* clean_list removes duplicates from team of lists *)
      let rec clean_list (teams: string list) : string list = 
        match teams with
        | [] -> []
@@ -48,8 +52,7 @@ struct
 
    (* calculates the massey point spread vector of a data set and
     * stores it in matrix format for later use *)
-   let rec massey_point_spread (stats: (string * int) list list) 
-	   : m =
+   let rec massey_point_spread (stats: (string * int) list list) : m =
      match stats with
      | [] -> Matrix.empty_float_array ()
      | game :: season -> let [(t1,s1); (t2,s2)] = game in
@@ -60,9 +63,9 @@ struct
 
    let points_vector = massey_point_spread sample_data
 
-   (* assigns each team a unique matrix index *)
-   let rec assignment (teams: string list) (index: int) 
-	   : (string * int) list =
+   (* assigns each team a unique index within the matrix for ranking, 
+      starting from 0 *)
+   let rec assignment (teams: string list) (index: int) : (string * int) list =
      match teams with
      | [] -> []
      | team :: league -> (team, index) :: assignment league (index + 1)
@@ -82,14 +85,14 @@ struct
 
    (* creates a new dataset, with each original tuple replaced
     * by the new assigned tuple, which contains information 
-    * regarding matrix indecies. in other words, now that we've
+    * regarding matrix indecies. In other words, now that we've
     * calculated the point spreads, we can throw out the scores 
     * and instead store information about where a team should go 
     * in our matrix *)
    let rec update_index (stats: (string * int) list list) 
 			(index_list: (string * int) list)
 			(swap_index: int)
-	   : (string * int) list list =
+           :(string * int) list list =
      let isolate = List.nth stats swap_index in 
      match isolate with
      | None -> []
@@ -100,9 +103,8 @@ struct
    let updated_data = update_index sample_data index_list 0;;
 
    (* now that we have our updated index list, we can create
-    * a m that reflects each game played! *)
-   let populate_massey (index_stats: (string * int) list list)
-       : m =
+    * a matrix that reflects each game played! *)
+   let populate_massey (index_stats: (string * int) list list) : m =
      let games = List.length index_stats in
      let matrix_x = Matrix.make_matrix games games 0. in
      let rec help_populate_massey (index_stats: (string * int) list list)
@@ -118,6 +120,7 @@ struct
      help_populate_massey index_stats 0
    ;;
 
+   (* matrices for testing *)
    let v = [|[|3.|];[|5.|];[|1.|];[|2.|];[|7.|];[|8.|];[|9.|];[|11.|]|];;
    let m = [|[|9.; 3.|]; [|4.; 6.|]|];;
 
@@ -202,7 +205,7 @@ struct
      print_results teams_and_rating
    ;;
 
-     (* compute massey results! *)
+    (* compute massey results! *)
     (* calculate_massey sample_data*)
 
    (* Now we can move on to implementing Minton's method.
@@ -210,7 +213,7 @@ struct
     * a given string occurs in a (string * int) list list...
     * then we update the corresponding index of that string to that 
     * number, and use the populate_massey method to turn the other 
-    * indecies into -1... then we just augment, row_reduce, 
+    * indicies into -1... then we just augment, row_reduce, 
     * strip_results, sort teams, and print! *)
 
    (* finds the number of games a given team has played *)
@@ -259,7 +262,8 @@ struct
 			 then game :: (pull_games season team)
 			 else pull_games season team
    ;;
-
+   (* calculates the number of point each team scores and points 
+      scored against that team *)
    let rec create_vars (stats: (string * int) list list) 
 		       (team : string) (team_points : float) 
 		       (opponent_points : float) : float * float =
@@ -328,7 +332,7 @@ struct
      print_results teams_and_rating
    ;;
 
-     (* compute minton results *)
+    (* compute minton results *)
     (* calculate_minton sample_data*)
 
    (* returns the number of games a team has won * number of games 
@@ -384,12 +388,9 @@ struct
 					     (cps_helper league) in
      cps_helper indexed_teams
 
-   (* populate the colley matrix! *)
-   (* each diagonal element gets a 1 *)
-   (* each team it plays gets a -1 / (2 +. w +. l) *)
-
-   (* this can be drastically cleaned up. We take in index_stats AND stats,
-    * where index_stats is a manipulation of stats...this needs cleaning up! *)
+   (* populates the colley matrix, assigning each diagnol element 
+      the value of 1. each team played gets the value of 
+      -1 / (2 +. w +. 1) *)
    let populate_colley (indexed_stats: (string * int) list list) 
 		       (stats : (string * int) list list) 
        : m =
@@ -431,13 +432,5 @@ struct
      print_results teams_and_rating
    ;;
 
-     (* compute colley results *)
-    (* calculate_colley sample_data
-   ;;
-
-     (* ranking algorithms! *)
-     calculate_massey sample_data;;
-     calculate_minton sample_data;;
-     calculate_colley sample_data;;*)
 
 end
