@@ -396,7 +396,8 @@ struct
      let games = List.length indexed_stats in
      let matrix_x = Matrix.make_matrix games games 0. in
      let rec help_populate_colley (index_stats: (string * int) list list)
-				  (game_number: int) (stats : (string * int) list list)
+				  (game_number: int) 
+				  (stats : (string * int) list list)
 	     : m =
        match index_stats with
        | [] -> matrix_x
