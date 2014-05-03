@@ -20,16 +20,6 @@ struct
 		      [("Princeton", 0); ("Brown", 34)]; 
 		      [("Penn", 27); ("Columbia", 20)]]
 
-   let sample_data2 = [[("Dartmouth", 7); ("Harvard", 24)]; 
-		      [("Penn", 17); ("Columbia", 37)]; 
-		      [("Princeton", 22); ("Cornell", 20)]; 
-		      [("Brown", 22); ("Yale", 20)]; 
-		      [("Princeton", 22); ("Columbia", 20)]; 
-		      [("Penn", 21); ("Cornell", 24)]; 
-		      [("Yale", 0); ("Brown", 30)]; 
-		      [("Harvard", 41); ("Dartmouth", 31)];
-		      [("Cornell", 0); ("Columnia", 34)]; 
-		      [("Harvard", 27); ("Yale", 20)]]
 
    (* places all unique teams found in a data set into a list.
       i.e. each distinct team is counted once in team_list *)

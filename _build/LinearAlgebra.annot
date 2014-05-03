@@ -3,7 +3,7 @@ type(
   unit -> 'a array array
 )
 ident(
-  def empty_matrix "LinearAlgebra.ml" 79 2446 2448 "LinearAlgebra.ml" 183 6420 6423
+  def empty_matrix "LinearAlgebra.ml" 79 2446 2448 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 78 2413 2432 "LinearAlgebra.ml" 78 2413 2434
 type(
@@ -26,7 +26,7 @@ type(
   unit -> 'b array
 )
 ident(
-  def empty_float_array "LinearAlgebra.ml" 80 2480 2482 "LinearAlgebra.ml" 183 6420 6423
+  def empty_float_array "LinearAlgebra.ml" 80 2480 2482 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 79 2446 2470 "LinearAlgebra.ml" 79 2446 2472
 type(
@@ -45,7 +45,7 @@ type(
   'c array -> 'c array -> 'c array
 )
 ident(
-  def append "LinearAlgebra.ml" 81 2520 2522 "LinearAlgebra.ml" 183 6420 6423
+  def append "LinearAlgebra.ml" 81 2520 2522 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 80 2480 2493 "LinearAlgebra.ml" 80 2480 2495
 type(
@@ -102,7 +102,7 @@ type(
   'd -> 'd array array
 )
 ident(
-  def fill "LinearAlgebra.ml" 82 2553 2555 "LinearAlgebra.ml" 183 6420 6423
+  def fill "LinearAlgebra.ml" 82 2553 2555 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 81 2520 2531 "LinearAlgebra.ml" 81 2520 2536
 type(
@@ -135,7 +135,7 @@ type(
   int -> int -> 'e -> 'e array array
 )
 ident(
-  def make_matrix "LinearAlgebra.ml" 83 2615 2617 "LinearAlgebra.ml" 183 6420 6423
+  def make_matrix "LinearAlgebra.ml" 83 2615 2617 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 82 2553 2571 "LinearAlgebra.ml" 82 2553 2575
 type(
@@ -210,7 +210,7 @@ type(
   'f array array -> int -> int -> 'f -> unit
 )
 ident(
-  def fix_elt "LinearAlgebra.ml" 84 2684 2686 "LinearAlgebra.ml" 183 6420 6423
+  def fix_elt "LinearAlgebra.ml" 84 2684 2686 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 83 2615 2629 "LinearAlgebra.ml" 83 2615 2635
 type(
@@ -310,7 +310,7 @@ type(
   'g array array -> int -> int -> 'g
 )
 ident(
-  def find_elt "LinearAlgebra.ml" 85 2727 2729 "LinearAlgebra.ml" 183 6420 6423
+  def find_elt "LinearAlgebra.ml" 85 2727 2729 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 84 2684 2699 "LinearAlgebra.ml" 84 2684 2705
 type(
@@ -391,7 +391,7 @@ type(
   'h array -> int
 )
 ident(
-  def matrix_length "LinearAlgebra.ml" 86 2776 2778 "LinearAlgebra.ml" 183 6420 6423
+  def matrix_length "LinearAlgebra.ml" 86 2776 2778 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 85 2727 2747 "LinearAlgebra.ml" 85 2727 2753
 type(
@@ -430,7 +430,7 @@ type(
   'i array array -> int
 )
 ident(
-  def array_length "LinearAlgebra.ml" 87 2828 2830 "LinearAlgebra.ml" 183 6420 6423
+  def array_length "LinearAlgebra.ml" 87 2828 2830 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 86 2776 2795 "LinearAlgebra.ml" 86 2776 2801
 type(
@@ -483,7 +483,7 @@ type(
   int -> (int -> 'j) -> 'j array
 )
 ident(
-  def init "LinearAlgebra.ml" 88 2871 2873 "LinearAlgebra.ml" 183 6420 6423
+  def init "LinearAlgebra.ml" 88 2871 2873 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 87 2828 2839 "LinearAlgebra.ml" 87 2828 2842
 type(
@@ -540,7 +540,7 @@ type(
   float array array -> int -> float list
 )
 ident(
-  def choose_array "LinearAlgebra.ml" 94 3174 3176 "LinearAlgebra.ml" 183 6420 6423
+  def choose_array "LinearAlgebra.ml" 94 3174 3176 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 88 2871 2890 "LinearAlgebra.ml" 88 2871 2896
 type(
@@ -610,7 +610,7 @@ type(
   m -> m
 )
 ident(
-  def transpose "LinearAlgebra.ml" 108 3733 3735 "LinearAlgebra.ml" 183 6420 6423
+  def transpose "LinearAlgebra.ml" 108 3733 3735 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 94 3174 3191 "LinearAlgebra.ml" 94 3174 3197
 type(
@@ -1077,7 +1077,7 @@ type(
   'k array -> int -> int -> unit
 )
 ident(
-  def swap_rows "LinearAlgebra.ml" 115 3977 3979 "LinearAlgebra.ml" 183 6420 6423
+  def swap_rows "LinearAlgebra.ml" 115 3977 3979 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 108 3733 3749 "LinearAlgebra.ml" 108 3733 3750
 type(
@@ -1237,48 +1237,48 @@ type(
   m -> m -> m
 )
 ident(
-  def augment "LinearAlgebra.ml" 128 4420 4420 "LinearAlgebra.ml" 183 6420 6423
+  def augment "LinearAlgebra.ml" 126 4407 4407 "LinearAlgebra.ml" 181 6407 6410
 )
 "LinearAlgebra.ml" 115 3977 3992 "LinearAlgebra.ml" 115 3977 3998
 type(
   m
 )
 ident(
-  def matrix "LinearAlgebra.ml" 116 4005 4012 "LinearAlgebra.ml" 123 4240 4254
+  def matrix "LinearAlgebra.ml" 115 3977 4004 "LinearAlgebra.ml" 121 4227 4241
 )
-"LinearAlgebra.ml" 116 4005 4013 "LinearAlgebra.ml" 116 4005 4019
+"LinearAlgebra.ml" 115 3977 4005 "LinearAlgebra.ml" 115 3977 4011
 type(
   m
 )
 ident(
-  def vector "LinearAlgebra.ml" 117 4026 4032 "LinearAlgebra.ml" 123 4240 4254
+  def vector "LinearAlgebra.ml" 115 3977 4017 "LinearAlgebra.ml" 121 4227 4241
 )
-"LinearAlgebra.ml" 118 4038 4046 "LinearAlgebra.ml" 118 4038 4049
+"LinearAlgebra.ml" 116 4023 4031 "LinearAlgebra.ml" 116 4023 4034
 type(
   int
 )
 ident(
-  def len "LinearAlgebra.ml" 119 4080 4084 "LinearAlgebra.ml" 123 4240 4254
+  def len "LinearAlgebra.ml" 117 4065 4069 "LinearAlgebra.ml" 121 4227 4241
 )
-"LinearAlgebra.ml" 118 4038 4052 "LinearAlgebra.ml" 118 4038 4064
+"LinearAlgebra.ml" 116 4023 4037 "LinearAlgebra.ml" 116 4023 4049
 type(
   float array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 118 4038 4065 "LinearAlgebra.ml" 118 4038 4071
+"LinearAlgebra.ml" 116 4023 4050 "LinearAlgebra.ml" 116 4023 4056
 type(
   m
 )
 ident(
   int_ref matrix "LinearAlgebra.ml" 115 3977 3992 "LinearAlgebra.ml" 115 3977 3998
 )
-"LinearAlgebra.ml" 118 4038 4073 "LinearAlgebra.ml" 118 4038 4074
+"LinearAlgebra.ml" 116 4023 4058 "LinearAlgebra.ml" 116 4023 4059
 type(
   int
 )
-"LinearAlgebra.ml" 118 4038 4065 "LinearAlgebra.ml" 118 4038 4075
+"LinearAlgebra.ml" 116 4023 4050 "LinearAlgebra.ml" 116 4023 4060
 type(
   float array
 )
@@ -1288,136 +1288,136 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 118 4038 4052 "LinearAlgebra.ml" 118 4038 4075
+"LinearAlgebra.ml" 116 4023 4037 "LinearAlgebra.ml" 116 4023 4060
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 119 4080 4088 "LinearAlgebra.ml" 119 4080 4098
+"LinearAlgebra.ml" 117 4065 4073 "LinearAlgebra.ml" 117 4065 4083
 type(
   float array array
 )
 ident(
-  def new_matrix "LinearAlgebra.ml" 120 4151 4155 "LinearAlgebra.ml" 123 4240 4254
+  def new_matrix "LinearAlgebra.ml" 118 4138 4142 "LinearAlgebra.ml" 121 4227 4241
 )
-"LinearAlgebra.ml" 119 4080 4101 "LinearAlgebra.ml" 119 4080 4118
+"LinearAlgebra.ml" 117 4065 4086 "LinearAlgebra.ml" 117 4065 4103
 type(
   dimx:int -> dimy:int -> float -> float array array
 )
 ident(
   ext_ref Core.Std.Array.make_matrix
 )
-"LinearAlgebra.ml" 119 4080 4125 "LinearAlgebra.ml" 119 4080 4128
+"LinearAlgebra.ml" 117 4065 4111 "LinearAlgebra.ml" 117 4065 4114
 type(
   int
 )
 ident(
-  int_ref len "LinearAlgebra.ml" 118 4038 4046 "LinearAlgebra.ml" 118 4038 4049
+  int_ref len "LinearAlgebra.ml" 116 4023 4031 "LinearAlgebra.ml" 116 4023 4034
 )
-"LinearAlgebra.ml" 119 4080 4136 "LinearAlgebra.ml" 119 4080 4139
+"LinearAlgebra.ml" 117 4065 4123 "LinearAlgebra.ml" 117 4065 4126
 type(
   int
 )
 ident(
-  int_ref len "LinearAlgebra.ml" 118 4038 4046 "LinearAlgebra.ml" 118 4038 4049
+  int_ref len "LinearAlgebra.ml" 116 4023 4031 "LinearAlgebra.ml" 116 4023 4034
 )
-"LinearAlgebra.ml" 119 4080 4140 "LinearAlgebra.ml" 119 4080 4141
+"LinearAlgebra.ml" 117 4065 4127 "LinearAlgebra.ml" 117 4065 4128
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 119 4080 4142 "LinearAlgebra.ml" 119 4080 4143
+"LinearAlgebra.ml" 117 4065 4129 "LinearAlgebra.ml" 117 4065 4130
 type(
   int
 )
-"LinearAlgebra.ml" 119 4080 4136 "LinearAlgebra.ml" 119 4080 4143
+"LinearAlgebra.ml" 117 4065 4123 "LinearAlgebra.ml" 117 4065 4130
 type(
   int
 )
-"LinearAlgebra.ml" 119 4080 4145 "LinearAlgebra.ml" 119 4080 4147
+"LinearAlgebra.ml" 117 4065 4132 "LinearAlgebra.ml" 117 4065 4134
 type(
   float
 )
-"LinearAlgebra.ml" 119 4080 4101 "LinearAlgebra.ml" 119 4080 4147
+"LinearAlgebra.ml" 117 4065 4086 "LinearAlgebra.ml" 117 4065 4134
 call(
   stack
 )
 type(
   float array array
 )
-"LinearAlgebra.ml" 120 4151 4163 "LinearAlgebra.ml" 120 4151 4164
+"LinearAlgebra.ml" 118 4138 4150 "LinearAlgebra.ml" 118 4138 4151
 type(
   int
 )
-"LinearAlgebra.ml" 120 4151 4168 "LinearAlgebra.ml" 120 4151 4171
+"LinearAlgebra.ml" 118 4138 4155 "LinearAlgebra.ml" 118 4138 4158
 type(
   int
 )
 ident(
-  int_ref len "LinearAlgebra.ml" 118 4038 4046 "LinearAlgebra.ml" 118 4038 4049
+  int_ref len "LinearAlgebra.ml" 116 4023 4031 "LinearAlgebra.ml" 116 4023 4034
 )
-"LinearAlgebra.ml" 120 4151 4171 "LinearAlgebra.ml" 120 4151 4172
+"LinearAlgebra.ml" 118 4138 4158 "LinearAlgebra.ml" 118 4138 4159
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"LinearAlgebra.ml" 120 4151 4172 "LinearAlgebra.ml" 120 4151 4173
+"LinearAlgebra.ml" 118 4138 4159 "LinearAlgebra.ml" 118 4138 4160
 type(
   int
 )
-"LinearAlgebra.ml" 120 4151 4168 "LinearAlgebra.ml" 120 4151 4173
+"LinearAlgebra.ml" 118 4138 4155 "LinearAlgebra.ml" 118 4138 4160
 type(
   int
 )
-"LinearAlgebra.ml" 121 4177 4183 "LinearAlgebra.ml" 121 4177 4193
+"LinearAlgebra.ml" 119 4164 4170 "LinearAlgebra.ml" 119 4164 4180
 type(
   float array array
 )
 ident(
-  int_ref new_matrix "LinearAlgebra.ml" 119 4080 4088 "LinearAlgebra.ml" 119 4080 4098
+  int_ref new_matrix "LinearAlgebra.ml" 117 4065 4073 "LinearAlgebra.ml" 117 4065 4083
 )
-"LinearAlgebra.ml" 121 4177 4195 "LinearAlgebra.ml" 121 4177 4196
+"LinearAlgebra.ml" 119 4164 4182 "LinearAlgebra.ml" 119 4164 4183
 type(
   int
 )
 ident(
-  int_ref i "LinearAlgebra.ml" 120 4151 4155 "LinearAlgebra.ml" 122 4230 4238
+  int_ref i "LinearAlgebra.ml" 118 4138 4142 "LinearAlgebra.ml" 120 4217 4225
 )
-"LinearAlgebra.ml" 121 4177 4183 "LinearAlgebra.ml" 121 4177 4197
+"LinearAlgebra.ml" 119 4164 4170 "LinearAlgebra.ml" 119 4164 4184
 type(
   float array array -> int -> float array -> unit
 )
 ident(
   ext_ref Core.Std.Array.set
 )
-"LinearAlgebra.ml" 121 4177 4201 "LinearAlgebra.ml" 121 4177 4207
+"LinearAlgebra.ml" 119 4164 4188 "LinearAlgebra.ml" 119 4164 4194
 type(
   float array -> float array -> float array
 )
 ident(
   int_ref append "LinearAlgebra.ml" 80 2480 2486 "LinearAlgebra.ml" 80 2480 2492
 )
-"LinearAlgebra.ml" 121 4177 4208 "LinearAlgebra.ml" 121 4177 4214
+"LinearAlgebra.ml" 119 4164 4195 "LinearAlgebra.ml" 119 4164 4201
 type(
   m
 )
 ident(
   int_ref matrix "LinearAlgebra.ml" 115 3977 3992 "LinearAlgebra.ml" 115 3977 3998
 )
-"LinearAlgebra.ml" 121 4177 4216 "LinearAlgebra.ml" 121 4177 4217
+"LinearAlgebra.ml" 119 4164 4203 "LinearAlgebra.ml" 119 4164 4204
 type(
   int
 )
 ident(
-  int_ref i "LinearAlgebra.ml" 120 4151 4155 "LinearAlgebra.ml" 122 4230 4238
+  int_ref i "LinearAlgebra.ml" 118 4138 4142 "LinearAlgebra.ml" 120 4217 4225
 )
-"LinearAlgebra.ml" 121 4177 4208 "LinearAlgebra.ml" 121 4177 4218
+"LinearAlgebra.ml" 119 4164 4195 "LinearAlgebra.ml" 119 4164 4205
 type(
   float array
 )
@@ -1427,21 +1427,21 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 121 4177 4219 "LinearAlgebra.ml" 121 4177 4225
+"LinearAlgebra.ml" 119 4164 4206 "LinearAlgebra.ml" 119 4164 4212
 type(
   m
 )
 ident(
-  int_ref vector "LinearAlgebra.ml" 116 4005 4013 "LinearAlgebra.ml" 116 4005 4019
+  int_ref vector "LinearAlgebra.ml" 115 3977 4005 "LinearAlgebra.ml" 115 3977 4011
 )
-"LinearAlgebra.ml" 121 4177 4227 "LinearAlgebra.ml" 121 4177 4228
+"LinearAlgebra.ml" 119 4164 4214 "LinearAlgebra.ml" 119 4164 4215
 type(
   int
 )
 ident(
-  int_ref i "LinearAlgebra.ml" 120 4151 4155 "LinearAlgebra.ml" 122 4230 4238
+  int_ref i "LinearAlgebra.ml" 118 4138 4142 "LinearAlgebra.ml" 120 4217 4225
 )
-"LinearAlgebra.ml" 121 4177 4219 "LinearAlgebra.ml" 121 4177 4229
+"LinearAlgebra.ml" 119 4164 4206 "LinearAlgebra.ml" 119 4164 4216
 type(
   float array
 )
@@ -1451,215 +1451,215 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 121 4177 4201 "LinearAlgebra.ml" 121 4177 4229
+"LinearAlgebra.ml" 119 4164 4188 "LinearAlgebra.ml" 119 4164 4216
 call(
   stack
 )
 type(
   float array
 )
-"LinearAlgebra.ml" 121 4177 4183 "LinearAlgebra.ml" 121 4177 4229
+"LinearAlgebra.ml" 119 4164 4170 "LinearAlgebra.ml" 119 4164 4216
 type(
   unit
 )
-"LinearAlgebra.ml" 120 4151 4155 "LinearAlgebra.ml" 122 4230 4238
+"LinearAlgebra.ml" 118 4138 4142 "LinearAlgebra.ml" 120 4217 4225
 type(
   unit
 )
-"LinearAlgebra.ml" 123 4240 4244 "LinearAlgebra.ml" 123 4240 4254
+"LinearAlgebra.ml" 121 4227 4231 "LinearAlgebra.ml" 121 4227 4241
 type(
   float array array
 )
 ident(
-  int_ref new_matrix "LinearAlgebra.ml" 119 4080 4088 "LinearAlgebra.ml" 119 4080 4098
+  int_ref new_matrix "LinearAlgebra.ml" 117 4065 4073 "LinearAlgebra.ml" 117 4065 4083
 )
-"LinearAlgebra.ml" 120 4151 4155 "LinearAlgebra.ml" 123 4240 4254
+"LinearAlgebra.ml" 118 4138 4142 "LinearAlgebra.ml" 121 4227 4241
 type(
   float array array
 )
-"LinearAlgebra.ml" 119 4080 4084 "LinearAlgebra.ml" 123 4240 4254
+"LinearAlgebra.ml" 117 4065 4069 "LinearAlgebra.ml" 121 4227 4241
 type(
   float array array
 )
-"LinearAlgebra.ml" 118 4038 4042 "LinearAlgebra.ml" 123 4240 4254
+"LinearAlgebra.ml" 116 4023 4027 "LinearAlgebra.ml" 121 4227 4241
 type(
   m
 )
 type(
   float array array
 )
-"LinearAlgebra.ml" 116 4005 4012 "LinearAlgebra.ml" 123 4240 4254
+"LinearAlgebra.ml" 115 3977 4004 "LinearAlgebra.ml" 121 4227 4241
 type(
   m -> m
 )
-"LinearAlgebra.ml" 115 3977 3991 "LinearAlgebra.ml" 123 4240 4254
+"LinearAlgebra.ml" 115 3977 3991 "LinearAlgebra.ml" 121 4227 4241
 type(
   m -> m -> m
 )
-"LinearAlgebra.ml" 128 4420 4424 "LinearAlgebra.ml" 128 4420 4431
+"LinearAlgebra.ml" 126 4407 4411 "LinearAlgebra.ml" 126 4407 4418
 type(
   ('l -> 'm -> 'n) -> 'l array -> 'm array -> 'n array
 )
 ident(
-  def ericmap "LinearAlgebra.ml" 136 4727 4727 "LinearAlgebra.ml" 183 6420 6423
+  def ericmap "LinearAlgebra.ml" 134 4714 4714 "LinearAlgebra.ml" 181 6407 6410
 )
-"LinearAlgebra.ml" 128 4420 4432 "LinearAlgebra.ml" 128 4420 4433
+"LinearAlgebra.ml" 126 4407 4419 "LinearAlgebra.ml" 126 4407 4420
 type(
   'l -> 'm -> 'n
 )
 ident(
-  def f "LinearAlgebra.ml" 128 4420 4434 "LinearAlgebra.ml" 131 4547 4588
+  def f "LinearAlgebra.ml" 126 4407 4421 "LinearAlgebra.ml" 129 4534 4575
 )
-"LinearAlgebra.ml" 128 4420 4434 "LinearAlgebra.ml" 128 4420 4436
+"LinearAlgebra.ml" 126 4407 4421 "LinearAlgebra.ml" 126 4407 4423
 type(
   'l array
 )
 ident(
-  def xs "LinearAlgebra.ml" 128 4420 4437 "LinearAlgebra.ml" 131 4547 4588
+  def xs "LinearAlgebra.ml" 126 4407 4424 "LinearAlgebra.ml" 129 4534 4575
 )
-"LinearAlgebra.ml" 128 4420 4437 "LinearAlgebra.ml" 128 4420 4439
+"LinearAlgebra.ml" 126 4407 4424 "LinearAlgebra.ml" 126 4407 4426
 type(
   'm array
 )
 ident(
-  def ys "LinearAlgebra.ml" 129 4442 4444 "LinearAlgebra.ml" 131 4547 4588
+  def ys "LinearAlgebra.ml" 127 4429 4431 "LinearAlgebra.ml" 129 4534 4575
 )
-"LinearAlgebra.ml" 129 4442 4448 "LinearAlgebra.ml" 129 4442 4449
+"LinearAlgebra.ml" 127 4429 4435 "LinearAlgebra.ml" 127 4429 4436
 type(
   int
 )
 ident(
-  def n "LinearAlgebra.ml" 130 4471 4473 "LinearAlgebra.ml" 131 4547 4588
+  def n "LinearAlgebra.ml" 128 4458 4460 "LinearAlgebra.ml" 129 4534 4575
 )
-"LinearAlgebra.ml" 129 4442 4452 "LinearAlgebra.ml" 129 4442 4464
+"LinearAlgebra.ml" 127 4429 4439 "LinearAlgebra.ml" 127 4429 4451
 type(
   'l array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 129 4442 4465 "LinearAlgebra.ml" 129 4442 4467
+"LinearAlgebra.ml" 127 4429 4452 "LinearAlgebra.ml" 127 4429 4454
 type(
   'l array
 )
 ident(
-  int_ref xs "LinearAlgebra.ml" 128 4420 4434 "LinearAlgebra.ml" 128 4420 4436
+  int_ref xs "LinearAlgebra.ml" 126 4407 4421 "LinearAlgebra.ml" 126 4407 4423
 )
-"LinearAlgebra.ml" 129 4442 4452 "LinearAlgebra.ml" 129 4442 4467
+"LinearAlgebra.ml" 127 4429 4439 "LinearAlgebra.ml" 127 4429 4454
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 130 4471 4476 "LinearAlgebra.ml" 130 4471 4488
+"LinearAlgebra.ml" 128 4458 4463 "LinearAlgebra.ml" 128 4458 4475
 type(
   'm array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 130 4471 4489 "LinearAlgebra.ml" 130 4471 4491
+"LinearAlgebra.ml" 128 4458 4476 "LinearAlgebra.ml" 128 4458 4478
 type(
   'm array
 )
 ident(
-  int_ref ys "LinearAlgebra.ml" 128 4420 4437 "LinearAlgebra.ml" 128 4420 4439
+  int_ref ys "LinearAlgebra.ml" 126 4407 4424 "LinearAlgebra.ml" 126 4407 4426
 )
-"LinearAlgebra.ml" 130 4471 4476 "LinearAlgebra.ml" 130 4471 4491
+"LinearAlgebra.ml" 128 4458 4463 "LinearAlgebra.ml" 128 4458 4478
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 130 4471 4492 "LinearAlgebra.ml" 130 4471 4494
+"LinearAlgebra.ml" 128 4458 4479 "LinearAlgebra.ml" 128 4458 4481
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( <> )
 )
-"LinearAlgebra.ml" 130 4471 4495 "LinearAlgebra.ml" 130 4471 4496
+"LinearAlgebra.ml" 128 4458 4482 "LinearAlgebra.ml" 128 4458 4483
 type(
   int
 )
 ident(
-  int_ref n "LinearAlgebra.ml" 129 4442 4448 "LinearAlgebra.ml" 129 4442 4449
+  int_ref n "LinearAlgebra.ml" 127 4429 4435 "LinearAlgebra.ml" 127 4429 4436
 )
-"LinearAlgebra.ml" 130 4471 4476 "LinearAlgebra.ml" 130 4471 4496
+"LinearAlgebra.ml" 128 4458 4463 "LinearAlgebra.ml" 128 4458 4483
 type(
   bool
 )
-"LinearAlgebra.ml" 130 4471 4502 "LinearAlgebra.ml" 130 4471 4507
+"LinearAlgebra.ml" 128 4458 4489 "LinearAlgebra.ml" 128 4458 4494
 type(
   exn -> unit
 )
 ident(
   ext_ref Pervasives.raise
 )
-"LinearAlgebra.ml" 130 4471 4526 "LinearAlgebra.ml" 130 4471 4544
+"LinearAlgebra.ml" 128 4458 4513 "LinearAlgebra.ml" 128 4458 4531
 type(
   string
 )
-"LinearAlgebra.ml" 130 4471 4509 "LinearAlgebra.ml" 130 4471 4544
+"LinearAlgebra.ml" 128 4458 4496 "LinearAlgebra.ml" 128 4458 4531
 type(
   exn
 )
-"LinearAlgebra.ml" 130 4471 4502 "LinearAlgebra.ml" 130 4471 4545
+"LinearAlgebra.ml" 128 4458 4489 "LinearAlgebra.ml" 128 4458 4532
 type(
   unit
 )
-"LinearAlgebra.ml" 130 4471 4473 "LinearAlgebra.ml" 130 4471 4545
+"LinearAlgebra.ml" 128 4458 4460 "LinearAlgebra.ml" 128 4458 4532
 type(
   unit
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 131 4547 4549 "LinearAlgebra.ml" 131 4547 4559
+"LinearAlgebra.ml" 129 4534 4536 "LinearAlgebra.ml" 129 4534 4546
 type(
   int -> f:(int -> 'n) -> 'n array
 )
 ident(
   ext_ref Core.Std.Array.init
 )
-"LinearAlgebra.ml" 131 4547 4560 "LinearAlgebra.ml" 131 4547 4561
+"LinearAlgebra.ml" 129 4534 4547 "LinearAlgebra.ml" 129 4534 4548
 type(
   int
 )
 ident(
-  int_ref n "LinearAlgebra.ml" 129 4442 4448 "LinearAlgebra.ml" 129 4442 4449
+  int_ref n "LinearAlgebra.ml" 127 4429 4435 "LinearAlgebra.ml" 127 4429 4436
 )
-"LinearAlgebra.ml" 131 4547 4567 "LinearAlgebra.ml" 131 4547 4568
+"LinearAlgebra.ml" 129 4534 4554 "LinearAlgebra.ml" 129 4534 4555
 type(
   int
 )
 ident(
-  def i "LinearAlgebra.ml" 131 4547 4572 "LinearAlgebra.ml" 131 4547 4587
+  def i "LinearAlgebra.ml" 129 4534 4559 "LinearAlgebra.ml" 129 4534 4574
 )
-"LinearAlgebra.ml" 131 4547 4572 "LinearAlgebra.ml" 131 4547 4573
+"LinearAlgebra.ml" 129 4534 4559 "LinearAlgebra.ml" 129 4534 4560
 type(
   'l -> 'm -> 'n
 )
 ident(
-  int_ref f "LinearAlgebra.ml" 128 4420 4432 "LinearAlgebra.ml" 128 4420 4433
+  int_ref f "LinearAlgebra.ml" 126 4407 4419 "LinearAlgebra.ml" 126 4407 4420
 )
-"LinearAlgebra.ml" 131 4547 4574 "LinearAlgebra.ml" 131 4547 4576
+"LinearAlgebra.ml" 129 4534 4561 "LinearAlgebra.ml" 129 4534 4563
 type(
   'l array
 )
 ident(
-  int_ref xs "LinearAlgebra.ml" 128 4420 4434 "LinearAlgebra.ml" 128 4420 4436
+  int_ref xs "LinearAlgebra.ml" 126 4407 4421 "LinearAlgebra.ml" 126 4407 4423
 )
-"LinearAlgebra.ml" 131 4547 4578 "LinearAlgebra.ml" 131 4547 4579
+"LinearAlgebra.ml" 129 4534 4565 "LinearAlgebra.ml" 129 4534 4566
 type(
   int
 )
 ident(
-  int_ref i "LinearAlgebra.ml" 131 4547 4567 "LinearAlgebra.ml" 131 4547 4568
+  int_ref i "LinearAlgebra.ml" 129 4534 4554 "LinearAlgebra.ml" 129 4534 4555
 )
-"LinearAlgebra.ml" 131 4547 4574 "LinearAlgebra.ml" 131 4547 4580
+"LinearAlgebra.ml" 129 4534 4561 "LinearAlgebra.ml" 129 4534 4567
 type(
   'l
 )
@@ -1669,21 +1669,21 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 131 4547 4581 "LinearAlgebra.ml" 131 4547 4583
+"LinearAlgebra.ml" 129 4534 4568 "LinearAlgebra.ml" 129 4534 4570
 type(
   'm array
 )
 ident(
-  int_ref ys "LinearAlgebra.ml" 128 4420 4437 "LinearAlgebra.ml" 128 4420 4439
+  int_ref ys "LinearAlgebra.ml" 126 4407 4424 "LinearAlgebra.ml" 126 4407 4426
 )
-"LinearAlgebra.ml" 131 4547 4585 "LinearAlgebra.ml" 131 4547 4586
+"LinearAlgebra.ml" 129 4534 4572 "LinearAlgebra.ml" 129 4534 4573
 type(
   int
 )
 ident(
-  int_ref i "LinearAlgebra.ml" 131 4547 4567 "LinearAlgebra.ml" 131 4547 4568
+  int_ref i "LinearAlgebra.ml" 129 4534 4554 "LinearAlgebra.ml" 129 4534 4555
 )
-"LinearAlgebra.ml" 131 4547 4581 "LinearAlgebra.ml" 131 4547 4587
+"LinearAlgebra.ml" 129 4534 4568 "LinearAlgebra.ml" 129 4534 4574
 type(
   'm
 )
@@ -1693,266 +1693,266 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 131 4547 4572 "LinearAlgebra.ml" 131 4547 4587
+"LinearAlgebra.ml" 129 4534 4559 "LinearAlgebra.ml" 129 4534 4574
 call(
   tail
 )
 type(
   'n
 )
-"LinearAlgebra.ml" 131 4547 4567 "LinearAlgebra.ml" 131 4547 4587
+"LinearAlgebra.ml" 129 4534 4554 "LinearAlgebra.ml" 129 4534 4574
 type(
   int -> 'n
 )
-"LinearAlgebra.ml" 131 4547 4549 "LinearAlgebra.ml" 131 4547 4588
+"LinearAlgebra.ml" 129 4534 4536 "LinearAlgebra.ml" 129 4534 4575
 call(
   tail
 )
 type(
   'n array
 )
-"LinearAlgebra.ml" 130 4471 4473 "LinearAlgebra.ml" 131 4547 4588
+"LinearAlgebra.ml" 128 4458 4460 "LinearAlgebra.ml" 129 4534 4575
 type(
   'n array
 )
-"LinearAlgebra.ml" 129 4442 4444 "LinearAlgebra.ml" 131 4547 4588
+"LinearAlgebra.ml" 127 4429 4431 "LinearAlgebra.ml" 129 4534 4575
 type(
   'n array
 )
-"LinearAlgebra.ml" 128 4420 4437 "LinearAlgebra.ml" 131 4547 4588
+"LinearAlgebra.ml" 126 4407 4424 "LinearAlgebra.ml" 129 4534 4575
 type(
   'm array -> 'n array
 )
-"LinearAlgebra.ml" 128 4420 4434 "LinearAlgebra.ml" 131 4547 4588
+"LinearAlgebra.ml" 126 4407 4421 "LinearAlgebra.ml" 129 4534 4575
 type(
   'l array -> 'm array -> 'n array
 )
-"LinearAlgebra.ml" 128 4420 4432 "LinearAlgebra.ml" 131 4547 4588
+"LinearAlgebra.ml" 126 4407 4419 "LinearAlgebra.ml" 129 4534 4575
 type(
   ('l -> 'm -> 'n) -> 'l array -> 'm array -> 'n array
 )
-"LinearAlgebra.ml" 136 4727 4731 "LinearAlgebra.ml" 136 4727 4739
+"LinearAlgebra.ml" 134 4714 4718 "LinearAlgebra.ml" 134 4714 4726
 type(
   m -> m -> m
 )
 ident(
-  def multiply "LinearAlgebra.ml" 154 5573 5573 "LinearAlgebra.ml" 183 6420 6423
+  def multiply "LinearAlgebra.ml" 152 5560 5560 "LinearAlgebra.ml" 181 6407 6410
 )
-"LinearAlgebra.ml" 136 4727 4741 "LinearAlgebra.ml" 136 4727 4745
+"LinearAlgebra.ml" 134 4714 4728 "LinearAlgebra.ml" 134 4714 4732
 type(
   m
 )
 ident(
-  def mat1 "LinearAlgebra.ml" 136 4727 4751 "LinearAlgebra.ml" 148 5346 5377
+  def mat1 "LinearAlgebra.ml" 134 4714 4738 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 136 4727 4752 "LinearAlgebra.ml" 136 4727 4756
+"LinearAlgebra.ml" 134 4714 4739 "LinearAlgebra.ml" 134 4714 4743
 type(
   m
 )
 ident(
-  def mat2 "LinearAlgebra.ml" 136 4727 4761 "LinearAlgebra.ml" 148 5346 5377
+  def mat2 "LinearAlgebra.ml" 134 4714 4748 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 137 4767 4773 "LinearAlgebra.ml" 137 4767 4778
+"LinearAlgebra.ml" 135 4754 4760 "LinearAlgebra.ml" 135 4754 4765
 type(
   m
 )
 ident(
-  def tmat2 "LinearAlgebra.ml" 138 4799 4801 "LinearAlgebra.ml" 148 5346 5377
+  def tmat2 "LinearAlgebra.ml" 136 4786 4788 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 137 4767 4781 "LinearAlgebra.ml" 137 4767 4790
+"LinearAlgebra.ml" 135 4754 4768 "LinearAlgebra.ml" 135 4754 4777
 type(
   m -> m
 )
 ident(
   int_ref transpose "LinearAlgebra.ml" 94 3174 3180 "LinearAlgebra.ml" 94 3174 3189
 )
-"LinearAlgebra.ml" 137 4767 4791 "LinearAlgebra.ml" 137 4767 4795
+"LinearAlgebra.ml" 135 4754 4778 "LinearAlgebra.ml" 135 4754 4782
 type(
   m
 )
 ident(
-  int_ref mat2 "LinearAlgebra.ml" 136 4727 4752 "LinearAlgebra.ml" 136 4727 4756
+  int_ref mat2 "LinearAlgebra.ml" 134 4714 4739 "LinearAlgebra.ml" 134 4714 4743
 )
-"LinearAlgebra.ml" 137 4767 4781 "LinearAlgebra.ml" 137 4767 4795
+"LinearAlgebra.ml" 135 4754 4768 "LinearAlgebra.ml" 135 4754 4782
 call(
   stack
 )
 type(
   m
 )
-"LinearAlgebra.ml" 138 4799 4805 "LinearAlgebra.ml" 138 4799 4811
+"LinearAlgebra.ml" 136 4786 4792 "LinearAlgebra.ml" 136 4786 4798
 type(
   int
 )
 ident(
-  def height "LinearAlgebra.ml" 139 4835 4837 "LinearAlgebra.ml" 148 5346 5377
+  def height "LinearAlgebra.ml" 137 4822 4824 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 138 4799 4814 "LinearAlgebra.ml" 138 4799 4826
+"LinearAlgebra.ml" 136 4786 4801 "LinearAlgebra.ml" 136 4786 4813
 type(
   float array array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 138 4799 4827 "LinearAlgebra.ml" 138 4799 4831
+"LinearAlgebra.ml" 136 4786 4814 "LinearAlgebra.ml" 136 4786 4818
 type(
   m
 )
 ident(
-  int_ref mat1 "LinearAlgebra.ml" 136 4727 4741 "LinearAlgebra.ml" 136 4727 4745
+  int_ref mat1 "LinearAlgebra.ml" 134 4714 4728 "LinearAlgebra.ml" 134 4714 4732
 )
-"LinearAlgebra.ml" 138 4799 4814 "LinearAlgebra.ml" 138 4799 4831
+"LinearAlgebra.ml" 136 4786 4801 "LinearAlgebra.ml" 136 4786 4818
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 139 4835 4841 "LinearAlgebra.ml" 139 4835 4846
+"LinearAlgebra.ml" 137 4822 4828 "LinearAlgebra.ml" 137 4822 4833
 type(
   int
 )
 ident(
-  def width "LinearAlgebra.ml" 140 4872 4874 "LinearAlgebra.ml" 148 5346 5377
+  def width "LinearAlgebra.ml" 138 4859 4861 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 139 4835 4849 "LinearAlgebra.ml" 139 4835 4861
+"LinearAlgebra.ml" 137 4822 4836 "LinearAlgebra.ml" 137 4822 4848
 type(
   float array array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 139 4835 4862 "LinearAlgebra.ml" 139 4835 4867
+"LinearAlgebra.ml" 137 4822 4849 "LinearAlgebra.ml" 137 4822 4854
 type(
   m
 )
 ident(
-  int_ref tmat2 "LinearAlgebra.ml" 137 4767 4773 "LinearAlgebra.ml" 137 4767 4778
+  int_ref tmat2 "LinearAlgebra.ml" 135 4754 4760 "LinearAlgebra.ml" 135 4754 4765
 )
-"LinearAlgebra.ml" 139 4835 4849 "LinearAlgebra.ml" 139 4835 4867
+"LinearAlgebra.ml" 137 4822 4836 "LinearAlgebra.ml" 137 4822 4854
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 140 4872 4878 "LinearAlgebra.ml" 140 4872 4882
+"LinearAlgebra.ml" 138 4859 4865 "LinearAlgebra.ml" 138 4859 4869
 type(
   float array array
 )
 ident(
-  def nmat "LinearAlgebra.ml" 141 4940 4942 "LinearAlgebra.ml" 148 5346 5377
+  def nmat "LinearAlgebra.ml" 139 4927 4929 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 140 4872 4886 "LinearAlgebra.ml" 140 4872 4903
+"LinearAlgebra.ml" 138 4859 4873 "LinearAlgebra.ml" 138 4859 4890
 type(
   dimx:int -> dimy:int -> float -> float array array
 )
 ident(
   ext_ref Core.Std.Array.make_matrix
 )
-"LinearAlgebra.ml" 140 4872 4911 "LinearAlgebra.ml" 140 4872 4917
+"LinearAlgebra.ml" 138 4859 4898 "LinearAlgebra.ml" 138 4859 4904
 type(
   int
 )
 ident(
-  int_ref height "LinearAlgebra.ml" 138 4799 4805 "LinearAlgebra.ml" 138 4799 4811
+  int_ref height "LinearAlgebra.ml" 136 4786 4792 "LinearAlgebra.ml" 136 4786 4798
 )
-"LinearAlgebra.ml" 140 4872 4926 "LinearAlgebra.ml" 140 4872 4931
+"LinearAlgebra.ml" 138 4859 4913 "LinearAlgebra.ml" 138 4859 4918
 type(
   int
 )
 ident(
-  int_ref width "LinearAlgebra.ml" 139 4835 4841 "LinearAlgebra.ml" 139 4835 4846
+  int_ref width "LinearAlgebra.ml" 137 4822 4828 "LinearAlgebra.ml" 137 4822 4833
 )
-"LinearAlgebra.ml" 140 4872 4933 "LinearAlgebra.ml" 140 4872 4935
+"LinearAlgebra.ml" 138 4859 4920 "LinearAlgebra.ml" 138 4859 4922
 type(
   float
 )
-"LinearAlgebra.ml" 140 4872 4886 "LinearAlgebra.ml" 140 4872 4935
+"LinearAlgebra.ml" 138 4859 4873 "LinearAlgebra.ml" 138 4859 4922
 call(
   stack
 )
 type(
   float array array
 )
-"LinearAlgebra.ml" 141 4940 4950 "LinearAlgebra.ml" 141 4940 4956
+"LinearAlgebra.ml" 139 4927 4937 "LinearAlgebra.ml" 139 4927 4943
 type(
   float array -> float array -> int -> m
 )
 ident(
-  def column "LinearAlgebra.ml" 141 4940 4942 "LinearAlgebra.ml" 148 5346 5377
+  def column "LinearAlgebra.ml" 139 4927 4929 "LinearAlgebra.ml" 146 5333 5364
 )
-"LinearAlgebra.ml" 141 4940 4958 "LinearAlgebra.ml" 141 4940 4960
+"LinearAlgebra.ml" 139 4927 4945 "LinearAlgebra.ml" 139 4927 4947
 type(
   float array
 )
 ident(
-  def c1 "LinearAlgebra.ml" 141 4940 4976 "LinearAlgebra.ml" 147 5329 5342
+  def c1 "LinearAlgebra.ml" 139 4927 4963 "LinearAlgebra.ml" 145 5316 5329
 )
-"LinearAlgebra.ml" 141 4940 4977 "LinearAlgebra.ml" 141 4940 4979
+"LinearAlgebra.ml" 139 4927 4964 "LinearAlgebra.ml" 139 4927 4966
 type(
   float array
 )
 ident(
-  def c2 "LinearAlgebra.ml" 141 4940 4995 "LinearAlgebra.ml" 147 5329 5342
+  def c2 "LinearAlgebra.ml" 139 4927 4982 "LinearAlgebra.ml" 145 5316 5329
 )
-"LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+"LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 type(
   int
 )
 ident(
-  def cc "LinearAlgebra.ml" 141 4940 5006 "LinearAlgebra.ml" 147 5329 5342
+  def cc "LinearAlgebra.ml" 139 4927 4993 "LinearAlgebra.ml" 145 5316 5329
 )
-"LinearAlgebra.ml" 142 5012 5024 "LinearAlgebra.ml" 142 5012 5027
+"LinearAlgebra.ml" 140 4999 5011 "LinearAlgebra.ml" 140 4999 5014
 type(
   float array -> float array -> int -> m
 )
 ident(
-  def row "LinearAlgebra.ml" 142 5012 5016 "LinearAlgebra.ml" 147 5329 5342
+  def row "LinearAlgebra.ml" 140 4999 5003 "LinearAlgebra.ml" 145 5316 5329
 )
-"LinearAlgebra.ml" 142 5012 5029 "LinearAlgebra.ml" 142 5012 5031
+"LinearAlgebra.ml" 140 4999 5016 "LinearAlgebra.ml" 140 4999 5018
 type(
   float array
 )
 ident(
-  def r1 "LinearAlgebra.ml" 142 5012 5047 "LinearAlgebra.ml" 145 5238 5282
+  def r1 "LinearAlgebra.ml" 140 4999 5034 "LinearAlgebra.ml" 143 5225 5269
 )
-"LinearAlgebra.ml" 142 5012 5048 "LinearAlgebra.ml" 142 5012 5050
+"LinearAlgebra.ml" 140 4999 5035 "LinearAlgebra.ml" 140 4999 5037
 type(
   float array
 )
 ident(
-  def r2 "LinearAlgebra.ml" 142 5012 5066 "LinearAlgebra.ml" 145 5238 5282
+  def r2 "LinearAlgebra.ml" 140 4999 5053 "LinearAlgebra.ml" 143 5225 5269
 )
-"LinearAlgebra.ml" 142 5012 5067 "LinearAlgebra.ml" 142 5012 5069
+"LinearAlgebra.ml" 140 4999 5054 "LinearAlgebra.ml" 140 4999 5056
 type(
   int
 )
 ident(
-  def rc "LinearAlgebra.ml" 142 5012 5077 "LinearAlgebra.ml" 145 5238 5282
+  def rc "LinearAlgebra.ml" 140 4999 5064 "LinearAlgebra.ml" 143 5225 5269
 )
-"LinearAlgebra.ml" 143 5084 5090 "LinearAlgebra.ml" 143 5084 5099
+"LinearAlgebra.ml" 141 5071 5077 "LinearAlgebra.ml" 141 5071 5086
 type(
   float array -> int -> float -> unit
 )
 ident(
   ext_ref Core.Std.Array.set
 )
-"LinearAlgebra.ml" 143 5084 5100 "LinearAlgebra.ml" 143 5084 5104
+"LinearAlgebra.ml" 141 5071 5087 "LinearAlgebra.ml" 141 5071 5091
 type(
   float array array
 )
 ident(
-  int_ref nmat "LinearAlgebra.ml" 140 4872 4878 "LinearAlgebra.ml" 140 4872 4882
+  int_ref nmat "LinearAlgebra.ml" 138 4859 4865 "LinearAlgebra.ml" 138 4859 4869
 )
-"LinearAlgebra.ml" 143 5084 5106 "LinearAlgebra.ml" 143 5084 5108
+"LinearAlgebra.ml" 141 5071 5093 "LinearAlgebra.ml" 141 5071 5095
 type(
   int
 )
 ident(
-  int_ref cc "LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+  int_ref cc "LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 )
-"LinearAlgebra.ml" 143 5084 5100 "LinearAlgebra.ml" 143 5084 5109
+"LinearAlgebra.ml" 141 5071 5087 "LinearAlgebra.ml" 141 5071 5096
 type(
   float array
 )
@@ -1962,139 +1962,139 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 143 5084 5110 "LinearAlgebra.ml" 143 5084 5112
+"LinearAlgebra.ml" 141 5071 5097 "LinearAlgebra.ml" 141 5071 5099
 type(
   int
 )
 ident(
-  int_ref rc "LinearAlgebra.ml" 142 5012 5067 "LinearAlgebra.ml" 142 5012 5069
+  int_ref rc "LinearAlgebra.ml" 140 4999 5054 "LinearAlgebra.ml" 140 4999 5056
 )
-"LinearAlgebra.ml" 143 5084 5114 "LinearAlgebra.ml" 143 5084 5130
+"LinearAlgebra.ml" 141 5071 5101 "LinearAlgebra.ml" 141 5071 5117
 type(
   float array -> f:(float -> float -> float) -> init:float -> float
 )
 ident(
   ext_ref Core.Std.Array.fold_right
 )
-"LinearAlgebra.ml" 143 5084 5134 "LinearAlgebra.ml" 143 5084 5138
+"LinearAlgebra.ml" 141 5071 5121 "LinearAlgebra.ml" 141 5071 5125
 type(
   float -> float -> float
 )
 ident(
   ext_ref Pervasives.( +. )
 )
-"LinearAlgebra.ml" 143 5084 5140 "LinearAlgebra.ml" 143 5084 5147
+"LinearAlgebra.ml" 141 5071 5127 "LinearAlgebra.ml" 141 5071 5134
 type(
   (float -> float -> float) -> float array -> float array -> float array
 )
 ident(
-  int_ref ericmap "LinearAlgebra.ml" 128 4420 4424 "LinearAlgebra.ml" 128 4420 4431
+  int_ref ericmap "LinearAlgebra.ml" 126 4407 4411 "LinearAlgebra.ml" 126 4407 4418
 )
-"LinearAlgebra.ml" 143 5084 5148 "LinearAlgebra.ml" 143 5084 5154
+"LinearAlgebra.ml" 141 5071 5135 "LinearAlgebra.ml" 141 5071 5141
 type(
   float -> float -> float
 )
 ident(
   ext_ref Pervasives.( *. )
 )
-"LinearAlgebra.ml" 143 5084 5155 "LinearAlgebra.ml" 143 5084 5157
+"LinearAlgebra.ml" 141 5071 5142 "LinearAlgebra.ml" 141 5071 5144
 type(
   float array
 )
 ident(
-  int_ref r1 "LinearAlgebra.ml" 142 5012 5029 "LinearAlgebra.ml" 142 5012 5031
+  int_ref r1 "LinearAlgebra.ml" 140 4999 5016 "LinearAlgebra.ml" 140 4999 5018
 )
-"LinearAlgebra.ml" 143 5084 5158 "LinearAlgebra.ml" 143 5084 5160
+"LinearAlgebra.ml" 141 5071 5145 "LinearAlgebra.ml" 141 5071 5147
 type(
   float array
 )
 ident(
-  int_ref r2 "LinearAlgebra.ml" 142 5012 5048 "LinearAlgebra.ml" 142 5012 5050
+  int_ref r2 "LinearAlgebra.ml" 140 4999 5035 "LinearAlgebra.ml" 140 4999 5037
 )
-"LinearAlgebra.ml" 143 5084 5140 "LinearAlgebra.ml" 143 5084 5160
+"LinearAlgebra.ml" 141 5071 5127 "LinearAlgebra.ml" 141 5071 5147
 call(
   stack
 )
 type(
   float array
 )
-"LinearAlgebra.ml" 143 5084 5169 "LinearAlgebra.ml" 143 5084 5171
+"LinearAlgebra.ml" 141 5071 5156 "LinearAlgebra.ml" 141 5071 5158
 type(
   float
 )
-"LinearAlgebra.ml" 143 5084 5114 "LinearAlgebra.ml" 143 5084 5172
+"LinearAlgebra.ml" 141 5071 5101 "LinearAlgebra.ml" 141 5071 5159
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 143 5084 5090 "LinearAlgebra.ml" 143 5084 5173
+"LinearAlgebra.ml" 141 5071 5077 "LinearAlgebra.ml" 141 5071 5160
 type(
   unit
 )
-"LinearAlgebra.ml" 144 5175 5184 "LinearAlgebra.ml" 144 5175 5186
+"LinearAlgebra.ml" 142 5162 5171 "LinearAlgebra.ml" 142 5162 5173
 type(
   int
 )
 ident(
-  int_ref rc "LinearAlgebra.ml" 142 5012 5067 "LinearAlgebra.ml" 142 5012 5069
+  int_ref rc "LinearAlgebra.ml" 140 4999 5054 "LinearAlgebra.ml" 140 4999 5056
 )
-"LinearAlgebra.ml" 144 5175 5187 "LinearAlgebra.ml" 144 5175 5188
+"LinearAlgebra.ml" 142 5162 5174 "LinearAlgebra.ml" 142 5162 5175
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( < )
 )
-"LinearAlgebra.ml" 144 5175 5189 "LinearAlgebra.ml" 144 5175 5194
+"LinearAlgebra.ml" 142 5162 5176 "LinearAlgebra.ml" 142 5162 5181
 type(
   int
 )
 ident(
-  int_ref width "LinearAlgebra.ml" 139 4835 4841 "LinearAlgebra.ml" 139 4835 4846
+  int_ref width "LinearAlgebra.ml" 137 4822 4828 "LinearAlgebra.ml" 137 4822 4833
 )
-"LinearAlgebra.ml" 144 5175 5194 "LinearAlgebra.ml" 144 5175 5195
+"LinearAlgebra.ml" 142 5162 5181 "LinearAlgebra.ml" 142 5162 5182
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"LinearAlgebra.ml" 144 5175 5195 "LinearAlgebra.ml" 144 5175 5196
+"LinearAlgebra.ml" 142 5162 5182 "LinearAlgebra.ml" 142 5162 5183
 type(
   int
 )
-"LinearAlgebra.ml" 144 5175 5189 "LinearAlgebra.ml" 144 5175 5196
+"LinearAlgebra.ml" 142 5162 5176 "LinearAlgebra.ml" 142 5162 5183
 type(
   int
 )
-"LinearAlgebra.ml" 144 5175 5184 "LinearAlgebra.ml" 144 5175 5196
+"LinearAlgebra.ml" 142 5162 5171 "LinearAlgebra.ml" 142 5162 5183
 type(
   bool
 )
-"LinearAlgebra.ml" 144 5175 5202 "LinearAlgebra.ml" 144 5175 5205
+"LinearAlgebra.ml" 142 5162 5189 "LinearAlgebra.ml" 142 5162 5192
 type(
   float array -> float array -> int -> m
 )
 ident(
-  int_ref row "LinearAlgebra.ml" 142 5012 5024 "LinearAlgebra.ml" 142 5012 5027
+  int_ref row "LinearAlgebra.ml" 140 4999 5011 "LinearAlgebra.ml" 140 4999 5014
 )
-"LinearAlgebra.ml" 144 5175 5206 "LinearAlgebra.ml" 144 5175 5210
+"LinearAlgebra.ml" 142 5162 5193 "LinearAlgebra.ml" 142 5162 5197
 type(
   m
 )
 ident(
-  int_ref mat1 "LinearAlgebra.ml" 136 4727 4741 "LinearAlgebra.ml" 136 4727 4745
+  int_ref mat1 "LinearAlgebra.ml" 134 4714 4728 "LinearAlgebra.ml" 134 4714 4732
 )
-"LinearAlgebra.ml" 144 5175 5212 "LinearAlgebra.ml" 144 5175 5214
+"LinearAlgebra.ml" 142 5162 5199 "LinearAlgebra.ml" 142 5162 5201
 type(
   int
 )
 ident(
-  int_ref cc "LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+  int_ref cc "LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 )
-"LinearAlgebra.ml" 144 5175 5206 "LinearAlgebra.ml" 144 5175 5215
+"LinearAlgebra.ml" 142 5162 5193 "LinearAlgebra.ml" 142 5162 5202
 type(
   float array
 )
@@ -2104,36 +2104,36 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 144 5175 5216 "LinearAlgebra.ml" 144 5175 5221
+"LinearAlgebra.ml" 142 5162 5203 "LinearAlgebra.ml" 142 5162 5208
 type(
   m
 )
 ident(
-  int_ref tmat2 "LinearAlgebra.ml" 137 4767 4773 "LinearAlgebra.ml" 137 4767 4778
+  int_ref tmat2 "LinearAlgebra.ml" 135 4754 4760 "LinearAlgebra.ml" 135 4754 4765
 )
-"LinearAlgebra.ml" 144 5175 5223 "LinearAlgebra.ml" 144 5175 5225
+"LinearAlgebra.ml" 142 5162 5210 "LinearAlgebra.ml" 142 5162 5212
 type(
   int
 )
 ident(
-  int_ref rc "LinearAlgebra.ml" 142 5012 5067 "LinearAlgebra.ml" 142 5012 5069
+  int_ref rc "LinearAlgebra.ml" 140 4999 5054 "LinearAlgebra.ml" 140 4999 5056
 )
-"LinearAlgebra.ml" 144 5175 5226 "LinearAlgebra.ml" 144 5175 5227
+"LinearAlgebra.ml" 142 5162 5213 "LinearAlgebra.ml" 142 5162 5214
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 144 5175 5228 "LinearAlgebra.ml" 144 5175 5229
+"LinearAlgebra.ml" 142 5162 5215 "LinearAlgebra.ml" 142 5162 5216
 type(
   int
 )
-"LinearAlgebra.ml" 144 5175 5223 "LinearAlgebra.ml" 144 5175 5229
+"LinearAlgebra.ml" 142 5162 5210 "LinearAlgebra.ml" 142 5162 5216
 type(
   int
 )
-"LinearAlgebra.ml" 144 5175 5216 "LinearAlgebra.ml" 144 5175 5230
+"LinearAlgebra.ml" 142 5162 5203 "LinearAlgebra.ml" 142 5162 5217
 type(
   float array
 )
@@ -2143,57 +2143,57 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 144 5175 5232 "LinearAlgebra.ml" 144 5175 5234
+"LinearAlgebra.ml" 142 5162 5219 "LinearAlgebra.ml" 142 5162 5221
 type(
   int
 )
 ident(
-  int_ref rc "LinearAlgebra.ml" 142 5012 5067 "LinearAlgebra.ml" 142 5012 5069
+  int_ref rc "LinearAlgebra.ml" 140 4999 5054 "LinearAlgebra.ml" 140 4999 5056
 )
-"LinearAlgebra.ml" 144 5175 5234 "LinearAlgebra.ml" 144 5175 5235
+"LinearAlgebra.ml" 142 5162 5221 "LinearAlgebra.ml" 142 5162 5222
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 144 5175 5235 "LinearAlgebra.ml" 144 5175 5236
+"LinearAlgebra.ml" 142 5162 5222 "LinearAlgebra.ml" 142 5162 5223
 type(
   int
 )
-"LinearAlgebra.ml" 144 5175 5232 "LinearAlgebra.ml" 144 5175 5236
+"LinearAlgebra.ml" 142 5162 5219 "LinearAlgebra.ml" 142 5162 5223
 type(
   int
 )
-"LinearAlgebra.ml" 144 5175 5202 "LinearAlgebra.ml" 144 5175 5237
+"LinearAlgebra.ml" 142 5162 5189 "LinearAlgebra.ml" 142 5162 5224
 call(
   tail
 )
 type(
   m
 )
-"LinearAlgebra.ml" 145 5238 5249 "LinearAlgebra.ml" 145 5238 5255
+"LinearAlgebra.ml" 143 5225 5236 "LinearAlgebra.ml" 143 5225 5242
 type(
   float array -> float array -> int -> m
 )
 ident(
-  int_ref column "LinearAlgebra.ml" 141 4940 4950 "LinearAlgebra.ml" 141 4940 4956
+  int_ref column "LinearAlgebra.ml" 139 4927 4937 "LinearAlgebra.ml" 139 4927 4943
 )
-"LinearAlgebra.ml" 145 5238 5256 "LinearAlgebra.ml" 145 5238 5260
+"LinearAlgebra.ml" 143 5225 5243 "LinearAlgebra.ml" 143 5225 5247
 type(
   m
 )
 ident(
-  int_ref mat1 "LinearAlgebra.ml" 136 4727 4741 "LinearAlgebra.ml" 136 4727 4745
+  int_ref mat1 "LinearAlgebra.ml" 134 4714 4728 "LinearAlgebra.ml" 134 4714 4732
 )
-"LinearAlgebra.ml" 145 5238 5262 "LinearAlgebra.ml" 145 5238 5264
+"LinearAlgebra.ml" 143 5225 5249 "LinearAlgebra.ml" 143 5225 5251
 type(
   int
 )
 ident(
-  int_ref cc "LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+  int_ref cc "LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 )
-"LinearAlgebra.ml" 145 5238 5256 "LinearAlgebra.ml" 145 5238 5265
+"LinearAlgebra.ml" 143 5225 5243 "LinearAlgebra.ml" 143 5225 5252
 type(
   float array
 )
@@ -2203,18 +2203,18 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 145 5238 5266 "LinearAlgebra.ml" 145 5238 5271
+"LinearAlgebra.ml" 143 5225 5253 "LinearAlgebra.ml" 143 5225 5258
 type(
   m
 )
 ident(
-  int_ref tmat2 "LinearAlgebra.ml" 137 4767 4773 "LinearAlgebra.ml" 137 4767 4778
+  int_ref tmat2 "LinearAlgebra.ml" 135 4754 4760 "LinearAlgebra.ml" 135 4754 4765
 )
-"LinearAlgebra.ml" 145 5238 5273 "LinearAlgebra.ml" 145 5238 5274
+"LinearAlgebra.ml" 143 5225 5260 "LinearAlgebra.ml" 143 5225 5261
 type(
   int
 )
-"LinearAlgebra.ml" 145 5238 5266 "LinearAlgebra.ml" 145 5238 5275
+"LinearAlgebra.ml" 143 5225 5253 "LinearAlgebra.ml" 143 5225 5262
 type(
   float array
 )
@@ -2224,105 +2224,105 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 145 5238 5277 "LinearAlgebra.ml" 145 5238 5279
+"LinearAlgebra.ml" 143 5225 5264 "LinearAlgebra.ml" 143 5225 5266
 type(
   int
 )
 ident(
-  int_ref cc "LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+  int_ref cc "LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 )
-"LinearAlgebra.ml" 145 5238 5279 "LinearAlgebra.ml" 145 5238 5280
+"LinearAlgebra.ml" 143 5225 5266 "LinearAlgebra.ml" 143 5225 5267
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 145 5238 5280 "LinearAlgebra.ml" 145 5238 5281
+"LinearAlgebra.ml" 143 5225 5267 "LinearAlgebra.ml" 143 5225 5268
 type(
   int
 )
-"LinearAlgebra.ml" 145 5238 5277 "LinearAlgebra.ml" 145 5238 5281
+"LinearAlgebra.ml" 143 5225 5264 "LinearAlgebra.ml" 143 5225 5268
 type(
   int
 )
-"LinearAlgebra.ml" 145 5238 5249 "LinearAlgebra.ml" 145 5238 5282
+"LinearAlgebra.ml" 143 5225 5236 "LinearAlgebra.ml" 143 5225 5269
 call(
   tail
 )
 type(
   m
 )
-"LinearAlgebra.ml" 144 5175 5181 "LinearAlgebra.ml" 145 5238 5282
+"LinearAlgebra.ml" 142 5162 5168 "LinearAlgebra.ml" 143 5225 5269
 type(
   m
 )
-"LinearAlgebra.ml" 143 5084 5090 "LinearAlgebra.ml" 145 5238 5282
+"LinearAlgebra.ml" 141 5071 5077 "LinearAlgebra.ml" 143 5225 5269
 type(
   m
 )
 type(
   m
 )
-"LinearAlgebra.ml" 142 5012 5066 "LinearAlgebra.ml" 145 5238 5282
+"LinearAlgebra.ml" 140 4999 5053 "LinearAlgebra.ml" 143 5225 5269
 type(
   int -> m
 )
-"LinearAlgebra.ml" 142 5012 5047 "LinearAlgebra.ml" 145 5238 5282
+"LinearAlgebra.ml" 140 4999 5034 "LinearAlgebra.ml" 143 5225 5269
 type(
   float array -> int -> m
 )
-"LinearAlgebra.ml" 142 5012 5028 "LinearAlgebra.ml" 145 5238 5282
+"LinearAlgebra.ml" 140 4999 5015 "LinearAlgebra.ml" 143 5225 5269
 type(
   float array -> float array -> int -> m
 )
-"LinearAlgebra.ml" 146 5286 5293 "LinearAlgebra.ml" 146 5286 5295
+"LinearAlgebra.ml" 144 5273 5280 "LinearAlgebra.ml" 144 5273 5282
 type(
   int
 )
 ident(
-  int_ref cc "LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+  int_ref cc "LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 )
-"LinearAlgebra.ml" 146 5286 5296 "LinearAlgebra.ml" 146 5286 5297
+"LinearAlgebra.ml" 144 5273 5283 "LinearAlgebra.ml" 144 5273 5284
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( < )
 )
-"LinearAlgebra.ml" 146 5286 5298 "LinearAlgebra.ml" 146 5286 5304
+"LinearAlgebra.ml" 144 5273 5285 "LinearAlgebra.ml" 144 5273 5291
 type(
   int
 )
 ident(
-  int_ref height "LinearAlgebra.ml" 138 4799 4805 "LinearAlgebra.ml" 138 4799 4811
+  int_ref height "LinearAlgebra.ml" 136 4786 4792 "LinearAlgebra.ml" 136 4786 4798
 )
-"LinearAlgebra.ml" 146 5286 5293 "LinearAlgebra.ml" 146 5286 5304
+"LinearAlgebra.ml" 144 5273 5280 "LinearAlgebra.ml" 144 5273 5291
 type(
   bool
 )
-"LinearAlgebra.ml" 146 5286 5310 "LinearAlgebra.ml" 146 5286 5313
+"LinearAlgebra.ml" 144 5273 5297 "LinearAlgebra.ml" 144 5273 5300
 type(
   float array -> float array -> int -> m
 )
 ident(
-  int_ref row "LinearAlgebra.ml" 142 5012 5024 "LinearAlgebra.ml" 142 5012 5027
+  int_ref row "LinearAlgebra.ml" 140 4999 5011 "LinearAlgebra.ml" 140 4999 5014
 )
-"LinearAlgebra.ml" 146 5286 5314 "LinearAlgebra.ml" 146 5286 5318
+"LinearAlgebra.ml" 144 5273 5301 "LinearAlgebra.ml" 144 5273 5305
 type(
   m
 )
 ident(
-  int_ref mat1 "LinearAlgebra.ml" 136 4727 4741 "LinearAlgebra.ml" 136 4727 4745
+  int_ref mat1 "LinearAlgebra.ml" 134 4714 4728 "LinearAlgebra.ml" 134 4714 4732
 )
-"LinearAlgebra.ml" 146 5286 5320 "LinearAlgebra.ml" 146 5286 5322
+"LinearAlgebra.ml" 144 5273 5307 "LinearAlgebra.ml" 144 5273 5309
 type(
   int
 )
 ident(
-  int_ref cc "LinearAlgebra.ml" 141 4940 4996 "LinearAlgebra.ml" 141 4940 4998
+  int_ref cc "LinearAlgebra.ml" 139 4927 4983 "LinearAlgebra.ml" 139 4927 4985
 )
-"LinearAlgebra.ml" 146 5286 5314 "LinearAlgebra.ml" 146 5286 5323
+"LinearAlgebra.ml" 144 5273 5301 "LinearAlgebra.ml" 144 5273 5310
 type(
   float array
 )
@@ -2332,73 +2332,73 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 146 5286 5324 "LinearAlgebra.ml" 146 5286 5326
+"LinearAlgebra.ml" 144 5273 5311 "LinearAlgebra.ml" 144 5273 5313
 type(
   float array
 )
 ident(
-  int_ref c2 "LinearAlgebra.ml" 141 4940 4977 "LinearAlgebra.ml" 141 4940 4979
+  int_ref c2 "LinearAlgebra.ml" 139 4927 4964 "LinearAlgebra.ml" 139 4927 4966
 )
-"LinearAlgebra.ml" 146 5286 5327 "LinearAlgebra.ml" 146 5286 5328
+"LinearAlgebra.ml" 144 5273 5314 "LinearAlgebra.ml" 144 5273 5315
 type(
   int
 )
-"LinearAlgebra.ml" 146 5286 5310 "LinearAlgebra.ml" 146 5286 5328
+"LinearAlgebra.ml" 144 5273 5297 "LinearAlgebra.ml" 144 5273 5315
 call(
   tail
 )
 type(
   m
 )
-"LinearAlgebra.ml" 147 5329 5338 "LinearAlgebra.ml" 147 5329 5342
+"LinearAlgebra.ml" 145 5316 5325 "LinearAlgebra.ml" 145 5316 5329
 type(
   float array array
 )
 ident(
-  int_ref nmat "LinearAlgebra.ml" 140 4872 4878 "LinearAlgebra.ml" 140 4872 4882
+  int_ref nmat "LinearAlgebra.ml" 138 4859 4865 "LinearAlgebra.ml" 138 4859 4869
 )
-"LinearAlgebra.ml" 146 5286 5290 "LinearAlgebra.ml" 147 5329 5342
+"LinearAlgebra.ml" 144 5273 5277 "LinearAlgebra.ml" 145 5316 5329
 type(
   m
 )
-"LinearAlgebra.ml" 142 5012 5016 "LinearAlgebra.ml" 147 5329 5342
+"LinearAlgebra.ml" 140 4999 5003 "LinearAlgebra.ml" 145 5316 5329
 type(
   m
 )
 type(
   m
 )
-"LinearAlgebra.ml" 141 4940 4995 "LinearAlgebra.ml" 147 5329 5342
+"LinearAlgebra.ml" 139 4927 4982 "LinearAlgebra.ml" 145 5316 5329
 type(
   int -> m
 )
-"LinearAlgebra.ml" 141 4940 4976 "LinearAlgebra.ml" 147 5329 5342
+"LinearAlgebra.ml" 139 4927 4963 "LinearAlgebra.ml" 145 5316 5329
 type(
   float array -> int -> m
 )
-"LinearAlgebra.ml" 141 4940 4957 "LinearAlgebra.ml" 147 5329 5342
+"LinearAlgebra.ml" 139 4927 4944 "LinearAlgebra.ml" 145 5316 5329
 type(
   float array -> float array -> int -> m
 )
-"LinearAlgebra.ml" 148 5346 5348 "LinearAlgebra.ml" 148 5346 5354
+"LinearAlgebra.ml" 146 5333 5335 "LinearAlgebra.ml" 146 5333 5341
 type(
   float array -> float array -> int -> m
 )
 ident(
-  int_ref column "LinearAlgebra.ml" 141 4940 4950 "LinearAlgebra.ml" 141 4940 4956
+  int_ref column "LinearAlgebra.ml" 139 4927 4937 "LinearAlgebra.ml" 139 4927 4943
 )
-"LinearAlgebra.ml" 148 5346 5355 "LinearAlgebra.ml" 148 5346 5359
+"LinearAlgebra.ml" 146 5333 5342 "LinearAlgebra.ml" 146 5333 5346
 type(
   m
 )
 ident(
-  int_ref mat1 "LinearAlgebra.ml" 136 4727 4741 "LinearAlgebra.ml" 136 4727 4745
+  int_ref mat1 "LinearAlgebra.ml" 134 4714 4728 "LinearAlgebra.ml" 134 4714 4732
 )
-"LinearAlgebra.ml" 148 5346 5361 "LinearAlgebra.ml" 148 5346 5362
+"LinearAlgebra.ml" 146 5333 5348 "LinearAlgebra.ml" 146 5333 5349
 type(
   int
 )
-"LinearAlgebra.ml" 148 5346 5355 "LinearAlgebra.ml" 148 5346 5363
+"LinearAlgebra.ml" 146 5333 5342 "LinearAlgebra.ml" 146 5333 5350
 type(
   float array
 )
@@ -2408,18 +2408,18 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 148 5346 5364 "LinearAlgebra.ml" 148 5346 5369
+"LinearAlgebra.ml" 146 5333 5351 "LinearAlgebra.ml" 146 5333 5356
 type(
   m
 )
 ident(
-  int_ref tmat2 "LinearAlgebra.ml" 137 4767 4773 "LinearAlgebra.ml" 137 4767 4778
+  int_ref tmat2 "LinearAlgebra.ml" 135 4754 4760 "LinearAlgebra.ml" 135 4754 4765
 )
-"LinearAlgebra.ml" 148 5346 5371 "LinearAlgebra.ml" 148 5346 5372
+"LinearAlgebra.ml" 146 5333 5358 "LinearAlgebra.ml" 146 5333 5359
 type(
   int
 )
-"LinearAlgebra.ml" 148 5346 5364 "LinearAlgebra.ml" 148 5346 5373
+"LinearAlgebra.ml" 146 5333 5351 "LinearAlgebra.ml" 146 5333 5360
 type(
   float array
 )
@@ -2429,138 +2429,138 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 148 5346 5375 "LinearAlgebra.ml" 148 5346 5376
+"LinearAlgebra.ml" 146 5333 5362 "LinearAlgebra.ml" 146 5333 5363
 type(
   int
 )
-"LinearAlgebra.ml" 148 5346 5348 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 146 5333 5335 "LinearAlgebra.ml" 146 5333 5364
 call(
   tail
 )
 type(
   m
 )
-"LinearAlgebra.ml" 141 4940 4942 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 139 4927 4929 "LinearAlgebra.ml" 146 5333 5364
 type(
   m
 )
-"LinearAlgebra.ml" 140 4872 4874 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 138 4859 4861 "LinearAlgebra.ml" 146 5333 5364
 type(
   m
 )
-"LinearAlgebra.ml" 139 4835 4837 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 137 4822 4824 "LinearAlgebra.ml" 146 5333 5364
 type(
   m
 )
-"LinearAlgebra.ml" 138 4799 4801 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 136 4786 4788 "LinearAlgebra.ml" 146 5333 5364
 type(
   m
 )
-"LinearAlgebra.ml" 137 4767 4769 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 135 4754 4756 "LinearAlgebra.ml" 146 5333 5364
 type(
   m
 )
 type(
   m
 )
-"LinearAlgebra.ml" 136 4727 4751 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 134 4714 4738 "LinearAlgebra.ml" 146 5333 5364
 type(
   m -> m
 )
-"LinearAlgebra.ml" 136 4727 4740 "LinearAlgebra.ml" 148 5346 5377
+"LinearAlgebra.ml" 134 4714 4727 "LinearAlgebra.ml" 146 5333 5364
 type(
   m -> m -> m
 )
-"LinearAlgebra.ml" 154 5573 5577 "LinearAlgebra.ml" 154 5573 5584
+"LinearAlgebra.ml" 152 5560 5564 "LinearAlgebra.ml" 152 5560 5571
 type(
   m -> m
 )
 ident(
-  def echelon "LinearAlgebra.ml" 181 6409 6417 "LinearAlgebra.ml" 183 6420 6423
+  def echelon "LinearAlgebra.ml" 179 6396 6404 "LinearAlgebra.ml" 181 6407 6410
 )
-"LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+"LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 type(
   m
 )
 ident(
-  def matx "LinearAlgebra.ml" 155 5598 5602 "LinearAlgebra.ml" 181 6409 6417
+  def matx "LinearAlgebra.ml" 153 5585 5589 "LinearAlgebra.ml" 179 6396 6404
 )
-"LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+"LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 type(
   int ref
 )
 ident(
-  def lead "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 181 6409 6417
+  def lead "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 179 6396 6404
 )
-"LinearAlgebra.ml" 155 5598 5613 "LinearAlgebra.ml" 155 5598 5616
+"LinearAlgebra.ml" 153 5585 5600 "LinearAlgebra.ml" 153 5585 5603
 type(
   int -> int ref
 )
 ident(
   ext_ref Pervasives.ref
 )
-"LinearAlgebra.ml" 155 5598 5617 "LinearAlgebra.ml" 155 5598 5618
+"LinearAlgebra.ml" 153 5585 5604 "LinearAlgebra.ml" 153 5585 5605
 type(
   int
 )
-"LinearAlgebra.ml" 155 5598 5613 "LinearAlgebra.ml" 155 5598 5618
+"LinearAlgebra.ml" 153 5585 5600 "LinearAlgebra.ml" 153 5585 5605
 type(
   int ref
 )
-"LinearAlgebra.ml" 156 5619 5627 "LinearAlgebra.ml" 156 5619 5631
+"LinearAlgebra.ml" 154 5606 5614 "LinearAlgebra.ml" 154 5606 5618
 type(
   int
 )
 ident(
-  def rows "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 181 6409 6417
+  def rows "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 179 6396 6404
 )
-"LinearAlgebra.ml" 156 5619 5634 "LinearAlgebra.ml" 156 5619 5646
+"LinearAlgebra.ml" 154 5606 5621 "LinearAlgebra.ml" 154 5606 5633
 type(
   float array array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 156 5619 5647 "LinearAlgebra.ml" 156 5619 5651
+"LinearAlgebra.ml" 154 5606 5634 "LinearAlgebra.ml" 154 5606 5638
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 156 5619 5634 "LinearAlgebra.ml" 156 5619 5651
+"LinearAlgebra.ml" 154 5606 5621 "LinearAlgebra.ml" 154 5606 5638
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 157 5652 5660 "LinearAlgebra.ml" 157 5652 5667
+"LinearAlgebra.ml" 155 5639 5647 "LinearAlgebra.ml" 155 5639 5654
 type(
   int
 )
 ident(
-  def columns "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 181 6409 6417
+  def columns "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 179 6396 6404
 )
-"LinearAlgebra.ml" 157 5652 5670 "LinearAlgebra.ml" 157 5652 5682
+"LinearAlgebra.ml" 155 5639 5657 "LinearAlgebra.ml" 155 5639 5669
 type(
   float array -> int
 )
 ident(
   ext_ref Core.Std.Array.length
 )
-"LinearAlgebra.ml" 157 5652 5683 "LinearAlgebra.ml" 157 5652 5687
+"LinearAlgebra.ml" 155 5639 5670 "LinearAlgebra.ml" 155 5639 5674
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 157 5652 5689 "LinearAlgebra.ml" 157 5652 5690
+"LinearAlgebra.ml" 155 5639 5676 "LinearAlgebra.ml" 155 5639 5677
 type(
   int
 )
-"LinearAlgebra.ml" 157 5652 5683 "LinearAlgebra.ml" 157 5652 5691
+"LinearAlgebra.ml" 155 5639 5670 "LinearAlgebra.ml" 155 5639 5678
 type(
   float array
 )
@@ -2570,61 +2570,61 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 157 5652 5670 "LinearAlgebra.ml" 157 5652 5691
+"LinearAlgebra.ml" 155 5639 5657 "LinearAlgebra.ml" 155 5639 5678
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 158 5695 5707 "LinearAlgebra.ml" 158 5695 5708
+"LinearAlgebra.ml" 156 5682 5694 "LinearAlgebra.ml" 156 5682 5695
 type(
   int
 )
-"LinearAlgebra.ml" 158 5695 5712 "LinearAlgebra.ml" 158 5695 5716
+"LinearAlgebra.ml" 156 5682 5699 "LinearAlgebra.ml" 156 5682 5703
 type(
   int
 )
 ident(
-  int_ref rows "LinearAlgebra.ml" 156 5619 5627 "LinearAlgebra.ml" 156 5619 5631
+  int_ref rows "LinearAlgebra.ml" 154 5606 5614 "LinearAlgebra.ml" 154 5606 5618
 )
-"LinearAlgebra.ml" 158 5695 5717 "LinearAlgebra.ml" 158 5695 5718
+"LinearAlgebra.ml" 156 5682 5704 "LinearAlgebra.ml" 156 5682 5705
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"LinearAlgebra.ml" 158 5695 5719 "LinearAlgebra.ml" 158 5695 5720
+"LinearAlgebra.ml" 156 5682 5706 "LinearAlgebra.ml" 156 5682 5707
 type(
   int
 )
-"LinearAlgebra.ml" 158 5695 5712 "LinearAlgebra.ml" 158 5695 5720
+"LinearAlgebra.ml" 156 5682 5699 "LinearAlgebra.ml" 156 5682 5707
 type(
   int
 )
-"LinearAlgebra.ml" 159 5724 5733 "LinearAlgebra.ml" 159 5724 5740
+"LinearAlgebra.ml" 157 5711 5720 "LinearAlgebra.ml" 157 5711 5727
 type(
   int
 )
 ident(
-  int_ref columns "LinearAlgebra.ml" 157 5652 5660 "LinearAlgebra.ml" 157 5652 5667
+  int_ref columns "LinearAlgebra.ml" 155 5639 5647 "LinearAlgebra.ml" 155 5639 5654
 )
-"LinearAlgebra.ml" 159 5724 5741 "LinearAlgebra.ml" 159 5724 5743
+"LinearAlgebra.ml" 157 5711 5728 "LinearAlgebra.ml" 157 5711 5730
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( <= )
 )
-"LinearAlgebra.ml" 159 5724 5745 "LinearAlgebra.ml" 159 5724 5749
+"LinearAlgebra.ml" 157 5711 5732 "LinearAlgebra.ml" 157 5711 5736
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 159 5724 5744 "LinearAlgebra.ml" 159 5724 5749
+"LinearAlgebra.ml" 157 5711 5731 "LinearAlgebra.ml" 157 5711 5736
 type(
   int
 )
@@ -2634,72 +2634,72 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 159 5724 5733 "LinearAlgebra.ml" 159 5724 5749
+"LinearAlgebra.ml" 157 5711 5720 "LinearAlgebra.ml" 157 5711 5736
 type(
   bool
 )
-"LinearAlgebra.ml" 160 5755 5763 "LinearAlgebra.ml" 160 5755 5768
+"LinearAlgebra.ml" 158 5742 5750 "LinearAlgebra.ml" 158 5742 5755
 type(
   exn -> unit
 )
 ident(
   ext_ref Pervasives.raise
 )
-"LinearAlgebra.ml" 160 5755 5769 "LinearAlgebra.ml" 160 5755 5773
+"LinearAlgebra.ml" 158 5742 5756 "LinearAlgebra.ml" 158 5742 5760
 type(
   exn
 )
-"LinearAlgebra.ml" 160 5755 5763 "LinearAlgebra.ml" 160 5755 5773
+"LinearAlgebra.ml" 158 5742 5750 "LinearAlgebra.ml" 158 5742 5760
 type(
   unit
 )
-"LinearAlgebra.ml" 159 5724 5730 "LinearAlgebra.ml" 160 5755 5773
+"LinearAlgebra.ml" 157 5711 5717 "LinearAlgebra.ml" 158 5742 5760
 type(
   unit
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+"LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 type(
   int ref
 )
 ident(
-  def entry "LinearAlgebra.ml" 162 5802 5808 "LinearAlgebra.ml" 179 6376 6398
+  def entry "LinearAlgebra.ml" 160 5789 5795 "LinearAlgebra.ml" 177 6363 6385
 )
-"LinearAlgebra.ml" 161 5775 5793 "LinearAlgebra.ml" 161 5775 5796
+"LinearAlgebra.ml" 159 5762 5780 "LinearAlgebra.ml" 159 5762 5783
 type(
   int -> int ref
 )
 ident(
   ext_ref Pervasives.ref
 )
-"LinearAlgebra.ml" 161 5775 5797 "LinearAlgebra.ml" 161 5775 5798
+"LinearAlgebra.ml" 159 5762 5784 "LinearAlgebra.ml" 159 5762 5785
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 161 5775 5793 "LinearAlgebra.ml" 161 5775 5798
+"LinearAlgebra.ml" 159 5762 5780 "LinearAlgebra.ml" 159 5762 5785
 type(
   int ref
 )
-"LinearAlgebra.ml" 162 5802 5814 "LinearAlgebra.ml" 162 5802 5818
+"LinearAlgebra.ml" 160 5789 5801 "LinearAlgebra.ml" 160 5789 5805
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 162 5802 5821 "LinearAlgebra.ml" 162 5802 5826
+"LinearAlgebra.ml" 160 5789 5808 "LinearAlgebra.ml" 160 5789 5813
 type(
   int ref
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+  int_ref entry "LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 )
-"LinearAlgebra.ml" 162 5802 5820 "LinearAlgebra.ml" 162 5802 5826
+"LinearAlgebra.ml" 160 5789 5807 "LinearAlgebra.ml" 160 5789 5813
 type(
   int
 )
@@ -2709,7 +2709,7 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 162 5802 5814 "LinearAlgebra.ml" 162 5802 5827
+"LinearAlgebra.ml" 160 5789 5801 "LinearAlgebra.ml" 160 5789 5814
 type(
   float array
 )
@@ -2719,14 +2719,14 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 162 5802 5830 "LinearAlgebra.ml" 162 5802 5834
+"LinearAlgebra.ml" 160 5789 5817 "LinearAlgebra.ml" 160 5789 5821
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 162 5802 5829 "LinearAlgebra.ml" 162 5802 5834
+"LinearAlgebra.ml" 160 5789 5816 "LinearAlgebra.ml" 160 5789 5821
 type(
   int
 )
@@ -2736,7 +2736,7 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 162 5802 5814 "LinearAlgebra.ml" 162 5802 5835
+"LinearAlgebra.ml" 160 5789 5801 "LinearAlgebra.ml" 160 5789 5822
 type(
   float
 )
@@ -2746,36 +2746,36 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 162 5802 5836 "LinearAlgebra.ml" 162 5802 5837
+"LinearAlgebra.ml" 160 5789 5823 "LinearAlgebra.ml" 160 5789 5824
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 162 5802 5838 "LinearAlgebra.ml" 162 5802 5840
+"LinearAlgebra.ml" 160 5789 5825 "LinearAlgebra.ml" 160 5789 5827
 type(
   float
 )
-"LinearAlgebra.ml" 162 5802 5814 "LinearAlgebra.ml" 162 5802 5840
+"LinearAlgebra.ml" 160 5789 5801 "LinearAlgebra.ml" 160 5789 5827
 type(
   bool
 )
-"LinearAlgebra.ml" 163 5844 5852 "LinearAlgebra.ml" 163 5844 5857
+"LinearAlgebra.ml" 161 5831 5839 "LinearAlgebra.ml" 161 5831 5844
 type(
   int ref
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+  int_ref entry "LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 )
-"LinearAlgebra.ml" 163 5844 5862 "LinearAlgebra.ml" 163 5844 5867
+"LinearAlgebra.ml" 161 5831 5849 "LinearAlgebra.ml" 161 5831 5854
 type(
   int ref
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+  int_ref entry "LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 )
-"LinearAlgebra.ml" 163 5844 5861 "LinearAlgebra.ml" 163 5844 5867
+"LinearAlgebra.ml" 161 5831 5848 "LinearAlgebra.ml" 161 5831 5854
 type(
   int
 )
@@ -2785,22 +2785,22 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 163 5844 5867 "LinearAlgebra.ml" 163 5844 5868
+"LinearAlgebra.ml" 161 5831 5854 "LinearAlgebra.ml" 161 5831 5855
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 163 5844 5868 "LinearAlgebra.ml" 163 5844 5869
+"LinearAlgebra.ml" 161 5831 5855 "LinearAlgebra.ml" 161 5831 5856
 type(
   int
 )
-"LinearAlgebra.ml" 163 5844 5861 "LinearAlgebra.ml" 163 5844 5869
+"LinearAlgebra.ml" 161 5831 5848 "LinearAlgebra.ml" 161 5831 5856
 type(
   int
 )
-"LinearAlgebra.ml" 163 5844 5852 "LinearAlgebra.ml" 163 5844 5869
+"LinearAlgebra.ml" 161 5831 5839 "LinearAlgebra.ml" 161 5831 5856
 type(
   unit
 )
@@ -2810,28 +2810,28 @@ type(
 ident(
   ext_ref Pervasives.( := )
 )
-"LinearAlgebra.ml" 164 5871 5882 "LinearAlgebra.ml" 164 5871 5886
+"LinearAlgebra.ml" 162 5858 5869 "LinearAlgebra.ml" 162 5858 5873
 type(
   int
 )
 ident(
-  int_ref rows "LinearAlgebra.ml" 156 5619 5627 "LinearAlgebra.ml" 156 5619 5631
+  int_ref rows "LinearAlgebra.ml" 154 5606 5614 "LinearAlgebra.ml" 154 5606 5618
 )
-"LinearAlgebra.ml" 164 5871 5887 "LinearAlgebra.ml" 164 5871 5888
+"LinearAlgebra.ml" 162 5858 5874 "LinearAlgebra.ml" 162 5858 5875
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 164 5871 5890 "LinearAlgebra.ml" 164 5871 5895
+"LinearAlgebra.ml" 162 5858 5877 "LinearAlgebra.ml" 162 5858 5882
 type(
   int ref
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+  int_ref entry "LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 )
-"LinearAlgebra.ml" 164 5871 5889 "LinearAlgebra.ml" 164 5871 5895
+"LinearAlgebra.ml" 162 5858 5876 "LinearAlgebra.ml" 162 5858 5882
 type(
   int
 )
@@ -2841,25 +2841,25 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 164 5871 5882 "LinearAlgebra.ml" 164 5871 5895
+"LinearAlgebra.ml" 162 5858 5869 "LinearAlgebra.ml" 162 5858 5882
 type(
   bool
 )
-"LinearAlgebra.ml" 165 5907 5917 "LinearAlgebra.ml" 165 5907 5922
+"LinearAlgebra.ml" 163 5894 5904 "LinearAlgebra.ml" 163 5894 5909
 type(
   int ref
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+  int_ref entry "LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 )
-"LinearAlgebra.ml" 165 5907 5926 "LinearAlgebra.ml" 165 5907 5927
+"LinearAlgebra.ml" 163 5894 5913 "LinearAlgebra.ml" 163 5894 5914
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 165 5907 5917 "LinearAlgebra.ml" 165 5907 5927
+"LinearAlgebra.ml" 163 5894 5904 "LinearAlgebra.ml" 163 5894 5914
 type(
   unit
 )
@@ -2869,21 +2869,21 @@ type(
 ident(
   ext_ref Pervasives.( := )
 )
-"LinearAlgebra.ml" 166 5929 5939 "LinearAlgebra.ml" 166 5929 5943
+"LinearAlgebra.ml" 164 5916 5926 "LinearAlgebra.ml" 164 5916 5930
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 166 5929 5948 "LinearAlgebra.ml" 166 5929 5952
+"LinearAlgebra.ml" 164 5916 5935 "LinearAlgebra.ml" 164 5916 5939
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 166 5929 5947 "LinearAlgebra.ml" 166 5929 5952
+"LinearAlgebra.ml" 164 5916 5934 "LinearAlgebra.ml" 164 5916 5939
 type(
   int
 )
@@ -2893,22 +2893,22 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 166 5929 5952 "LinearAlgebra.ml" 166 5929 5953
+"LinearAlgebra.ml" 164 5916 5939 "LinearAlgebra.ml" 164 5916 5940
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 166 5929 5953 "LinearAlgebra.ml" 166 5929 5954
+"LinearAlgebra.ml" 164 5916 5940 "LinearAlgebra.ml" 164 5916 5941
 type(
   int
 )
-"LinearAlgebra.ml" 166 5929 5947 "LinearAlgebra.ml" 166 5929 5954
+"LinearAlgebra.ml" 164 5916 5934 "LinearAlgebra.ml" 164 5916 5941
 type(
   int
 )
-"LinearAlgebra.ml" 166 5929 5939 "LinearAlgebra.ml" 166 5929 5954
+"LinearAlgebra.ml" 164 5916 5926 "LinearAlgebra.ml" 164 5916 5941
 type(
   unit
 )
@@ -2918,28 +2918,28 @@ type(
 ident(
   ext_ref Pervasives.( := )
 )
-"LinearAlgebra.ml" 167 5956 5969 "LinearAlgebra.ml" 167 5956 5976
+"LinearAlgebra.ml" 165 5943 5956 "LinearAlgebra.ml" 165 5943 5963
 type(
   int
 )
 ident(
-  int_ref columns "LinearAlgebra.ml" 157 5652 5660 "LinearAlgebra.ml" 157 5652 5667
+  int_ref columns "LinearAlgebra.ml" 155 5639 5647 "LinearAlgebra.ml" 155 5639 5654
 )
-"LinearAlgebra.ml" 167 5956 5977 "LinearAlgebra.ml" 167 5956 5978
+"LinearAlgebra.ml" 165 5943 5964 "LinearAlgebra.ml" 165 5943 5965
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 167 5956 5980 "LinearAlgebra.ml" 167 5956 5984
+"LinearAlgebra.ml" 165 5943 5967 "LinearAlgebra.ml" 165 5943 5971
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 167 5956 5979 "LinearAlgebra.ml" 167 5956 5984
+"LinearAlgebra.ml" 165 5943 5966 "LinearAlgebra.ml" 165 5943 5971
 type(
   int
 )
@@ -2949,77 +2949,77 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 167 5956 5969 "LinearAlgebra.ml" 167 5956 5984
+"LinearAlgebra.ml" 165 5943 5956 "LinearAlgebra.ml" 165 5943 5971
 type(
   bool
 )
-"LinearAlgebra.ml" 168 5990 6002 "LinearAlgebra.ml" 168 5990 6007
+"LinearAlgebra.ml" 166 5977 5989 "LinearAlgebra.ml" 166 5977 5994
 type(
   exn -> unit
 )
 ident(
   ext_ref Pervasives.raise
 )
-"LinearAlgebra.ml" 168 5990 6008 "LinearAlgebra.ml" 168 5990 6012
+"LinearAlgebra.ml" 166 5977 5995 "LinearAlgebra.ml" 166 5977 5999
 type(
   exn
 )
-"LinearAlgebra.ml" 168 5990 6002 "LinearAlgebra.ml" 168 5990 6012
+"LinearAlgebra.ml" 166 5977 5989 "LinearAlgebra.ml" 166 5977 5999
 type(
   unit
 )
-"LinearAlgebra.ml" 167 5956 5966 "LinearAlgebra.ml" 168 5990 6012
-type(
-  unit
-)
-type(
-  unit
-)
-"LinearAlgebra.ml" 166 5929 5939 "LinearAlgebra.ml" 169 6014 6025
-type(
-  unit
-)
-"LinearAlgebra.ml" 165 5907 5917 "LinearAlgebra.ml" 169 6014 6025
-type(
-  unit
-)
-"LinearAlgebra.ml" 164 5871 5879 "LinearAlgebra.ml" 169 6014 6025
+"LinearAlgebra.ml" 165 5943 5953 "LinearAlgebra.ml" 166 5977 5999
 type(
   unit
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 163 5844 5852 "LinearAlgebra.ml" 170 6026 6036
+"LinearAlgebra.ml" 164 5916 5926 "LinearAlgebra.ml" 167 6001 6012
 type(
   unit
 )
-"LinearAlgebra.ml" 162 5802 5808 "LinearAlgebra.ml" 170 6026 6036
+"LinearAlgebra.ml" 163 5894 5904 "LinearAlgebra.ml" 167 6001 6012
 type(
   unit
 )
-"LinearAlgebra.ml" 171 6038 6044 "LinearAlgebra.ml" 171 6038 6053
+"LinearAlgebra.ml" 162 5858 5866 "LinearAlgebra.ml" 167 6001 6012
+type(
+  unit
+)
+type(
+  unit
+)
+"LinearAlgebra.ml" 161 5831 5839 "LinearAlgebra.ml" 168 6013 6023
+type(
+  unit
+)
+"LinearAlgebra.ml" 160 5789 5795 "LinearAlgebra.ml" 168 6013 6023
+type(
+  unit
+)
+"LinearAlgebra.ml" 169 6025 6031 "LinearAlgebra.ml" 169 6025 6040
 type(
   float array array -> int -> int -> unit
 )
 ident(
   int_ref swap_rows "LinearAlgebra.ml" 108 3733 3739 "LinearAlgebra.ml" 108 3733 3748
 )
-"LinearAlgebra.ml" 171 6038 6054 "LinearAlgebra.ml" 171 6038 6058
+"LinearAlgebra.ml" 169 6025 6041 "LinearAlgebra.ml" 169 6025 6045
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 171 6038 6060 "LinearAlgebra.ml" 171 6038 6065
+"LinearAlgebra.ml" 169 6025 6047 "LinearAlgebra.ml" 169 6025 6052
 type(
   int ref
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 161 5775 5785 "LinearAlgebra.ml" 161 5775 5790
+  int_ref entry "LinearAlgebra.ml" 159 5762 5772 "LinearAlgebra.ml" 159 5762 5777
 )
-"LinearAlgebra.ml" 171 6038 6059 "LinearAlgebra.ml" 171 6038 6065
+"LinearAlgebra.ml" 169 6025 6046 "LinearAlgebra.ml" 169 6025 6052
 type(
   int
 )
@@ -3029,42 +3029,42 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 171 6038 6066 "LinearAlgebra.ml" 171 6038 6067
+"LinearAlgebra.ml" 169 6025 6053 "LinearAlgebra.ml" 169 6025 6054
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 171 6038 6044 "LinearAlgebra.ml" 171 6038 6067
+"LinearAlgebra.ml" 169 6025 6031 "LinearAlgebra.ml" 169 6025 6054
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 172 6069 6079 "LinearAlgebra.ml" 172 6069 6084
+"LinearAlgebra.ml" 170 6056 6066 "LinearAlgebra.ml" 170 6056 6071
 type(
   float
 )
 ident(
-  def part1 "LinearAlgebra.ml" 173 6107 6113 "LinearAlgebra.ml" 179 6376 6397
+  def part1 "LinearAlgebra.ml" 171 6094 6100 "LinearAlgebra.ml" 177 6363 6384
 )
-"LinearAlgebra.ml" 172 6069 6087 "LinearAlgebra.ml" 172 6069 6091
+"LinearAlgebra.ml" 170 6056 6074 "LinearAlgebra.ml" 170 6056 6078
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 172 6069 6093 "LinearAlgebra.ml" 172 6069 6094
+"LinearAlgebra.ml" 170 6056 6080 "LinearAlgebra.ml" 170 6056 6081
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 172 6069 6087 "LinearAlgebra.ml" 172 6069 6095
+"LinearAlgebra.ml" 170 6056 6074 "LinearAlgebra.ml" 170 6056 6082
 type(
   float array
 )
@@ -3074,14 +3074,14 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 172 6069 6098 "LinearAlgebra.ml" 172 6069 6102
+"LinearAlgebra.ml" 170 6056 6085 "LinearAlgebra.ml" 170 6056 6089
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 172 6069 6097 "LinearAlgebra.ml" 172 6069 6102
+"LinearAlgebra.ml" 170 6056 6084 "LinearAlgebra.ml" 170 6056 6089
 type(
   int
 )
@@ -3091,7 +3091,7 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 172 6069 6087 "LinearAlgebra.ml" 172 6069 6103
+"LinearAlgebra.ml" 170 6056 6074 "LinearAlgebra.ml" 170 6056 6090
 type(
   float
 )
@@ -3101,85 +3101,85 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 173 6107 6113 "LinearAlgebra.ml" 173 6107 6117
+"LinearAlgebra.ml" 171 6094 6100 "LinearAlgebra.ml" 171 6094 6104
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 173 6107 6119 "LinearAlgebra.ml" 173 6107 6120
+"LinearAlgebra.ml" 171 6094 6106 "LinearAlgebra.ml" 171 6094 6107
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 173 6107 6113 "LinearAlgebra.ml" 173 6107 6121
+"LinearAlgebra.ml" 171 6094 6100 "LinearAlgebra.ml" 171 6094 6108
 type(
   float array array -> int -> float array -> unit
 )
 ident(
   ext_ref Core.Std.Array.set
 )
-"LinearAlgebra.ml" 173 6107 6125 "LinearAlgebra.ml" 173 6107 6134
+"LinearAlgebra.ml" 171 6094 6112 "LinearAlgebra.ml" 171 6094 6121
 type(
   f:(float -> float) -> float array -> float array
 )
 ident(
   ext_ref Core.Std.Array.map
 )
-"LinearAlgebra.ml" 173 6107 6140 "LinearAlgebra.ml" 173 6107 6141
+"LinearAlgebra.ml" 171 6094 6127 "LinearAlgebra.ml" 171 6094 6128
 type(
   float
 )
 ident(
-  def v "LinearAlgebra.ml" 173 6107 6145 "LinearAlgebra.ml" 173 6107 6155
+  def v "LinearAlgebra.ml" 171 6094 6132 "LinearAlgebra.ml" 171 6094 6142
 )
-"LinearAlgebra.ml" 173 6107 6145 "LinearAlgebra.ml" 173 6107 6146
+"LinearAlgebra.ml" 171 6094 6132 "LinearAlgebra.ml" 171 6094 6133
 type(
   float
 )
 ident(
-  int_ref v "LinearAlgebra.ml" 173 6107 6140 "LinearAlgebra.ml" 173 6107 6141
+  int_ref v "LinearAlgebra.ml" 171 6094 6127 "LinearAlgebra.ml" 171 6094 6128
 )
-"LinearAlgebra.ml" 173 6107 6147 "LinearAlgebra.ml" 173 6107 6149
+"LinearAlgebra.ml" 171 6094 6134 "LinearAlgebra.ml" 171 6094 6136
 type(
   float -> float -> float
 )
 ident(
   ext_ref Pervasives.( /. )
 )
-"LinearAlgebra.ml" 173 6107 6150 "LinearAlgebra.ml" 173 6107 6155
+"LinearAlgebra.ml" 171 6094 6137 "LinearAlgebra.ml" 171 6094 6142
 type(
   float
 )
 ident(
-  int_ref part1 "LinearAlgebra.ml" 172 6069 6079 "LinearAlgebra.ml" 172 6069 6084
+  int_ref part1 "LinearAlgebra.ml" 170 6056 6066 "LinearAlgebra.ml" 170 6056 6071
 )
-"LinearAlgebra.ml" 173 6107 6145 "LinearAlgebra.ml" 173 6107 6155
+"LinearAlgebra.ml" 171 6094 6132 "LinearAlgebra.ml" 171 6094 6142
 type(
   float
 )
-"LinearAlgebra.ml" 173 6107 6140 "LinearAlgebra.ml" 173 6107 6155
+"LinearAlgebra.ml" 171 6094 6127 "LinearAlgebra.ml" 171 6094 6142
 type(
   float -> float
 )
-"LinearAlgebra.ml" 173 6107 6157 "LinearAlgebra.ml" 173 6107 6161
+"LinearAlgebra.ml" 171 6094 6144 "LinearAlgebra.ml" 171 6094 6148
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 173 6107 6163 "LinearAlgebra.ml" 173 6107 6164
+"LinearAlgebra.ml" 171 6094 6150 "LinearAlgebra.ml" 171 6094 6151
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 173 6107 6157 "LinearAlgebra.ml" 173 6107 6165
+"LinearAlgebra.ml" 171 6094 6144 "LinearAlgebra.ml" 171 6094 6152
 type(
   float array
 )
@@ -3189,90 +3189,90 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 173 6107 6125 "LinearAlgebra.ml" 173 6107 6165
+"LinearAlgebra.ml" 171 6094 6112 "LinearAlgebra.ml" 171 6094 6152
 call(
   stack
 )
 type(
   float array
 )
-"LinearAlgebra.ml" 173 6107 6113 "LinearAlgebra.ml" 173 6107 6165
+"LinearAlgebra.ml" 171 6094 6100 "LinearAlgebra.ml" 171 6094 6152
 type(
   unit
 )
-"LinearAlgebra.ml" 174 6167 6185 "LinearAlgebra.ml" 174 6167 6186
+"LinearAlgebra.ml" 172 6154 6172 "LinearAlgebra.ml" 172 6154 6173
 type(
   int
 )
-"LinearAlgebra.ml" 174 6167 6190 "LinearAlgebra.ml" 174 6167 6194
+"LinearAlgebra.ml" 172 6154 6177 "LinearAlgebra.ml" 172 6154 6181
 type(
   int
 )
 ident(
-  int_ref rows "LinearAlgebra.ml" 156 5619 5627 "LinearAlgebra.ml" 156 5619 5631
+  int_ref rows "LinearAlgebra.ml" 154 5606 5614 "LinearAlgebra.ml" 154 5606 5618
 )
-"LinearAlgebra.ml" 174 6167 6194 "LinearAlgebra.ml" 174 6167 6195
+"LinearAlgebra.ml" 172 6154 6181 "LinearAlgebra.ml" 172 6154 6182
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"LinearAlgebra.ml" 174 6167 6195 "LinearAlgebra.ml" 174 6167 6196
+"LinearAlgebra.ml" 172 6154 6182 "LinearAlgebra.ml" 172 6154 6183
 type(
   int
 )
-"LinearAlgebra.ml" 174 6167 6190 "LinearAlgebra.ml" 174 6167 6196
+"LinearAlgebra.ml" 172 6154 6177 "LinearAlgebra.ml" 172 6154 6183
 type(
   int
 )
-"LinearAlgebra.ml" 175 6200 6211 "LinearAlgebra.ml" 175 6200 6216
+"LinearAlgebra.ml" 173 6187 6198 "LinearAlgebra.ml" 173 6187 6203
 type(
   int
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 174 6167 6173 "LinearAlgebra.ml" 178 6364 6374
+  int_ref entry "LinearAlgebra.ml" 172 6154 6160 "LinearAlgebra.ml" 176 6351 6361
 )
-"LinearAlgebra.ml" 175 6200 6217 "LinearAlgebra.ml" 175 6200 6219
+"LinearAlgebra.ml" 173 6187 6204 "LinearAlgebra.ml" 173 6187 6206
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( <> )
 )
-"LinearAlgebra.ml" 175 6200 6220 "LinearAlgebra.ml" 175 6200 6221
+"LinearAlgebra.ml" 173 6187 6207 "LinearAlgebra.ml" 173 6187 6208
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 175 6200 6211 "LinearAlgebra.ml" 175 6200 6221
+"LinearAlgebra.ml" 173 6187 6198 "LinearAlgebra.ml" 173 6187 6208
 type(
   bool
 )
-"LinearAlgebra.ml" 176 6227 6241 "LinearAlgebra.ml" 176 6227 6246
+"LinearAlgebra.ml" 174 6214 6228 "LinearAlgebra.ml" 174 6214 6233
 type(
   float
 )
 ident(
-  def part2 "LinearAlgebra.ml" 177 6273 6283 "LinearAlgebra.ml" 177 6273 6362
+  def part2 "LinearAlgebra.ml" 175 6260 6270 "LinearAlgebra.ml" 175 6260 6349
 )
-"LinearAlgebra.ml" 176 6227 6249 "LinearAlgebra.ml" 176 6227 6253
+"LinearAlgebra.ml" 174 6214 6236 "LinearAlgebra.ml" 174 6214 6240
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 176 6227 6255 "LinearAlgebra.ml" 176 6227 6260
+"LinearAlgebra.ml" 174 6214 6242 "LinearAlgebra.ml" 174 6214 6247
 type(
   int
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 174 6167 6173 "LinearAlgebra.ml" 178 6364 6374
+  int_ref entry "LinearAlgebra.ml" 172 6154 6160 "LinearAlgebra.ml" 176 6351 6361
 )
-"LinearAlgebra.ml" 176 6227 6249 "LinearAlgebra.ml" 176 6227 6261
+"LinearAlgebra.ml" 174 6214 6236 "LinearAlgebra.ml" 174 6214 6248
 type(
   float array
 )
@@ -3282,14 +3282,14 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 176 6227 6264 "LinearAlgebra.ml" 176 6227 6268
+"LinearAlgebra.ml" 174 6214 6251 "LinearAlgebra.ml" 174 6214 6255
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 176 6227 6263 "LinearAlgebra.ml" 176 6227 6268
+"LinearAlgebra.ml" 174 6214 6250 "LinearAlgebra.ml" 174 6214 6255
 type(
   int
 )
@@ -3299,7 +3299,7 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 176 6227 6249 "LinearAlgebra.ml" 176 6227 6269
+"LinearAlgebra.ml" 174 6214 6236 "LinearAlgebra.ml" 174 6214 6256
 type(
   float
 )
@@ -3309,91 +3309,91 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 177 6273 6283 "LinearAlgebra.ml" 177 6273 6287
+"LinearAlgebra.ml" 175 6260 6270 "LinearAlgebra.ml" 175 6260 6274
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 177 6273 6289 "LinearAlgebra.ml" 177 6273 6294
+"LinearAlgebra.ml" 175 6260 6276 "LinearAlgebra.ml" 175 6260 6281
 type(
   int
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 174 6167 6173 "LinearAlgebra.ml" 178 6364 6374
+  int_ref entry "LinearAlgebra.ml" 172 6154 6160 "LinearAlgebra.ml" 176 6351 6361
 )
-"LinearAlgebra.ml" 177 6273 6283 "LinearAlgebra.ml" 177 6273 6295
+"LinearAlgebra.ml" 175 6260 6270 "LinearAlgebra.ml" 175 6260 6282
 type(
   float array array -> int -> float array -> unit
 )
 ident(
   ext_ref Core.Std.Array.set
 )
-"LinearAlgebra.ml" 177 6273 6299 "LinearAlgebra.ml" 177 6273 6309
+"LinearAlgebra.ml" 175 6260 6286 "LinearAlgebra.ml" 175 6260 6296
 type(
   f:(int -> float -> float) -> float array -> float array
 )
 ident(
   ext_ref Core.Std.Array.mapi
 )
-"LinearAlgebra.ml" 177 6273 6315 "LinearAlgebra.ml" 177 6273 6316
+"LinearAlgebra.ml" 175 6260 6302 "LinearAlgebra.ml" 175 6260 6303
 type(
   int
 )
 ident(
-  def a "LinearAlgebra.ml" 177 6273 6317 "LinearAlgebra.ml" 177 6273 6348
+  def a "LinearAlgebra.ml" 175 6260 6304 "LinearAlgebra.ml" 175 6260 6335
 )
-"LinearAlgebra.ml" 177 6273 6317 "LinearAlgebra.ml" 177 6273 6318
+"LinearAlgebra.ml" 175 6260 6304 "LinearAlgebra.ml" 175 6260 6305
 type(
   float
 )
 ident(
-  def b "LinearAlgebra.ml" 177 6273 6322 "LinearAlgebra.ml" 177 6273 6348
+  def b "LinearAlgebra.ml" 175 6260 6309 "LinearAlgebra.ml" 175 6260 6335
 )
-"LinearAlgebra.ml" 177 6273 6322 "LinearAlgebra.ml" 177 6273 6323
+"LinearAlgebra.ml" 175 6260 6309 "LinearAlgebra.ml" 175 6260 6310
 type(
   float
 )
 ident(
-  int_ref b "LinearAlgebra.ml" 177 6273 6317 "LinearAlgebra.ml" 177 6273 6318
+  int_ref b "LinearAlgebra.ml" 175 6260 6304 "LinearAlgebra.ml" 175 6260 6305
 )
-"LinearAlgebra.ml" 177 6273 6324 "LinearAlgebra.ml" 177 6273 6326
+"LinearAlgebra.ml" 175 6260 6311 "LinearAlgebra.ml" 175 6260 6313
 type(
   float -> float -> float
 )
 ident(
   ext_ref Pervasives.( -. )
 )
-"LinearAlgebra.ml" 177 6273 6327 "LinearAlgebra.ml" 177 6273 6332
+"LinearAlgebra.ml" 175 6260 6314 "LinearAlgebra.ml" 175 6260 6319
 type(
   float
 )
 ident(
-  int_ref part2 "LinearAlgebra.ml" 176 6227 6241 "LinearAlgebra.ml" 176 6227 6246
+  int_ref part2 "LinearAlgebra.ml" 174 6214 6228 "LinearAlgebra.ml" 174 6214 6233
 )
-"LinearAlgebra.ml" 177 6273 6333 "LinearAlgebra.ml" 177 6273 6335
+"LinearAlgebra.ml" 175 6260 6320 "LinearAlgebra.ml" 175 6260 6322
 type(
   float -> float -> float
 )
 ident(
   ext_ref Pervasives.( *. )
 )
-"LinearAlgebra.ml" 177 6273 6336 "LinearAlgebra.ml" 177 6273 6340
+"LinearAlgebra.ml" 175 6260 6323 "LinearAlgebra.ml" 175 6260 6327
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 177 6273 6342 "LinearAlgebra.ml" 177 6273 6343
+"LinearAlgebra.ml" 175 6260 6329 "LinearAlgebra.ml" 175 6260 6330
 type(
   int
 )
 ident(
-  int_ref r "LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+  int_ref r "LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 )
-"LinearAlgebra.ml" 177 6273 6336 "LinearAlgebra.ml" 177 6273 6344
+"LinearAlgebra.ml" 175 6260 6323 "LinearAlgebra.ml" 175 6260 6331
 type(
   float array
 )
@@ -3403,14 +3403,14 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 177 6273 6346 "LinearAlgebra.ml" 177 6273 6347
+"LinearAlgebra.ml" 175 6260 6333 "LinearAlgebra.ml" 175 6260 6334
 type(
   int
 )
 ident(
-  int_ref a "LinearAlgebra.ml" 177 6273 6315 "LinearAlgebra.ml" 177 6273 6316
+  int_ref a "LinearAlgebra.ml" 175 6260 6302 "LinearAlgebra.ml" 175 6260 6303
 )
-"LinearAlgebra.ml" 177 6273 6336 "LinearAlgebra.ml" 177 6273 6348
+"LinearAlgebra.ml" 175 6260 6323 "LinearAlgebra.ml" 175 6260 6335
 type(
   float
 )
@@ -3420,37 +3420,37 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 177 6273 6327 "LinearAlgebra.ml" 177 6273 6348
+"LinearAlgebra.ml" 175 6260 6314 "LinearAlgebra.ml" 175 6260 6335
 type(
   float
 )
-"LinearAlgebra.ml" 177 6273 6322 "LinearAlgebra.ml" 177 6273 6348
+"LinearAlgebra.ml" 175 6260 6309 "LinearAlgebra.ml" 175 6260 6335
 type(
   float
 )
-"LinearAlgebra.ml" 177 6273 6317 "LinearAlgebra.ml" 177 6273 6348
+"LinearAlgebra.ml" 175 6260 6304 "LinearAlgebra.ml" 175 6260 6335
 type(
   float -> float
 )
-"LinearAlgebra.ml" 177 6273 6315 "LinearAlgebra.ml" 177 6273 6348
+"LinearAlgebra.ml" 175 6260 6302 "LinearAlgebra.ml" 175 6260 6335
 type(
   int -> float -> float
 )
-"LinearAlgebra.ml" 177 6273 6350 "LinearAlgebra.ml" 177 6273 6354
+"LinearAlgebra.ml" 175 6260 6337 "LinearAlgebra.ml" 175 6260 6341
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 177 6273 6356 "LinearAlgebra.ml" 177 6273 6361
+"LinearAlgebra.ml" 175 6260 6343 "LinearAlgebra.ml" 175 6260 6348
 type(
   int
 )
 ident(
-  int_ref entry "LinearAlgebra.ml" 174 6167 6173 "LinearAlgebra.ml" 178 6364 6374
+  int_ref entry "LinearAlgebra.ml" 172 6154 6160 "LinearAlgebra.ml" 176 6351 6361
 )
-"LinearAlgebra.ml" 177 6273 6350 "LinearAlgebra.ml" 177 6273 6362
+"LinearAlgebra.ml" 175 6260 6337 "LinearAlgebra.ml" 175 6260 6349
 type(
   float array
 )
@@ -3460,47 +3460,47 @@ type(
 ident(
   ext_ref Core.Std.Array.get
 )
-"LinearAlgebra.ml" 177 6273 6299 "LinearAlgebra.ml" 177 6273 6362
+"LinearAlgebra.ml" 175 6260 6286 "LinearAlgebra.ml" 175 6260 6349
 call(
   stack
 )
 type(
   float array
 )
-"LinearAlgebra.ml" 177 6273 6283 "LinearAlgebra.ml" 177 6273 6362
+"LinearAlgebra.ml" 175 6260 6270 "LinearAlgebra.ml" 175 6260 6349
 type(
   unit
 )
-"LinearAlgebra.ml" 176 6227 6237 "LinearAlgebra.ml" 177 6273 6363
+"LinearAlgebra.ml" 174 6214 6224 "LinearAlgebra.ml" 175 6260 6350
 type(
   unit
 )
-"LinearAlgebra.ml" 175 6200 6208 "LinearAlgebra.ml" 177 6273 6363
+"LinearAlgebra.ml" 173 6187 6195 "LinearAlgebra.ml" 175 6260 6350
 type(
   unit
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 174 6167 6173 "LinearAlgebra.ml" 178 6364 6374
+"LinearAlgebra.ml" 172 6154 6160 "LinearAlgebra.ml" 176 6351 6361
 type(
   unit
 )
-"LinearAlgebra.ml" 179 6376 6382 "LinearAlgebra.ml" 179 6376 6386
+"LinearAlgebra.ml" 177 6363 6369 "LinearAlgebra.ml" 177 6363 6373
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 179 6376 6391 "LinearAlgebra.ml" 179 6376 6395
+"LinearAlgebra.ml" 177 6363 6378 "LinearAlgebra.ml" 177 6363 6382
 type(
   int ref
 )
 ident(
-  int_ref lead "LinearAlgebra.ml" 155 5598 5606 "LinearAlgebra.ml" 155 5598 5610
+  int_ref lead "LinearAlgebra.ml" 153 5585 5593 "LinearAlgebra.ml" 153 5585 5597
 )
-"LinearAlgebra.ml" 179 6376 6390 "LinearAlgebra.ml" 179 6376 6395
+"LinearAlgebra.ml" 177 6363 6377 "LinearAlgebra.ml" 177 6363 6382
 type(
   int
 )
@@ -3510,22 +3510,22 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"LinearAlgebra.ml" 179 6376 6395 "LinearAlgebra.ml" 179 6376 6396
+"LinearAlgebra.ml" 177 6363 6382 "LinearAlgebra.ml" 177 6363 6383
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( + )
 )
-"LinearAlgebra.ml" 179 6376 6396 "LinearAlgebra.ml" 179 6376 6397
+"LinearAlgebra.ml" 177 6363 6383 "LinearAlgebra.ml" 177 6363 6384
 type(
   int
 )
-"LinearAlgebra.ml" 179 6376 6390 "LinearAlgebra.ml" 179 6376 6397
+"LinearAlgebra.ml" 177 6363 6377 "LinearAlgebra.ml" 177 6363 6384
 type(
   int
 )
-"LinearAlgebra.ml" 179 6376 6382 "LinearAlgebra.ml" 179 6376 6397
+"LinearAlgebra.ml" 177 6363 6369 "LinearAlgebra.ml" 177 6363 6384
 type(
   unit
 )
@@ -3535,2390 +3535,2390 @@ type(
 ident(
   ext_ref Pervasives.( := )
 )
-"LinearAlgebra.ml" 174 6167 6173 "LinearAlgebra.ml" 179 6376 6397
+"LinearAlgebra.ml" 172 6154 6160 "LinearAlgebra.ml" 177 6363 6384
 type(
   unit
 )
-"LinearAlgebra.ml" 173 6107 6113 "LinearAlgebra.ml" 179 6376 6397
+"LinearAlgebra.ml" 171 6094 6100 "LinearAlgebra.ml" 177 6363 6384
 type(
   unit
 )
-"LinearAlgebra.ml" 172 6069 6075 "LinearAlgebra.ml" 179 6376 6398
+"LinearAlgebra.ml" 170 6056 6062 "LinearAlgebra.ml" 177 6363 6385
 type(
   unit
 )
-"LinearAlgebra.ml" 171 6038 6044 "LinearAlgebra.ml" 179 6376 6398
+"LinearAlgebra.ml" 169 6025 6031 "LinearAlgebra.ml" 177 6363 6385
 type(
   unit
 )
-"LinearAlgebra.ml" 162 5802 5808 "LinearAlgebra.ml" 179 6376 6398
+"LinearAlgebra.ml" 160 5789 5795 "LinearAlgebra.ml" 177 6363 6385
 type(
   unit
 )
-"LinearAlgebra.ml" 161 5775 5781 "LinearAlgebra.ml" 179 6376 6398
+"LinearAlgebra.ml" 159 5762 5768 "LinearAlgebra.ml" 177 6363 6385
 type(
   unit
 )
-"LinearAlgebra.ml" 159 5724 5730 "LinearAlgebra.ml" 180 6399 6407
+"LinearAlgebra.ml" 157 5711 5717 "LinearAlgebra.ml" 178 6386 6394
 type(
   unit
 )
-"LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 180 6399 6407
+"LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 178 6386 6394
 type(
   unit
 )
-"LinearAlgebra.ml" 181 6409 6413 "LinearAlgebra.ml" 181 6409 6417
+"LinearAlgebra.ml" 179 6396 6400 "LinearAlgebra.ml" 179 6396 6404
 type(
   m
 )
 ident(
-  int_ref matx "LinearAlgebra.ml" 154 5573 5586 "LinearAlgebra.ml" 154 5573 5590
+  int_ref matx "LinearAlgebra.ml" 152 5560 5573 "LinearAlgebra.ml" 152 5560 5577
 )
-"LinearAlgebra.ml" 158 5695 5699 "LinearAlgebra.ml" 181 6409 6417
+"LinearAlgebra.ml" 156 5682 5686 "LinearAlgebra.ml" 179 6396 6404
 type(
   m
 )
-"LinearAlgebra.ml" 155 5598 5602 "LinearAlgebra.ml" 181 6409 6417
+"LinearAlgebra.ml" 153 5585 5589 "LinearAlgebra.ml" 179 6396 6404
 type(
   m
 )
-"LinearAlgebra.ml" 154 5573 5585 "LinearAlgebra.ml" 181 6409 6417
+"LinearAlgebra.ml" 152 5560 5572 "LinearAlgebra.ml" 179 6396 6404
 type(
   m -> m
 )
-"LinearAlgebra.ml" 186 6458 6462 "LinearAlgebra.ml" 186 6458 6467
+"LinearAlgebra.ml" 184 6445 6449 "LinearAlgebra.ml" 184 6445 6454
 type(
   unit -> unit
 )
 ident(
-  def tests "LinearAlgebra.ml" 239 8612 8612 "LinearAlgebra.ml" 1 0 -1
+  def tests "LinearAlgebra.ml" 237 8599 8599 "LinearAlgebra.ml" 1 0 -1
 )
-"LinearAlgebra.ml" 186 6458 6468 "LinearAlgebra.ml" 186 6458 6470
+"LinearAlgebra.ml" 184 6445 6455 "LinearAlgebra.ml" 184 6445 6457
 type(
   unit
 )
-"LinearAlgebra.ml" 187 6474 6480 "LinearAlgebra.ml" 187 6474 6487
+"LinearAlgebra.ml" 185 6461 6467 "LinearAlgebra.ml" 185 6461 6474
 type(
   Matrix.m
 )
 ident(
-  def float_m "LinearAlgebra.ml" 188 6508 6510 "LinearAlgebra.ml" 237 8563 8608
+  def float_m "LinearAlgebra.ml" 186 6495 6497 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 187 6474 6490 "LinearAlgebra.ml" 187 6474 6501
+"LinearAlgebra.ml" 185 6461 6477 "LinearAlgebra.ml" 185 6461 6488
 type(
   float -> Matrix.m
 )
 ident(
   int_ref Matrix.fill "LinearAlgebra.ml" 45 1615 1617 "LinearAlgebra.ml" 45 1615 1637
 )
-"LinearAlgebra.ml" 187 6474 6502 "LinearAlgebra.ml" 187 6474 6504
+"LinearAlgebra.ml" 185 6461 6489 "LinearAlgebra.ml" 185 6461 6491
 type(
   float
 )
-"LinearAlgebra.ml" 187 6474 6490 "LinearAlgebra.ml" 187 6474 6504
+"LinearAlgebra.ml" 185 6461 6477 "LinearAlgebra.ml" 185 6461 6491
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 188 6508 6514 "LinearAlgebra.ml" 188 6508 6522
+"LinearAlgebra.ml" 186 6495 6501 "LinearAlgebra.ml" 186 6495 6509
 type(
   Matrix.m
 )
 ident(
-  def float_m1 "LinearAlgebra.ml" 189 6545 6547 "LinearAlgebra.ml" 237 8563 8608
+  def float_m1 "LinearAlgebra.ml" 187 6532 6534 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 188 6508 6525 "LinearAlgebra.ml" 188 6508 6536
+"LinearAlgebra.ml" 186 6495 6512 "LinearAlgebra.ml" 186 6495 6523
 type(
   float -> Matrix.m
 )
 ident(
   int_ref Matrix.fill "LinearAlgebra.ml" 45 1615 1617 "LinearAlgebra.ml" 45 1615 1637
 )
-"LinearAlgebra.ml" 188 6508 6537 "LinearAlgebra.ml" 188 6508 6541
+"LinearAlgebra.ml" 186 6495 6524 "LinearAlgebra.ml" 186 6495 6528
 type(
   float
 )
-"LinearAlgebra.ml" 188 6508 6525 "LinearAlgebra.ml" 188 6508 6541
+"LinearAlgebra.ml" 186 6495 6512 "LinearAlgebra.ml" 186 6495 6528
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 189 6545 6554 "LinearAlgebra.ml" 189 6545 6569
+"LinearAlgebra.ml" 187 6532 6541 "LinearAlgebra.ml" 187 6532 6556
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 189 6545 6570 "LinearAlgebra.ml" 189 6545 6577
+"LinearAlgebra.ml" 187 6532 6557 "LinearAlgebra.ml" 187 6532 6564
 type(
   Matrix.m
 )
 ident(
-  int_ref float_m "LinearAlgebra.ml" 187 6474 6480 "LinearAlgebra.ml" 187 6474 6487
+  int_ref float_m "LinearAlgebra.ml" 185 6461 6467 "LinearAlgebra.ml" 185 6461 6474
 )
-"LinearAlgebra.ml" 189 6545 6578 "LinearAlgebra.ml" 189 6545 6579
+"LinearAlgebra.ml" 187 6532 6565 "LinearAlgebra.ml" 187 6532 6566
 type(
   int
 )
-"LinearAlgebra.ml" 189 6545 6580 "LinearAlgebra.ml" 189 6545 6581
+"LinearAlgebra.ml" 187 6532 6567 "LinearAlgebra.ml" 187 6532 6568
 type(
   int
 )
-"LinearAlgebra.ml" 189 6545 6554 "LinearAlgebra.ml" 189 6545 6581
+"LinearAlgebra.ml" 187 6532 6541 "LinearAlgebra.ml" 187 6532 6568
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 189 6545 6582 "LinearAlgebra.ml" 189 6545 6583
+"LinearAlgebra.ml" 187 6532 6569 "LinearAlgebra.ml" 187 6532 6570
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 189 6545 6584 "LinearAlgebra.ml" 189 6545 6586
+"LinearAlgebra.ml" 187 6532 6571 "LinearAlgebra.ml" 187 6532 6573
 type(
   float
 )
-"LinearAlgebra.ml" 189 6545 6554 "LinearAlgebra.ml" 189 6545 6586
+"LinearAlgebra.ml" 187 6532 6541 "LinearAlgebra.ml" 187 6532 6573
 type(
   bool
 )
-"LinearAlgebra.ml" 189 6545 6547 "LinearAlgebra.ml" 189 6545 6587
+"LinearAlgebra.ml" 187 6532 6534 "LinearAlgebra.ml" 187 6532 6574
 type(
   unit
 )
-"LinearAlgebra.ml" 190 6589 6598 "LinearAlgebra.ml" 190 6589 6613
+"LinearAlgebra.ml" 188 6576 6585 "LinearAlgebra.ml" 188 6576 6600
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 190 6589 6614 "LinearAlgebra.ml" 190 6589 6622
+"LinearAlgebra.ml" 188 6576 6601 "LinearAlgebra.ml" 188 6576 6609
 type(
   Matrix.m
 )
 ident(
-  int_ref float_m1 "LinearAlgebra.ml" 188 6508 6514 "LinearAlgebra.ml" 188 6508 6522
+  int_ref float_m1 "LinearAlgebra.ml" 186 6495 6501 "LinearAlgebra.ml" 186 6495 6509
 )
-"LinearAlgebra.ml" 190 6589 6623 "LinearAlgebra.ml" 190 6589 6624
+"LinearAlgebra.ml" 188 6576 6610 "LinearAlgebra.ml" 188 6576 6611
 type(
   int
 )
-"LinearAlgebra.ml" 190 6589 6625 "LinearAlgebra.ml" 190 6589 6626
+"LinearAlgebra.ml" 188 6576 6612 "LinearAlgebra.ml" 188 6576 6613
 type(
   int
 )
-"LinearAlgebra.ml" 190 6589 6598 "LinearAlgebra.ml" 190 6589 6626
+"LinearAlgebra.ml" 188 6576 6585 "LinearAlgebra.ml" 188 6576 6613
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 190 6589 6627 "LinearAlgebra.ml" 190 6589 6628
+"LinearAlgebra.ml" 188 6576 6614 "LinearAlgebra.ml" 188 6576 6615
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 190 6589 6629 "LinearAlgebra.ml" 190 6589 6633
+"LinearAlgebra.ml" 188 6576 6616 "LinearAlgebra.ml" 188 6576 6620
 type(
   float
 )
-"LinearAlgebra.ml" 190 6589 6598 "LinearAlgebra.ml" 190 6589 6633
+"LinearAlgebra.ml" 188 6576 6585 "LinearAlgebra.ml" 188 6576 6620
 type(
   bool
 )
-"LinearAlgebra.ml" 190 6589 6591 "LinearAlgebra.ml" 190 6589 6634
+"LinearAlgebra.ml" 188 6576 6578 "LinearAlgebra.ml" 188 6576 6621
 type(
   unit
 )
-"LinearAlgebra.ml" 191 6636 6642 "LinearAlgebra.ml" 191 6636 6648
+"LinearAlgebra.ml" 189 6623 6629 "LinearAlgebra.ml" 189 6623 6635
 type(
   Matrix.m
 )
 ident(
-  def m_row1 "LinearAlgebra.ml" 192 6680 6682 "LinearAlgebra.ml" 237 8563 8608
+  def m_row1 "LinearAlgebra.ml" 190 6667 6669 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 191 6636 6651 "LinearAlgebra.ml" 191 6636 6669
+"LinearAlgebra.ml" 189 6623 6638 "LinearAlgebra.ml" 189 6623 6656
 type(
   int -> int -> float -> Matrix.m
 )
 ident(
   int_ref Matrix.make_matrix "LinearAlgebra.ml" 48 1708 1710 "LinearAlgebra.ml" 48 1708 1751
 )
-"LinearAlgebra.ml" 191 6636 6670 "LinearAlgebra.ml" 191 6636 6671
+"LinearAlgebra.ml" 189 6623 6657 "LinearAlgebra.ml" 189 6623 6658
 type(
   int
 )
-"LinearAlgebra.ml" 191 6636 6672 "LinearAlgebra.ml" 191 6636 6673
+"LinearAlgebra.ml" 189 6623 6659 "LinearAlgebra.ml" 189 6623 6660
 type(
   int
 )
-"LinearAlgebra.ml" 191 6636 6674 "LinearAlgebra.ml" 191 6636 6676
+"LinearAlgebra.ml" 189 6623 6661 "LinearAlgebra.ml" 189 6623 6663
 type(
   float
 )
-"LinearAlgebra.ml" 191 6636 6651 "LinearAlgebra.ml" 191 6636 6676
+"LinearAlgebra.ml" 189 6623 6638 "LinearAlgebra.ml" 189 6623 6663
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 192 6680 6686 "LinearAlgebra.ml" 192 6680 6692
+"LinearAlgebra.ml" 190 6667 6673 "LinearAlgebra.ml" 190 6667 6679
 type(
   Matrix.m
 )
 ident(
-  def m_row2 "LinearAlgebra.ml" 193 6724 6726 "LinearAlgebra.ml" 237 8563 8608
+  def m_row2 "LinearAlgebra.ml" 191 6711 6713 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 192 6680 6695 "LinearAlgebra.ml" 192 6680 6713
+"LinearAlgebra.ml" 190 6667 6682 "LinearAlgebra.ml" 190 6667 6700
 type(
   int -> int -> float -> Matrix.m
 )
 ident(
   int_ref Matrix.make_matrix "LinearAlgebra.ml" 48 1708 1710 "LinearAlgebra.ml" 48 1708 1751
 )
-"LinearAlgebra.ml" 192 6680 6714 "LinearAlgebra.ml" 192 6680 6715
+"LinearAlgebra.ml" 190 6667 6701 "LinearAlgebra.ml" 190 6667 6702
 type(
   int
 )
-"LinearAlgebra.ml" 192 6680 6716 "LinearAlgebra.ml" 192 6680 6717
+"LinearAlgebra.ml" 190 6667 6703 "LinearAlgebra.ml" 190 6667 6704
 type(
   int
 )
-"LinearAlgebra.ml" 192 6680 6718 "LinearAlgebra.ml" 192 6680 6720
+"LinearAlgebra.ml" 190 6667 6705 "LinearAlgebra.ml" 190 6667 6707
 type(
   float
 )
-"LinearAlgebra.ml" 192 6680 6695 "LinearAlgebra.ml" 192 6680 6720
+"LinearAlgebra.ml" 190 6667 6682 "LinearAlgebra.ml" 190 6667 6707
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+"LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 type(
   Matrix.m
 )
 ident(
-  def m_2by2 "LinearAlgebra.ml" 194 6770 6772 "LinearAlgebra.ml" 237 8563 8608
+  def m_2by2 "LinearAlgebra.ml" 192 6757 6759 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 193 6724 6739 "LinearAlgebra.ml" 193 6724 6752
+"LinearAlgebra.ml" 191 6711 6726 "LinearAlgebra.ml" 191 6711 6739
 type(
   Matrix.m -> Matrix.m -> Matrix.m
 )
 ident(
   int_ref Matrix.append "LinearAlgebra.ml" 41 1488 1490 "LinearAlgebra.ml" 41 1488 1513
 )
-"LinearAlgebra.ml" 193 6724 6753 "LinearAlgebra.ml" 193 6724 6759
+"LinearAlgebra.ml" 191 6711 6740 "LinearAlgebra.ml" 191 6711 6746
 type(
   Matrix.m
 )
 ident(
-  int_ref m_row1 "LinearAlgebra.ml" 191 6636 6642 "LinearAlgebra.ml" 191 6636 6648
+  int_ref m_row1 "LinearAlgebra.ml" 189 6623 6629 "LinearAlgebra.ml" 189 6623 6635
 )
-"LinearAlgebra.ml" 193 6724 6760 "LinearAlgebra.ml" 193 6724 6766
+"LinearAlgebra.ml" 191 6711 6747 "LinearAlgebra.ml" 191 6711 6753
 type(
   Matrix.m
 )
 ident(
-  int_ref m_row2 "LinearAlgebra.ml" 192 6680 6686 "LinearAlgebra.ml" 192 6680 6692
+  int_ref m_row2 "LinearAlgebra.ml" 190 6667 6673 "LinearAlgebra.ml" 190 6667 6679
 )
-"LinearAlgebra.ml" 193 6724 6739 "LinearAlgebra.ml" 193 6724 6766
+"LinearAlgebra.ml" 191 6711 6726 "LinearAlgebra.ml" 191 6711 6753
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 194 6770 6779 "LinearAlgebra.ml" 194 6770 6799
+"LinearAlgebra.ml" 192 6757 6766 "LinearAlgebra.ml" 192 6757 6786
 type(
   Matrix.m -> int
 )
 ident(
   int_ref Matrix.matrix_length "LinearAlgebra.ml" 57 2042 2044 "LinearAlgebra.ml" 57 2042 2071
 )
-"LinearAlgebra.ml" 194 6770 6800 "LinearAlgebra.ml" 194 6770 6806
+"LinearAlgebra.ml" 192 6757 6787 "LinearAlgebra.ml" 192 6757 6793
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 194 6770 6779 "LinearAlgebra.ml" 194 6770 6806
+"LinearAlgebra.ml" 192 6757 6766 "LinearAlgebra.ml" 192 6757 6793
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 194 6770 6807 "LinearAlgebra.ml" 194 6770 6808
+"LinearAlgebra.ml" 192 6757 6794 "LinearAlgebra.ml" 192 6757 6795
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 194 6770 6809 "LinearAlgebra.ml" 194 6770 6810
+"LinearAlgebra.ml" 192 6757 6796 "LinearAlgebra.ml" 192 6757 6797
 type(
   int
 )
-"LinearAlgebra.ml" 194 6770 6779 "LinearAlgebra.ml" 194 6770 6810
+"LinearAlgebra.ml" 192 6757 6766 "LinearAlgebra.ml" 192 6757 6797
 type(
   bool
 )
-"LinearAlgebra.ml" 194 6770 6772 "LinearAlgebra.ml" 194 6770 6811
+"LinearAlgebra.ml" 192 6757 6759 "LinearAlgebra.ml" 192 6757 6798
 type(
   unit
 )
-"LinearAlgebra.ml" 195 6813 6822 "LinearAlgebra.ml" 195 6813 6841
+"LinearAlgebra.ml" 193 6800 6809 "LinearAlgebra.ml" 193 6800 6828
 type(
   Matrix.m -> int
 )
 ident(
   int_ref Matrix.array_length "LinearAlgebra.ml" 60 2130 2132 "LinearAlgebra.ml" 60 2130 2158
 )
-"LinearAlgebra.ml" 195 6813 6842 "LinearAlgebra.ml" 195 6813 6848
+"LinearAlgebra.ml" 193 6800 6829 "LinearAlgebra.ml" 193 6800 6835
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 195 6813 6822 "LinearAlgebra.ml" 195 6813 6848
+"LinearAlgebra.ml" 193 6800 6809 "LinearAlgebra.ml" 193 6800 6835
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 195 6813 6849 "LinearAlgebra.ml" 195 6813 6850
+"LinearAlgebra.ml" 193 6800 6836 "LinearAlgebra.ml" 193 6800 6837
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 195 6813 6851 "LinearAlgebra.ml" 195 6813 6852
+"LinearAlgebra.ml" 193 6800 6838 "LinearAlgebra.ml" 193 6800 6839
 type(
   int
 )
-"LinearAlgebra.ml" 195 6813 6822 "LinearAlgebra.ml" 195 6813 6852
+"LinearAlgebra.ml" 193 6800 6809 "LinearAlgebra.ml" 193 6800 6839
 type(
   bool
 )
-"LinearAlgebra.ml" 195 6813 6815 "LinearAlgebra.ml" 195 6813 6853
+"LinearAlgebra.ml" 193 6800 6802 "LinearAlgebra.ml" 193 6800 6840
 type(
   unit
 )
-"LinearAlgebra.ml" 196 6855 6864 "LinearAlgebra.ml" 196 6855 6879
+"LinearAlgebra.ml" 194 6842 6851 "LinearAlgebra.ml" 194 6842 6866
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 196 6855 6880 "LinearAlgebra.ml" 196 6855 6886
+"LinearAlgebra.ml" 194 6842 6867 "LinearAlgebra.ml" 194 6842 6873
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 196 6855 6887 "LinearAlgebra.ml" 196 6855 6888
+"LinearAlgebra.ml" 194 6842 6874 "LinearAlgebra.ml" 194 6842 6875
 type(
   int
 )
-"LinearAlgebra.ml" 196 6855 6889 "LinearAlgebra.ml" 196 6855 6890
+"LinearAlgebra.ml" 194 6842 6876 "LinearAlgebra.ml" 194 6842 6877
 type(
   int
 )
-"LinearAlgebra.ml" 196 6855 6864 "LinearAlgebra.ml" 196 6855 6890
+"LinearAlgebra.ml" 194 6842 6851 "LinearAlgebra.ml" 194 6842 6877
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 196 6855 6891 "LinearAlgebra.ml" 196 6855 6892
+"LinearAlgebra.ml" 194 6842 6878 "LinearAlgebra.ml" 194 6842 6879
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 196 6855 6893 "LinearAlgebra.ml" 196 6855 6895
+"LinearAlgebra.ml" 194 6842 6880 "LinearAlgebra.ml" 194 6842 6882
 type(
   float
 )
-"LinearAlgebra.ml" 196 6855 6864 "LinearAlgebra.ml" 196 6855 6895
+"LinearAlgebra.ml" 194 6842 6851 "LinearAlgebra.ml" 194 6842 6882
 type(
   bool
 )
-"LinearAlgebra.ml" 196 6855 6857 "LinearAlgebra.ml" 196 6855 6896
+"LinearAlgebra.ml" 194 6842 6844 "LinearAlgebra.ml" 194 6842 6883
 type(
   unit
 )
-"LinearAlgebra.ml" 197 6898 6907 "LinearAlgebra.ml" 197 6898 6922
+"LinearAlgebra.ml" 195 6885 6894 "LinearAlgebra.ml" 195 6885 6909
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 197 6898 6923 "LinearAlgebra.ml" 197 6898 6929
+"LinearAlgebra.ml" 195 6885 6910 "LinearAlgebra.ml" 195 6885 6916
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 197 6898 6930 "LinearAlgebra.ml" 197 6898 6931
+"LinearAlgebra.ml" 195 6885 6917 "LinearAlgebra.ml" 195 6885 6918
 type(
   int
 )
-"LinearAlgebra.ml" 197 6898 6932 "LinearAlgebra.ml" 197 6898 6933
+"LinearAlgebra.ml" 195 6885 6919 "LinearAlgebra.ml" 195 6885 6920
 type(
   int
 )
-"LinearAlgebra.ml" 197 6898 6907 "LinearAlgebra.ml" 197 6898 6933
+"LinearAlgebra.ml" 195 6885 6894 "LinearAlgebra.ml" 195 6885 6920
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 197 6898 6934 "LinearAlgebra.ml" 197 6898 6935
+"LinearAlgebra.ml" 195 6885 6921 "LinearAlgebra.ml" 195 6885 6922
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 197 6898 6936 "LinearAlgebra.ml" 197 6898 6938
+"LinearAlgebra.ml" 195 6885 6923 "LinearAlgebra.ml" 195 6885 6925
 type(
   float
 )
-"LinearAlgebra.ml" 197 6898 6907 "LinearAlgebra.ml" 197 6898 6938
+"LinearAlgebra.ml" 195 6885 6894 "LinearAlgebra.ml" 195 6885 6925
 type(
   bool
 )
-"LinearAlgebra.ml" 197 6898 6900 "LinearAlgebra.ml" 197 6898 6939
+"LinearAlgebra.ml" 195 6885 6887 "LinearAlgebra.ml" 195 6885 6926
 type(
   unit
 )
-"LinearAlgebra.ml" 198 6941 6950 "LinearAlgebra.ml" 198 6941 6965
+"LinearAlgebra.ml" 196 6928 6937 "LinearAlgebra.ml" 196 6928 6952
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 198 6941 6966 "LinearAlgebra.ml" 198 6941 6972
+"LinearAlgebra.ml" 196 6928 6953 "LinearAlgebra.ml" 196 6928 6959
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 198 6941 6973 "LinearAlgebra.ml" 198 6941 6974
+"LinearAlgebra.ml" 196 6928 6960 "LinearAlgebra.ml" 196 6928 6961
 type(
   int
 )
-"LinearAlgebra.ml" 198 6941 6975 "LinearAlgebra.ml" 198 6941 6976
+"LinearAlgebra.ml" 196 6928 6962 "LinearAlgebra.ml" 196 6928 6963
 type(
   int
 )
-"LinearAlgebra.ml" 198 6941 6950 "LinearAlgebra.ml" 198 6941 6976
+"LinearAlgebra.ml" 196 6928 6937 "LinearAlgebra.ml" 196 6928 6963
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 198 6941 6977 "LinearAlgebra.ml" 198 6941 6978
+"LinearAlgebra.ml" 196 6928 6964 "LinearAlgebra.ml" 196 6928 6965
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 198 6941 6979 "LinearAlgebra.ml" 198 6941 6981
+"LinearAlgebra.ml" 196 6928 6966 "LinearAlgebra.ml" 196 6928 6968
 type(
   float
 )
-"LinearAlgebra.ml" 198 6941 6950 "LinearAlgebra.ml" 198 6941 6981
+"LinearAlgebra.ml" 196 6928 6937 "LinearAlgebra.ml" 196 6928 6968
 type(
   bool
 )
-"LinearAlgebra.ml" 198 6941 6943 "LinearAlgebra.ml" 198 6941 6982
+"LinearAlgebra.ml" 196 6928 6930 "LinearAlgebra.ml" 196 6928 6969
 type(
   unit
 )
-"LinearAlgebra.ml" 199 6984 6993 "LinearAlgebra.ml" 199 6984 7008
+"LinearAlgebra.ml" 197 6971 6980 "LinearAlgebra.ml" 197 6971 6995
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 199 6984 7009 "LinearAlgebra.ml" 199 6984 7015
+"LinearAlgebra.ml" 197 6971 6996 "LinearAlgebra.ml" 197 6971 7002
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 199 6984 7016 "LinearAlgebra.ml" 199 6984 7017
+"LinearAlgebra.ml" 197 6971 7003 "LinearAlgebra.ml" 197 6971 7004
 type(
   int
 )
-"LinearAlgebra.ml" 199 6984 7018 "LinearAlgebra.ml" 199 6984 7019
+"LinearAlgebra.ml" 197 6971 7005 "LinearAlgebra.ml" 197 6971 7006
 type(
   int
 )
-"LinearAlgebra.ml" 199 6984 6993 "LinearAlgebra.ml" 199 6984 7019
+"LinearAlgebra.ml" 197 6971 6980 "LinearAlgebra.ml" 197 6971 7006
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 199 6984 7020 "LinearAlgebra.ml" 199 6984 7021
+"LinearAlgebra.ml" 197 6971 7007 "LinearAlgebra.ml" 197 6971 7008
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 199 6984 7022 "LinearAlgebra.ml" 199 6984 7024
+"LinearAlgebra.ml" 197 6971 7009 "LinearAlgebra.ml" 197 6971 7011
 type(
   float
 )
-"LinearAlgebra.ml" 199 6984 6993 "LinearAlgebra.ml" 199 6984 7024
+"LinearAlgebra.ml" 197 6971 6980 "LinearAlgebra.ml" 197 6971 7011
 type(
   bool
 )
-"LinearAlgebra.ml" 199 6984 6986 "LinearAlgebra.ml" 199 6984 7025
+"LinearAlgebra.ml" 197 6971 6973 "LinearAlgebra.ml" 197 6971 7012
 type(
   unit
 )
-"LinearAlgebra.ml" 200 7027 7036 "LinearAlgebra.ml" 200 7027 7050
+"LinearAlgebra.ml" 198 7014 7023 "LinearAlgebra.ml" 198 7014 7037
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 200 7027 7051 "LinearAlgebra.ml" 200 7027 7057
+"LinearAlgebra.ml" 198 7014 7038 "LinearAlgebra.ml" 198 7014 7044
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 200 7027 7058 "LinearAlgebra.ml" 200 7027 7059
+"LinearAlgebra.ml" 198 7014 7045 "LinearAlgebra.ml" 198 7014 7046
 type(
   int
 )
-"LinearAlgebra.ml" 200 7027 7060 "LinearAlgebra.ml" 200 7027 7061
+"LinearAlgebra.ml" 198 7014 7047 "LinearAlgebra.ml" 198 7014 7048
 type(
   int
 )
-"LinearAlgebra.ml" 200 7027 7062 "LinearAlgebra.ml" 200 7027 7064
+"LinearAlgebra.ml" 198 7014 7049 "LinearAlgebra.ml" 198 7014 7051
 type(
   float
 )
-"LinearAlgebra.ml" 200 7027 7036 "LinearAlgebra.ml" 200 7027 7064
+"LinearAlgebra.ml" 198 7014 7023 "LinearAlgebra.ml" 198 7014 7051
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 201 7066 7068 "LinearAlgebra.ml" 201 7066 7083
+"LinearAlgebra.ml" 199 7053 7055 "LinearAlgebra.ml" 199 7053 7070
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 201 7066 7084 "LinearAlgebra.ml" 201 7066 7090
+"LinearAlgebra.ml" 199 7053 7071 "LinearAlgebra.ml" 199 7053 7077
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 201 7066 7091 "LinearAlgebra.ml" 201 7066 7092
+"LinearAlgebra.ml" 199 7053 7078 "LinearAlgebra.ml" 199 7053 7079
 type(
   int
 )
-"LinearAlgebra.ml" 201 7066 7093 "LinearAlgebra.ml" 201 7066 7094
+"LinearAlgebra.ml" 199 7053 7080 "LinearAlgebra.ml" 199 7053 7081
 type(
   int
 )
-"LinearAlgebra.ml" 201 7066 7068 "LinearAlgebra.ml" 201 7066 7094
+"LinearAlgebra.ml" 199 7053 7055 "LinearAlgebra.ml" 199 7053 7081
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 201 7066 7095 "LinearAlgebra.ml" 201 7066 7096
+"LinearAlgebra.ml" 199 7053 7082 "LinearAlgebra.ml" 199 7053 7083
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 201 7066 7097 "LinearAlgebra.ml" 201 7066 7099
+"LinearAlgebra.ml" 199 7053 7084 "LinearAlgebra.ml" 199 7053 7086
 type(
   float
 )
-"LinearAlgebra.ml" 201 7066 7068 "LinearAlgebra.ml" 201 7066 7099
+"LinearAlgebra.ml" 199 7053 7055 "LinearAlgebra.ml" 199 7053 7086
 type(
   bool
 )
-"LinearAlgebra.ml" 200 7027 7036 "LinearAlgebra.ml" 201 7066 7099
+"LinearAlgebra.ml" 198 7014 7023 "LinearAlgebra.ml" 199 7053 7086
 type(
   bool
 )
-"LinearAlgebra.ml" 200 7027 7029 "LinearAlgebra.ml" 201 7066 7100
+"LinearAlgebra.ml" 198 7014 7016 "LinearAlgebra.ml" 199 7053 7087
 type(
   unit
 )
-"LinearAlgebra.ml" 202 7102 7111 "LinearAlgebra.ml" 202 7102 7125
+"LinearAlgebra.ml" 200 7089 7098 "LinearAlgebra.ml" 200 7089 7112
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 202 7102 7126 "LinearAlgebra.ml" 202 7102 7132
+"LinearAlgebra.ml" 200 7089 7113 "LinearAlgebra.ml" 200 7089 7119
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 202 7102 7133 "LinearAlgebra.ml" 202 7102 7134
+"LinearAlgebra.ml" 200 7089 7120 "LinearAlgebra.ml" 200 7089 7121
 type(
   int
 )
-"LinearAlgebra.ml" 202 7102 7135 "LinearAlgebra.ml" 202 7102 7136
+"LinearAlgebra.ml" 200 7089 7122 "LinearAlgebra.ml" 200 7089 7123
 type(
   int
 )
-"LinearAlgebra.ml" 202 7102 7137 "LinearAlgebra.ml" 202 7102 7140
+"LinearAlgebra.ml" 200 7089 7124 "LinearAlgebra.ml" 200 7089 7127
 type(
   float
 )
-"LinearAlgebra.ml" 202 7102 7111 "LinearAlgebra.ml" 202 7102 7140
+"LinearAlgebra.ml" 200 7089 7098 "LinearAlgebra.ml" 200 7089 7127
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 203 7142 7144 "LinearAlgebra.ml" 203 7142 7159
+"LinearAlgebra.ml" 201 7129 7131 "LinearAlgebra.ml" 201 7129 7146
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 203 7142 7160 "LinearAlgebra.ml" 203 7142 7166
+"LinearAlgebra.ml" 201 7129 7147 "LinearAlgebra.ml" 201 7129 7153
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 203 7142 7167 "LinearAlgebra.ml" 203 7142 7168
+"LinearAlgebra.ml" 201 7129 7154 "LinearAlgebra.ml" 201 7129 7155
 type(
   int
 )
-"LinearAlgebra.ml" 203 7142 7169 "LinearAlgebra.ml" 203 7142 7170
+"LinearAlgebra.ml" 201 7129 7156 "LinearAlgebra.ml" 201 7129 7157
 type(
   int
 )
-"LinearAlgebra.ml" 203 7142 7144 "LinearAlgebra.ml" 203 7142 7170
+"LinearAlgebra.ml" 201 7129 7131 "LinearAlgebra.ml" 201 7129 7157
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 203 7142 7171 "LinearAlgebra.ml" 203 7142 7172
+"LinearAlgebra.ml" 201 7129 7158 "LinearAlgebra.ml" 201 7129 7159
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 203 7142 7173 "LinearAlgebra.ml" 203 7142 7176
+"LinearAlgebra.ml" 201 7129 7160 "LinearAlgebra.ml" 201 7129 7163
 type(
   float
 )
-"LinearAlgebra.ml" 203 7142 7144 "LinearAlgebra.ml" 203 7142 7176
+"LinearAlgebra.ml" 201 7129 7131 "LinearAlgebra.ml" 201 7129 7163
 type(
   bool
 )
-"LinearAlgebra.ml" 202 7102 7111 "LinearAlgebra.ml" 203 7142 7176
+"LinearAlgebra.ml" 200 7089 7098 "LinearAlgebra.ml" 201 7129 7163
 type(
   bool
 )
-"LinearAlgebra.ml" 202 7102 7104 "LinearAlgebra.ml" 203 7142 7177
+"LinearAlgebra.ml" 200 7089 7091 "LinearAlgebra.ml" 201 7129 7164
 type(
   unit
 )
-"LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+"LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 type(
   Matrix.m
 )
 ident(
-  def m_2by2 "LinearAlgebra.ml" 205 7221 7223 "LinearAlgebra.ml" 237 8563 8608
+  def m_2by2 "LinearAlgebra.ml" 203 7208 7210 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 204 7179 7194 "LinearAlgebra.ml" 204 7179 7210
+"LinearAlgebra.ml" 202 7166 7181 "LinearAlgebra.ml" 202 7166 7197
 type(
   Matrix.m -> Matrix.m
 )
 ident(
   int_ref Matrix.transpose "LinearAlgebra.ml" 15 392 394 "LinearAlgebra.ml" 15 392 415
 )
-"LinearAlgebra.ml" 204 7179 7211 "LinearAlgebra.ml" 204 7179 7217
+"LinearAlgebra.ml" 202 7166 7198 "LinearAlgebra.ml" 202 7166 7204
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 193 6724 6730 "LinearAlgebra.ml" 193 6724 6736
+  int_ref m_2by2 "LinearAlgebra.ml" 191 6711 6717 "LinearAlgebra.ml" 191 6711 6723
 )
-"LinearAlgebra.ml" 204 7179 7194 "LinearAlgebra.ml" 204 7179 7217
+"LinearAlgebra.ml" 202 7166 7181 "LinearAlgebra.ml" 202 7166 7204
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 205 7221 7230 "LinearAlgebra.ml" 205 7221 7250
+"LinearAlgebra.ml" 203 7208 7217 "LinearAlgebra.ml" 203 7208 7237
 type(
   Matrix.m -> int
 )
 ident(
   int_ref Matrix.matrix_length "LinearAlgebra.ml" 57 2042 2044 "LinearAlgebra.ml" 57 2042 2071
 )
-"LinearAlgebra.ml" 205 7221 7251 "LinearAlgebra.ml" 205 7221 7257
+"LinearAlgebra.ml" 203 7208 7238 "LinearAlgebra.ml" 203 7208 7244
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 205 7221 7230 "LinearAlgebra.ml" 205 7221 7257
+"LinearAlgebra.ml" 203 7208 7217 "LinearAlgebra.ml" 203 7208 7244
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 205 7221 7258 "LinearAlgebra.ml" 205 7221 7259
+"LinearAlgebra.ml" 203 7208 7245 "LinearAlgebra.ml" 203 7208 7246
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 205 7221 7260 "LinearAlgebra.ml" 205 7221 7261
+"LinearAlgebra.ml" 203 7208 7247 "LinearAlgebra.ml" 203 7208 7248
 type(
   int
 )
-"LinearAlgebra.ml" 205 7221 7230 "LinearAlgebra.ml" 205 7221 7261
+"LinearAlgebra.ml" 203 7208 7217 "LinearAlgebra.ml" 203 7208 7248
 type(
   bool
 )
-"LinearAlgebra.ml" 205 7221 7223 "LinearAlgebra.ml" 205 7221 7262
+"LinearAlgebra.ml" 203 7208 7210 "LinearAlgebra.ml" 203 7208 7249
 type(
   unit
 )
-"LinearAlgebra.ml" 206 7264 7273 "LinearAlgebra.ml" 206 7264 7292
+"LinearAlgebra.ml" 204 7251 7260 "LinearAlgebra.ml" 204 7251 7279
 type(
   Matrix.m -> int
 )
 ident(
   int_ref Matrix.array_length "LinearAlgebra.ml" 60 2130 2132 "LinearAlgebra.ml" 60 2130 2158
 )
-"LinearAlgebra.ml" 206 7264 7293 "LinearAlgebra.ml" 206 7264 7299
+"LinearAlgebra.ml" 204 7251 7280 "LinearAlgebra.ml" 204 7251 7286
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 206 7264 7273 "LinearAlgebra.ml" 206 7264 7299
+"LinearAlgebra.ml" 204 7251 7260 "LinearAlgebra.ml" 204 7251 7286
 call(
   stack
 )
 type(
   int
 )
-"LinearAlgebra.ml" 206 7264 7300 "LinearAlgebra.ml" 206 7264 7301
+"LinearAlgebra.ml" 204 7251 7287 "LinearAlgebra.ml" 204 7251 7288
 type(
   int -> int -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 206 7264 7302 "LinearAlgebra.ml" 206 7264 7303
+"LinearAlgebra.ml" 204 7251 7289 "LinearAlgebra.ml" 204 7251 7290
 type(
   int
 )
-"LinearAlgebra.ml" 206 7264 7273 "LinearAlgebra.ml" 206 7264 7303
+"LinearAlgebra.ml" 204 7251 7260 "LinearAlgebra.ml" 204 7251 7290
 type(
   bool
 )
-"LinearAlgebra.ml" 206 7264 7266 "LinearAlgebra.ml" 206 7264 7304
+"LinearAlgebra.ml" 204 7251 7253 "LinearAlgebra.ml" 204 7251 7291
 type(
   unit
 )
-"LinearAlgebra.ml" 207 7306 7315 "LinearAlgebra.ml" 207 7306 7330
+"LinearAlgebra.ml" 205 7293 7302 "LinearAlgebra.ml" 205 7293 7317
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 207 7306 7331 "LinearAlgebra.ml" 207 7306 7337
+"LinearAlgebra.ml" 205 7293 7318 "LinearAlgebra.ml" 205 7293 7324
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 207 7306 7338 "LinearAlgebra.ml" 207 7306 7339
+"LinearAlgebra.ml" 205 7293 7325 "LinearAlgebra.ml" 205 7293 7326
 type(
   int
 )
-"LinearAlgebra.ml" 207 7306 7340 "LinearAlgebra.ml" 207 7306 7341
+"LinearAlgebra.ml" 205 7293 7327 "LinearAlgebra.ml" 205 7293 7328
 type(
   int
 )
-"LinearAlgebra.ml" 207 7306 7315 "LinearAlgebra.ml" 207 7306 7341
+"LinearAlgebra.ml" 205 7293 7302 "LinearAlgebra.ml" 205 7293 7328
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 207 7306 7342 "LinearAlgebra.ml" 207 7306 7343
+"LinearAlgebra.ml" 205 7293 7329 "LinearAlgebra.ml" 205 7293 7330
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 207 7306 7344 "LinearAlgebra.ml" 207 7306 7346
+"LinearAlgebra.ml" 205 7293 7331 "LinearAlgebra.ml" 205 7293 7333
 type(
   float
 )
-"LinearAlgebra.ml" 207 7306 7315 "LinearAlgebra.ml" 207 7306 7346
+"LinearAlgebra.ml" 205 7293 7302 "LinearAlgebra.ml" 205 7293 7333
 type(
   bool
 )
-"LinearAlgebra.ml" 207 7306 7308 "LinearAlgebra.ml" 207 7306 7347
+"LinearAlgebra.ml" 205 7293 7295 "LinearAlgebra.ml" 205 7293 7334
 type(
   unit
 )
-"LinearAlgebra.ml" 208 7349 7358 "LinearAlgebra.ml" 208 7349 7373
+"LinearAlgebra.ml" 206 7336 7345 "LinearAlgebra.ml" 206 7336 7360
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 208 7349 7374 "LinearAlgebra.ml" 208 7349 7380
+"LinearAlgebra.ml" 206 7336 7361 "LinearAlgebra.ml" 206 7336 7367
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 208 7349 7381 "LinearAlgebra.ml" 208 7349 7382
+"LinearAlgebra.ml" 206 7336 7368 "LinearAlgebra.ml" 206 7336 7369
 type(
   int
 )
-"LinearAlgebra.ml" 208 7349 7383 "LinearAlgebra.ml" 208 7349 7384
+"LinearAlgebra.ml" 206 7336 7370 "LinearAlgebra.ml" 206 7336 7371
 type(
   int
 )
-"LinearAlgebra.ml" 208 7349 7358 "LinearAlgebra.ml" 208 7349 7384
+"LinearAlgebra.ml" 206 7336 7345 "LinearAlgebra.ml" 206 7336 7371
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 208 7349 7385 "LinearAlgebra.ml" 208 7349 7386
+"LinearAlgebra.ml" 206 7336 7372 "LinearAlgebra.ml" 206 7336 7373
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 208 7349 7387 "LinearAlgebra.ml" 208 7349 7389
+"LinearAlgebra.ml" 206 7336 7374 "LinearAlgebra.ml" 206 7336 7376
 type(
   float
 )
-"LinearAlgebra.ml" 208 7349 7358 "LinearAlgebra.ml" 208 7349 7389
+"LinearAlgebra.ml" 206 7336 7345 "LinearAlgebra.ml" 206 7336 7376
 type(
   bool
 )
-"LinearAlgebra.ml" 208 7349 7351 "LinearAlgebra.ml" 208 7349 7390
+"LinearAlgebra.ml" 206 7336 7338 "LinearAlgebra.ml" 206 7336 7377
 type(
   unit
 )
-"LinearAlgebra.ml" 209 7392 7401 "LinearAlgebra.ml" 209 7392 7416
+"LinearAlgebra.ml" 207 7379 7388 "LinearAlgebra.ml" 207 7379 7403
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 209 7392 7417 "LinearAlgebra.ml" 209 7392 7423
+"LinearAlgebra.ml" 207 7379 7404 "LinearAlgebra.ml" 207 7379 7410
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 209 7392 7424 "LinearAlgebra.ml" 209 7392 7425
+"LinearAlgebra.ml" 207 7379 7411 "LinearAlgebra.ml" 207 7379 7412
 type(
   int
 )
-"LinearAlgebra.ml" 209 7392 7426 "LinearAlgebra.ml" 209 7392 7427
+"LinearAlgebra.ml" 207 7379 7413 "LinearAlgebra.ml" 207 7379 7414
 type(
   int
 )
-"LinearAlgebra.ml" 209 7392 7401 "LinearAlgebra.ml" 209 7392 7427
+"LinearAlgebra.ml" 207 7379 7388 "LinearAlgebra.ml" 207 7379 7414
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 209 7392 7428 "LinearAlgebra.ml" 209 7392 7429
+"LinearAlgebra.ml" 207 7379 7415 "LinearAlgebra.ml" 207 7379 7416
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 209 7392 7430 "LinearAlgebra.ml" 209 7392 7432
+"LinearAlgebra.ml" 207 7379 7417 "LinearAlgebra.ml" 207 7379 7419
 type(
   float
 )
-"LinearAlgebra.ml" 209 7392 7401 "LinearAlgebra.ml" 209 7392 7432
+"LinearAlgebra.ml" 207 7379 7388 "LinearAlgebra.ml" 207 7379 7419
 type(
   bool
 )
-"LinearAlgebra.ml" 209 7392 7394 "LinearAlgebra.ml" 209 7392 7433
+"LinearAlgebra.ml" 207 7379 7381 "LinearAlgebra.ml" 207 7379 7420
 type(
   unit
 )
-"LinearAlgebra.ml" 210 7435 7444 "LinearAlgebra.ml" 210 7435 7459
+"LinearAlgebra.ml" 208 7422 7431 "LinearAlgebra.ml" 208 7422 7446
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 210 7435 7460 "LinearAlgebra.ml" 210 7435 7466
+"LinearAlgebra.ml" 208 7422 7447 "LinearAlgebra.ml" 208 7422 7453
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 210 7435 7467 "LinearAlgebra.ml" 210 7435 7468
+"LinearAlgebra.ml" 208 7422 7454 "LinearAlgebra.ml" 208 7422 7455
 type(
   int
 )
-"LinearAlgebra.ml" 210 7435 7469 "LinearAlgebra.ml" 210 7435 7470
+"LinearAlgebra.ml" 208 7422 7456 "LinearAlgebra.ml" 208 7422 7457
 type(
   int
 )
-"LinearAlgebra.ml" 210 7435 7444 "LinearAlgebra.ml" 210 7435 7470
+"LinearAlgebra.ml" 208 7422 7431 "LinearAlgebra.ml" 208 7422 7457
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 210 7435 7471 "LinearAlgebra.ml" 210 7435 7472
+"LinearAlgebra.ml" 208 7422 7458 "LinearAlgebra.ml" 208 7422 7459
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 210 7435 7473 "LinearAlgebra.ml" 210 7435 7476
+"LinearAlgebra.ml" 208 7422 7460 "LinearAlgebra.ml" 208 7422 7463
 type(
   float
 )
-"LinearAlgebra.ml" 210 7435 7444 "LinearAlgebra.ml" 210 7435 7476
+"LinearAlgebra.ml" 208 7422 7431 "LinearAlgebra.ml" 208 7422 7463
 type(
   bool
 )
-"LinearAlgebra.ml" 210 7435 7437 "LinearAlgebra.ml" 210 7435 7477
+"LinearAlgebra.ml" 208 7422 7424 "LinearAlgebra.ml" 208 7422 7464
 type(
   unit
 )
-"LinearAlgebra.ml" 211 7479 7481 "LinearAlgebra.ml" 211 7479 7495
+"LinearAlgebra.ml" 209 7466 7468 "LinearAlgebra.ml" 209 7466 7482
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 211 7479 7496 "LinearAlgebra.ml" 211 7479 7502
+"LinearAlgebra.ml" 209 7466 7483 "LinearAlgebra.ml" 209 7466 7489
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 211 7479 7503 "LinearAlgebra.ml" 211 7479 7504
+"LinearAlgebra.ml" 209 7466 7490 "LinearAlgebra.ml" 209 7466 7491
 type(
   int
 )
-"LinearAlgebra.ml" 211 7479 7505 "LinearAlgebra.ml" 211 7479 7506
+"LinearAlgebra.ml" 209 7466 7492 "LinearAlgebra.ml" 209 7466 7493
 type(
   int
 )
-"LinearAlgebra.ml" 211 7479 7507 "LinearAlgebra.ml" 211 7479 7509
+"LinearAlgebra.ml" 209 7466 7494 "LinearAlgebra.ml" 209 7466 7496
 type(
   float
 )
-"LinearAlgebra.ml" 211 7479 7481 "LinearAlgebra.ml" 211 7479 7509
+"LinearAlgebra.ml" 209 7466 7468 "LinearAlgebra.ml" 209 7466 7496
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 212 7511 7513 "LinearAlgebra.ml" 212 7511 7527
+"LinearAlgebra.ml" 210 7498 7500 "LinearAlgebra.ml" 210 7498 7514
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 212 7511 7528 "LinearAlgebra.ml" 212 7511 7534
+"LinearAlgebra.ml" 210 7498 7515 "LinearAlgebra.ml" 210 7498 7521
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 212 7511 7535 "LinearAlgebra.ml" 212 7511 7536
+"LinearAlgebra.ml" 210 7498 7522 "LinearAlgebra.ml" 210 7498 7523
 type(
   int
 )
-"LinearAlgebra.ml" 212 7511 7537 "LinearAlgebra.ml" 212 7511 7538
+"LinearAlgebra.ml" 210 7498 7524 "LinearAlgebra.ml" 210 7498 7525
 type(
   int
 )
-"LinearAlgebra.ml" 212 7511 7539 "LinearAlgebra.ml" 212 7511 7541
+"LinearAlgebra.ml" 210 7498 7526 "LinearAlgebra.ml" 210 7498 7528
 type(
   float
 )
-"LinearAlgebra.ml" 212 7511 7513 "LinearAlgebra.ml" 212 7511 7541
+"LinearAlgebra.ml" 210 7498 7500 "LinearAlgebra.ml" 210 7498 7528
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 213 7543 7549 "LinearAlgebra.ml" 213 7543 7555
+"LinearAlgebra.ml" 211 7530 7536 "LinearAlgebra.ml" 211 7530 7542
 type(
   Matrix.m
 )
 ident(
-  def t_2by2 "LinearAlgebra.ml" 214 7585 7587 "LinearAlgebra.ml" 237 8563 8608
+  def t_2by2 "LinearAlgebra.ml" 212 7572 7574 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 213 7543 7558 "LinearAlgebra.ml" 213 7543 7574
+"LinearAlgebra.ml" 211 7530 7545 "LinearAlgebra.ml" 211 7530 7561
 type(
   Matrix.m -> Matrix.m
 )
 ident(
   int_ref Matrix.transpose "LinearAlgebra.ml" 15 392 394 "LinearAlgebra.ml" 15 392 415
 )
-"LinearAlgebra.ml" 213 7543 7575 "LinearAlgebra.ml" 213 7543 7581
+"LinearAlgebra.ml" 211 7530 7562 "LinearAlgebra.ml" 211 7530 7568
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 213 7543 7558 "LinearAlgebra.ml" 213 7543 7581
+"LinearAlgebra.ml" 211 7530 7545 "LinearAlgebra.ml" 211 7530 7568
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 214 7585 7594 "LinearAlgebra.ml" 214 7585 7609
+"LinearAlgebra.ml" 212 7572 7581 "LinearAlgebra.ml" 212 7572 7596
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 214 7585 7610 "LinearAlgebra.ml" 214 7585 7616
+"LinearAlgebra.ml" 212 7572 7597 "LinearAlgebra.ml" 212 7572 7603
 type(
   Matrix.m
 )
 ident(
-  int_ref t_2by2 "LinearAlgebra.ml" 213 7543 7549 "LinearAlgebra.ml" 213 7543 7555
+  int_ref t_2by2 "LinearAlgebra.ml" 211 7530 7536 "LinearAlgebra.ml" 211 7530 7542
 )
-"LinearAlgebra.ml" 214 7585 7617 "LinearAlgebra.ml" 214 7585 7618
+"LinearAlgebra.ml" 212 7572 7604 "LinearAlgebra.ml" 212 7572 7605
 type(
   int
 )
-"LinearAlgebra.ml" 214 7585 7619 "LinearAlgebra.ml" 214 7585 7620
+"LinearAlgebra.ml" 212 7572 7606 "LinearAlgebra.ml" 212 7572 7607
 type(
   int
 )
-"LinearAlgebra.ml" 214 7585 7594 "LinearAlgebra.ml" 214 7585 7620
+"LinearAlgebra.ml" 212 7572 7581 "LinearAlgebra.ml" 212 7572 7607
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 214 7585 7621 "LinearAlgebra.ml" 214 7585 7622
+"LinearAlgebra.ml" 212 7572 7608 "LinearAlgebra.ml" 212 7572 7609
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 214 7585 7623 "LinearAlgebra.ml" 214 7585 7625
+"LinearAlgebra.ml" 212 7572 7610 "LinearAlgebra.ml" 212 7572 7612
 type(
   float
 )
-"LinearAlgebra.ml" 214 7585 7594 "LinearAlgebra.ml" 214 7585 7625
+"LinearAlgebra.ml" 212 7572 7581 "LinearAlgebra.ml" 212 7572 7612
 type(
   bool
 )
-"LinearAlgebra.ml" 214 7585 7587 "LinearAlgebra.ml" 214 7585 7626
+"LinearAlgebra.ml" 212 7572 7574 "LinearAlgebra.ml" 212 7572 7613
 type(
   unit
 )
-"LinearAlgebra.ml" 215 7628 7637 "LinearAlgebra.ml" 215 7628 7652
+"LinearAlgebra.ml" 213 7615 7624 "LinearAlgebra.ml" 213 7615 7639
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 215 7628 7653 "LinearAlgebra.ml" 215 7628 7659
+"LinearAlgebra.ml" 213 7615 7640 "LinearAlgebra.ml" 213 7615 7646
 type(
   Matrix.m
 )
 ident(
-  int_ref t_2by2 "LinearAlgebra.ml" 213 7543 7549 "LinearAlgebra.ml" 213 7543 7555
+  int_ref t_2by2 "LinearAlgebra.ml" 211 7530 7536 "LinearAlgebra.ml" 211 7530 7542
 )
-"LinearAlgebra.ml" 215 7628 7660 "LinearAlgebra.ml" 215 7628 7661
+"LinearAlgebra.ml" 213 7615 7647 "LinearAlgebra.ml" 213 7615 7648
 type(
   int
 )
-"LinearAlgebra.ml" 215 7628 7662 "LinearAlgebra.ml" 215 7628 7663
+"LinearAlgebra.ml" 213 7615 7649 "LinearAlgebra.ml" 213 7615 7650
 type(
   int
 )
-"LinearAlgebra.ml" 215 7628 7637 "LinearAlgebra.ml" 215 7628 7663
+"LinearAlgebra.ml" 213 7615 7624 "LinearAlgebra.ml" 213 7615 7650
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 215 7628 7664 "LinearAlgebra.ml" 215 7628 7665
+"LinearAlgebra.ml" 213 7615 7651 "LinearAlgebra.ml" 213 7615 7652
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 215 7628 7666 "LinearAlgebra.ml" 215 7628 7668
+"LinearAlgebra.ml" 213 7615 7653 "LinearAlgebra.ml" 213 7615 7655
 type(
   float
 )
-"LinearAlgebra.ml" 215 7628 7637 "LinearAlgebra.ml" 215 7628 7668
+"LinearAlgebra.ml" 213 7615 7624 "LinearAlgebra.ml" 213 7615 7655
 type(
   bool
 )
-"LinearAlgebra.ml" 215 7628 7630 "LinearAlgebra.ml" 215 7628 7669
+"LinearAlgebra.ml" 213 7615 7617 "LinearAlgebra.ml" 213 7615 7656
 type(
   unit
 )
-"LinearAlgebra.ml" 216 7671 7680 "LinearAlgebra.ml" 216 7671 7695
+"LinearAlgebra.ml" 214 7658 7667 "LinearAlgebra.ml" 214 7658 7682
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 216 7671 7696 "LinearAlgebra.ml" 216 7671 7702
+"LinearAlgebra.ml" 214 7658 7683 "LinearAlgebra.ml" 214 7658 7689
 type(
   Matrix.m
 )
 ident(
-  int_ref t_2by2 "LinearAlgebra.ml" 213 7543 7549 "LinearAlgebra.ml" 213 7543 7555
+  int_ref t_2by2 "LinearAlgebra.ml" 211 7530 7536 "LinearAlgebra.ml" 211 7530 7542
 )
-"LinearAlgebra.ml" 216 7671 7703 "LinearAlgebra.ml" 216 7671 7704
+"LinearAlgebra.ml" 214 7658 7690 "LinearAlgebra.ml" 214 7658 7691
 type(
   int
 )
-"LinearAlgebra.ml" 216 7671 7705 "LinearAlgebra.ml" 216 7671 7706
+"LinearAlgebra.ml" 214 7658 7692 "LinearAlgebra.ml" 214 7658 7693
 type(
   int
 )
-"LinearAlgebra.ml" 216 7671 7680 "LinearAlgebra.ml" 216 7671 7706
+"LinearAlgebra.ml" 214 7658 7667 "LinearAlgebra.ml" 214 7658 7693
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 216 7671 7707 "LinearAlgebra.ml" 216 7671 7708
+"LinearAlgebra.ml" 214 7658 7694 "LinearAlgebra.ml" 214 7658 7695
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 216 7671 7709 "LinearAlgebra.ml" 216 7671 7711
+"LinearAlgebra.ml" 214 7658 7696 "LinearAlgebra.ml" 214 7658 7698
 type(
   float
 )
-"LinearAlgebra.ml" 216 7671 7680 "LinearAlgebra.ml" 216 7671 7711
+"LinearAlgebra.ml" 214 7658 7667 "LinearAlgebra.ml" 214 7658 7698
 type(
   bool
 )
-"LinearAlgebra.ml" 216 7671 7673 "LinearAlgebra.ml" 216 7671 7712
+"LinearAlgebra.ml" 214 7658 7660 "LinearAlgebra.ml" 214 7658 7699
 type(
   unit
 )
-"LinearAlgebra.ml" 217 7714 7723 "LinearAlgebra.ml" 217 7714 7738
+"LinearAlgebra.ml" 215 7701 7710 "LinearAlgebra.ml" 215 7701 7725
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 217 7714 7739 "LinearAlgebra.ml" 217 7714 7745
+"LinearAlgebra.ml" 215 7701 7726 "LinearAlgebra.ml" 215 7701 7732
 type(
   Matrix.m
 )
 ident(
-  int_ref t_2by2 "LinearAlgebra.ml" 213 7543 7549 "LinearAlgebra.ml" 213 7543 7555
+  int_ref t_2by2 "LinearAlgebra.ml" 211 7530 7536 "LinearAlgebra.ml" 211 7530 7542
 )
-"LinearAlgebra.ml" 217 7714 7746 "LinearAlgebra.ml" 217 7714 7747
+"LinearAlgebra.ml" 215 7701 7733 "LinearAlgebra.ml" 215 7701 7734
 type(
   int
 )
-"LinearAlgebra.ml" 217 7714 7748 "LinearAlgebra.ml" 217 7714 7749
+"LinearAlgebra.ml" 215 7701 7735 "LinearAlgebra.ml" 215 7701 7736
 type(
   int
 )
-"LinearAlgebra.ml" 217 7714 7723 "LinearAlgebra.ml" 217 7714 7749
+"LinearAlgebra.ml" 215 7701 7710 "LinearAlgebra.ml" 215 7701 7736
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 217 7714 7750 "LinearAlgebra.ml" 217 7714 7751
+"LinearAlgebra.ml" 215 7701 7737 "LinearAlgebra.ml" 215 7701 7738
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 217 7714 7752 "LinearAlgebra.ml" 217 7714 7755
+"LinearAlgebra.ml" 215 7701 7739 "LinearAlgebra.ml" 215 7701 7742
 type(
   float
 )
-"LinearAlgebra.ml" 217 7714 7723 "LinearAlgebra.ml" 217 7714 7755
+"LinearAlgebra.ml" 215 7701 7710 "LinearAlgebra.ml" 215 7701 7742
 type(
   bool
 )
-"LinearAlgebra.ml" 217 7714 7716 "LinearAlgebra.ml" 217 7714 7756
+"LinearAlgebra.ml" 215 7701 7703 "LinearAlgebra.ml" 215 7701 7743
 type(
   unit
 )
-"LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+"LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 type(
   Matrix.m
 )
 ident(
-  def m2_2x2 "LinearAlgebra.ml" 219 7802 7804 "LinearAlgebra.ml" 237 8563 8608
+  def m2_2x2 "LinearAlgebra.ml" 217 7789 7791 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 218 7758 7773 "LinearAlgebra.ml" 218 7758 7791
+"LinearAlgebra.ml" 216 7745 7760 "LinearAlgebra.ml" 216 7745 7778
 type(
   int -> int -> float -> Matrix.m
 )
 ident(
   int_ref Matrix.make_matrix "LinearAlgebra.ml" 48 1708 1710 "LinearAlgebra.ml" 48 1708 1751
 )
-"LinearAlgebra.ml" 218 7758 7792 "LinearAlgebra.ml" 218 7758 7793
+"LinearAlgebra.ml" 216 7745 7779 "LinearAlgebra.ml" 216 7745 7780
 type(
   int
 )
-"LinearAlgebra.ml" 218 7758 7794 "LinearAlgebra.ml" 218 7758 7795
+"LinearAlgebra.ml" 216 7745 7781 "LinearAlgebra.ml" 216 7745 7782
 type(
   int
 )
-"LinearAlgebra.ml" 218 7758 7796 "LinearAlgebra.ml" 218 7758 7798
+"LinearAlgebra.ml" 216 7745 7783 "LinearAlgebra.ml" 216 7745 7785
 type(
   float
 )
-"LinearAlgebra.ml" 218 7758 7773 "LinearAlgebra.ml" 218 7758 7798
+"LinearAlgebra.ml" 216 7745 7760 "LinearAlgebra.ml" 216 7745 7785
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 219 7802 7804 "LinearAlgebra.ml" 219 7802 7818
+"LinearAlgebra.ml" 217 7789 7791 "LinearAlgebra.ml" 217 7789 7805
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 219 7802 7819 "LinearAlgebra.ml" 219 7802 7825
+"LinearAlgebra.ml" 217 7789 7806 "LinearAlgebra.ml" 217 7789 7812
 type(
   Matrix.m
 )
 ident(
-  int_ref m2_2x2 "LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+  int_ref m2_2x2 "LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 )
-"LinearAlgebra.ml" 219 7802 7826 "LinearAlgebra.ml" 219 7802 7827
+"LinearAlgebra.ml" 217 7789 7813 "LinearAlgebra.ml" 217 7789 7814
 type(
   int
 )
-"LinearAlgebra.ml" 219 7802 7828 "LinearAlgebra.ml" 219 7802 7829
+"LinearAlgebra.ml" 217 7789 7815 "LinearAlgebra.ml" 217 7789 7816
 type(
   int
 )
-"LinearAlgebra.ml" 219 7802 7830 "LinearAlgebra.ml" 219 7802 7832
+"LinearAlgebra.ml" 217 7789 7817 "LinearAlgebra.ml" 217 7789 7819
 type(
   float
 )
-"LinearAlgebra.ml" 219 7802 7804 "LinearAlgebra.ml" 219 7802 7832
+"LinearAlgebra.ml" 217 7789 7791 "LinearAlgebra.ml" 217 7789 7819
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 220 7834 7836 "LinearAlgebra.ml" 220 7834 7850
+"LinearAlgebra.ml" 218 7821 7823 "LinearAlgebra.ml" 218 7821 7837
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 220 7834 7851 "LinearAlgebra.ml" 220 7834 7857
+"LinearAlgebra.ml" 218 7821 7838 "LinearAlgebra.ml" 218 7821 7844
 type(
   Matrix.m
 )
 ident(
-  int_ref m2_2x2 "LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+  int_ref m2_2x2 "LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 )
-"LinearAlgebra.ml" 220 7834 7858 "LinearAlgebra.ml" 220 7834 7859
+"LinearAlgebra.ml" 218 7821 7845 "LinearAlgebra.ml" 218 7821 7846
 type(
   int
 )
-"LinearAlgebra.ml" 220 7834 7860 "LinearAlgebra.ml" 220 7834 7861
+"LinearAlgebra.ml" 218 7821 7847 "LinearAlgebra.ml" 218 7821 7848
 type(
   int
 )
-"LinearAlgebra.ml" 220 7834 7862 "LinearAlgebra.ml" 220 7834 7864
+"LinearAlgebra.ml" 218 7821 7849 "LinearAlgebra.ml" 218 7821 7851
 type(
   float
 )
-"LinearAlgebra.ml" 220 7834 7836 "LinearAlgebra.ml" 220 7834 7864
+"LinearAlgebra.ml" 218 7821 7823 "LinearAlgebra.ml" 218 7821 7851
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 221 7866 7868 "LinearAlgebra.ml" 221 7866 7882
+"LinearAlgebra.ml" 219 7853 7855 "LinearAlgebra.ml" 219 7853 7869
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 221 7866 7883 "LinearAlgebra.ml" 221 7866 7889
+"LinearAlgebra.ml" 219 7853 7870 "LinearAlgebra.ml" 219 7853 7876
 type(
   Matrix.m
 )
 ident(
-  int_ref m2_2x2 "LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+  int_ref m2_2x2 "LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 )
-"LinearAlgebra.ml" 221 7866 7890 "LinearAlgebra.ml" 221 7866 7891
+"LinearAlgebra.ml" 219 7853 7877 "LinearAlgebra.ml" 219 7853 7878
 type(
   int
 )
-"LinearAlgebra.ml" 221 7866 7892 "LinearAlgebra.ml" 221 7866 7893
+"LinearAlgebra.ml" 219 7853 7879 "LinearAlgebra.ml" 219 7853 7880
 type(
   int
 )
-"LinearAlgebra.ml" 221 7866 7894 "LinearAlgebra.ml" 221 7866 7896
+"LinearAlgebra.ml" 219 7853 7881 "LinearAlgebra.ml" 219 7853 7883
 type(
   float
 )
-"LinearAlgebra.ml" 221 7866 7868 "LinearAlgebra.ml" 221 7866 7896
+"LinearAlgebra.ml" 219 7853 7855 "LinearAlgebra.ml" 219 7853 7883
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 222 7898 7900 "LinearAlgebra.ml" 222 7898 7914
+"LinearAlgebra.ml" 220 7885 7887 "LinearAlgebra.ml" 220 7885 7901
 type(
   Matrix.m -> int -> int -> float -> unit
 )
 ident(
   int_ref Matrix.fix_elt "LinearAlgebra.ml" 51 1831 1833 "LinearAlgebra.ml" 51 1831 1878
 )
-"LinearAlgebra.ml" 222 7898 7915 "LinearAlgebra.ml" 222 7898 7921
+"LinearAlgebra.ml" 220 7885 7902 "LinearAlgebra.ml" 220 7885 7908
 type(
   Matrix.m
 )
 ident(
-  int_ref m2_2x2 "LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+  int_ref m2_2x2 "LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 )
-"LinearAlgebra.ml" 222 7898 7922 "LinearAlgebra.ml" 222 7898 7923
+"LinearAlgebra.ml" 220 7885 7909 "LinearAlgebra.ml" 220 7885 7910
 type(
   int
 )
-"LinearAlgebra.ml" 222 7898 7924 "LinearAlgebra.ml" 222 7898 7925
+"LinearAlgebra.ml" 220 7885 7911 "LinearAlgebra.ml" 220 7885 7912
 type(
   int
 )
-"LinearAlgebra.ml" 222 7898 7926 "LinearAlgebra.ml" 222 7898 7928
+"LinearAlgebra.ml" 220 7885 7913 "LinearAlgebra.ml" 220 7885 7915
 type(
   float
 )
-"LinearAlgebra.ml" 222 7898 7900 "LinearAlgebra.ml" 222 7898 7928
+"LinearAlgebra.ml" 220 7885 7887 "LinearAlgebra.ml" 220 7885 7915
 call(
   stack
 )
 type(
   unit
 )
-"LinearAlgebra.ml" 223 7930 7936 "LinearAlgebra.ml" 223 7930 7942
+"LinearAlgebra.ml" 221 7917 7923 "LinearAlgebra.ml" 221 7917 7929
 type(
   Matrix.m
 )
 ident(
-  def m3_2x2 "LinearAlgebra.ml" 224 7978 7980 "LinearAlgebra.ml" 237 8563 8608
+  def m3_2x2 "LinearAlgebra.ml" 222 7965 7967 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 223 7930 7945 "LinearAlgebra.ml" 223 7930 7960
+"LinearAlgebra.ml" 221 7917 7932 "LinearAlgebra.ml" 221 7917 7947
 type(
   Matrix.m -> Matrix.m -> Matrix.m
 )
 ident(
   int_ref Matrix.multiply "LinearAlgebra.ml" 21 689 691 "LinearAlgebra.ml" 21 689 716
 )
-"LinearAlgebra.ml" 223 7930 7961 "LinearAlgebra.ml" 223 7930 7967
+"LinearAlgebra.ml" 221 7917 7948 "LinearAlgebra.ml" 221 7917 7954
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 223 7930 7968 "LinearAlgebra.ml" 223 7930 7974
+"LinearAlgebra.ml" 221 7917 7955 "LinearAlgebra.ml" 221 7917 7961
 type(
   Matrix.m
 )
 ident(
-  int_ref m2_2x2 "LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+  int_ref m2_2x2 "LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 )
-"LinearAlgebra.ml" 223 7930 7945 "LinearAlgebra.ml" 223 7930 7974
+"LinearAlgebra.ml" 221 7917 7932 "LinearAlgebra.ml" 221 7917 7961
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 224 7978 7987 "LinearAlgebra.ml" 224 7978 8002
+"LinearAlgebra.ml" 222 7965 7974 "LinearAlgebra.ml" 222 7965 7989
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 224 7978 8003 "LinearAlgebra.ml" 224 7978 8009
+"LinearAlgebra.ml" 222 7965 7990 "LinearAlgebra.ml" 222 7965 7996
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 223 7930 7936 "LinearAlgebra.ml" 223 7930 7942
+  int_ref m3_2x2 "LinearAlgebra.ml" 221 7917 7923 "LinearAlgebra.ml" 221 7917 7929
 )
-"LinearAlgebra.ml" 224 7978 8010 "LinearAlgebra.ml" 224 7978 8011
+"LinearAlgebra.ml" 222 7965 7997 "LinearAlgebra.ml" 222 7965 7998
 type(
   int
 )
-"LinearAlgebra.ml" 224 7978 8012 "LinearAlgebra.ml" 224 7978 8013
+"LinearAlgebra.ml" 222 7965 7999 "LinearAlgebra.ml" 222 7965 8000
 type(
   int
 )
-"LinearAlgebra.ml" 224 7978 7987 "LinearAlgebra.ml" 224 7978 8013
+"LinearAlgebra.ml" 222 7965 7974 "LinearAlgebra.ml" 222 7965 8000
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 224 7978 8014 "LinearAlgebra.ml" 224 7978 8015
+"LinearAlgebra.ml" 222 7965 8001 "LinearAlgebra.ml" 222 7965 8002
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 224 7978 8016 "LinearAlgebra.ml" 224 7978 8019
+"LinearAlgebra.ml" 222 7965 8003 "LinearAlgebra.ml" 222 7965 8006
 type(
   float
 )
-"LinearAlgebra.ml" 224 7978 7987 "LinearAlgebra.ml" 224 7978 8019
+"LinearAlgebra.ml" 222 7965 7974 "LinearAlgebra.ml" 222 7965 8006
 type(
   bool
 )
-"LinearAlgebra.ml" 224 7978 7980 "LinearAlgebra.ml" 224 7978 8020
+"LinearAlgebra.ml" 222 7965 7967 "LinearAlgebra.ml" 222 7965 8007
 type(
   unit
 )
-"LinearAlgebra.ml" 225 8022 8031 "LinearAlgebra.ml" 225 8022 8046
+"LinearAlgebra.ml" 223 8009 8018 "LinearAlgebra.ml" 223 8009 8033
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 225 8022 8047 "LinearAlgebra.ml" 225 8022 8053
+"LinearAlgebra.ml" 223 8009 8034 "LinearAlgebra.ml" 223 8009 8040
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 223 7930 7936 "LinearAlgebra.ml" 223 7930 7942
+  int_ref m3_2x2 "LinearAlgebra.ml" 221 7917 7923 "LinearAlgebra.ml" 221 7917 7929
 )
-"LinearAlgebra.ml" 225 8022 8054 "LinearAlgebra.ml" 225 8022 8055
+"LinearAlgebra.ml" 223 8009 8041 "LinearAlgebra.ml" 223 8009 8042
 type(
   int
 )
-"LinearAlgebra.ml" 225 8022 8056 "LinearAlgebra.ml" 225 8022 8057
+"LinearAlgebra.ml" 223 8009 8043 "LinearAlgebra.ml" 223 8009 8044
 type(
   int
 )
-"LinearAlgebra.ml" 225 8022 8031 "LinearAlgebra.ml" 225 8022 8057
+"LinearAlgebra.ml" 223 8009 8018 "LinearAlgebra.ml" 223 8009 8044
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 225 8022 8058 "LinearAlgebra.ml" 225 8022 8059
+"LinearAlgebra.ml" 223 8009 8045 "LinearAlgebra.ml" 223 8009 8046
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 225 8022 8060 "LinearAlgebra.ml" 225 8022 8063
+"LinearAlgebra.ml" 223 8009 8047 "LinearAlgebra.ml" 223 8009 8050
 type(
   float
 )
-"LinearAlgebra.ml" 225 8022 8031 "LinearAlgebra.ml" 225 8022 8063
+"LinearAlgebra.ml" 223 8009 8018 "LinearAlgebra.ml" 223 8009 8050
 type(
   bool
 )
-"LinearAlgebra.ml" 225 8022 8024 "LinearAlgebra.ml" 225 8022 8064
+"LinearAlgebra.ml" 223 8009 8011 "LinearAlgebra.ml" 223 8009 8051
 type(
   unit
 )
-"LinearAlgebra.ml" 226 8066 8075 "LinearAlgebra.ml" 226 8066 8090
+"LinearAlgebra.ml" 224 8053 8062 "LinearAlgebra.ml" 224 8053 8077
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 226 8066 8091 "LinearAlgebra.ml" 226 8066 8097
+"LinearAlgebra.ml" 224 8053 8078 "LinearAlgebra.ml" 224 8053 8084
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 223 7930 7936 "LinearAlgebra.ml" 223 7930 7942
+  int_ref m3_2x2 "LinearAlgebra.ml" 221 7917 7923 "LinearAlgebra.ml" 221 7917 7929
 )
-"LinearAlgebra.ml" 226 8066 8098 "LinearAlgebra.ml" 226 8066 8099
+"LinearAlgebra.ml" 224 8053 8085 "LinearAlgebra.ml" 224 8053 8086
 type(
   int
 )
-"LinearAlgebra.ml" 226 8066 8100 "LinearAlgebra.ml" 226 8066 8101
+"LinearAlgebra.ml" 224 8053 8087 "LinearAlgebra.ml" 224 8053 8088
 type(
   int
 )
-"LinearAlgebra.ml" 226 8066 8075 "LinearAlgebra.ml" 226 8066 8101
+"LinearAlgebra.ml" 224 8053 8062 "LinearAlgebra.ml" 224 8053 8088
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 226 8066 8102 "LinearAlgebra.ml" 226 8066 8103
+"LinearAlgebra.ml" 224 8053 8089 "LinearAlgebra.ml" 224 8053 8090
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 226 8066 8104 "LinearAlgebra.ml" 226 8066 8107
+"LinearAlgebra.ml" 224 8053 8091 "LinearAlgebra.ml" 224 8053 8094
 type(
   float
 )
-"LinearAlgebra.ml" 226 8066 8075 "LinearAlgebra.ml" 226 8066 8107
+"LinearAlgebra.ml" 224 8053 8062 "LinearAlgebra.ml" 224 8053 8094
 type(
   bool
 )
-"LinearAlgebra.ml" 226 8066 8068 "LinearAlgebra.ml" 226 8066 8108
+"LinearAlgebra.ml" 224 8053 8055 "LinearAlgebra.ml" 224 8053 8095
 type(
   unit
 )
-"LinearAlgebra.ml" 227 8110 8119 "LinearAlgebra.ml" 227 8110 8134
+"LinearAlgebra.ml" 225 8097 8106 "LinearAlgebra.ml" 225 8097 8121
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 227 8110 8135 "LinearAlgebra.ml" 227 8110 8141
+"LinearAlgebra.ml" 225 8097 8122 "LinearAlgebra.ml" 225 8097 8128
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 223 7930 7936 "LinearAlgebra.ml" 223 7930 7942
+  int_ref m3_2x2 "LinearAlgebra.ml" 221 7917 7923 "LinearAlgebra.ml" 221 7917 7929
 )
-"LinearAlgebra.ml" 227 8110 8142 "LinearAlgebra.ml" 227 8110 8143
+"LinearAlgebra.ml" 225 8097 8129 "LinearAlgebra.ml" 225 8097 8130
 type(
   int
 )
-"LinearAlgebra.ml" 227 8110 8144 "LinearAlgebra.ml" 227 8110 8145
+"LinearAlgebra.ml" 225 8097 8131 "LinearAlgebra.ml" 225 8097 8132
 type(
   int
 )
-"LinearAlgebra.ml" 227 8110 8119 "LinearAlgebra.ml" 227 8110 8145
+"LinearAlgebra.ml" 225 8097 8106 "LinearAlgebra.ml" 225 8097 8132
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 227 8110 8146 "LinearAlgebra.ml" 227 8110 8147
+"LinearAlgebra.ml" 225 8097 8133 "LinearAlgebra.ml" 225 8097 8134
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 227 8110 8148 "LinearAlgebra.ml" 227 8110 8151
+"LinearAlgebra.ml" 225 8097 8135 "LinearAlgebra.ml" 225 8097 8138
 type(
   float
 )
-"LinearAlgebra.ml" 227 8110 8119 "LinearAlgebra.ml" 227 8110 8151
+"LinearAlgebra.ml" 225 8097 8106 "LinearAlgebra.ml" 225 8097 8138
 type(
   bool
 )
-"LinearAlgebra.ml" 227 8110 8112 "LinearAlgebra.ml" 227 8110 8152
+"LinearAlgebra.ml" 225 8097 8099 "LinearAlgebra.ml" 225 8097 8139
 type(
   unit
 )
-"LinearAlgebra.ml" 228 8154 8160 "LinearAlgebra.ml" 228 8154 8166
+"LinearAlgebra.ml" 226 8141 8147 "LinearAlgebra.ml" 226 8141 8153
 type(
   Matrix.m
 )
 ident(
-  def m3_2x2 "LinearAlgebra.ml" 229 8202 8204 "LinearAlgebra.ml" 237 8563 8608
+  def m3_2x2 "LinearAlgebra.ml" 227 8189 8191 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 228 8154 8169 "LinearAlgebra.ml" 228 8154 8184
+"LinearAlgebra.ml" 226 8141 8156 "LinearAlgebra.ml" 226 8141 8171
 type(
   Matrix.m -> Matrix.m -> Matrix.m
 )
 ident(
   int_ref Matrix.multiply "LinearAlgebra.ml" 21 689 691 "LinearAlgebra.ml" 21 689 716
 )
-"LinearAlgebra.ml" 228 8154 8185 "LinearAlgebra.ml" 228 8154 8191
+"LinearAlgebra.ml" 226 8141 8172 "LinearAlgebra.ml" 226 8141 8178
 type(
   Matrix.m
 )
 ident(
-  int_ref m2_2x2 "LinearAlgebra.ml" 218 7758 7764 "LinearAlgebra.ml" 218 7758 7770
+  int_ref m2_2x2 "LinearAlgebra.ml" 216 7745 7751 "LinearAlgebra.ml" 216 7745 7757
 )
-"LinearAlgebra.ml" 228 8154 8192 "LinearAlgebra.ml" 228 8154 8198
+"LinearAlgebra.ml" 226 8141 8179 "LinearAlgebra.ml" 226 8141 8185
 type(
   Matrix.m
 )
 ident(
-  int_ref m_2by2 "LinearAlgebra.ml" 204 7179 7185 "LinearAlgebra.ml" 204 7179 7191
+  int_ref m_2by2 "LinearAlgebra.ml" 202 7166 7172 "LinearAlgebra.ml" 202 7166 7178
 )
-"LinearAlgebra.ml" 228 8154 8169 "LinearAlgebra.ml" 228 8154 8198
+"LinearAlgebra.ml" 226 8141 8156 "LinearAlgebra.ml" 226 8141 8185
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 229 8202 8211 "LinearAlgebra.ml" 229 8202 8226
+"LinearAlgebra.ml" 227 8189 8198 "LinearAlgebra.ml" 227 8189 8213
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 229 8202 8227 "LinearAlgebra.ml" 229 8202 8233
+"LinearAlgebra.ml" 227 8189 8214 "LinearAlgebra.ml" 227 8189 8220
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 228 8154 8160 "LinearAlgebra.ml" 228 8154 8166
+  int_ref m3_2x2 "LinearAlgebra.ml" 226 8141 8147 "LinearAlgebra.ml" 226 8141 8153
 )
-"LinearAlgebra.ml" 229 8202 8234 "LinearAlgebra.ml" 229 8202 8235
+"LinearAlgebra.ml" 227 8189 8221 "LinearAlgebra.ml" 227 8189 8222
 type(
   int
 )
-"LinearAlgebra.ml" 229 8202 8236 "LinearAlgebra.ml" 229 8202 8237
+"LinearAlgebra.ml" 227 8189 8223 "LinearAlgebra.ml" 227 8189 8224
 type(
   int
 )
-"LinearAlgebra.ml" 229 8202 8211 "LinearAlgebra.ml" 229 8202 8237
+"LinearAlgebra.ml" 227 8189 8198 "LinearAlgebra.ml" 227 8189 8224
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 229 8202 8238 "LinearAlgebra.ml" 229 8202 8239
+"LinearAlgebra.ml" 227 8189 8225 "LinearAlgebra.ml" 227 8189 8226
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 229 8202 8240 "LinearAlgebra.ml" 229 8202 8243
+"LinearAlgebra.ml" 227 8189 8227 "LinearAlgebra.ml" 227 8189 8230
 type(
   float
 )
-"LinearAlgebra.ml" 229 8202 8211 "LinearAlgebra.ml" 229 8202 8243
+"LinearAlgebra.ml" 227 8189 8198 "LinearAlgebra.ml" 227 8189 8230
 type(
   bool
 )
-"LinearAlgebra.ml" 229 8202 8204 "LinearAlgebra.ml" 229 8202 8244
+"LinearAlgebra.ml" 227 8189 8191 "LinearAlgebra.ml" 227 8189 8231
 type(
   unit
 )
-"LinearAlgebra.ml" 230 8246 8255 "LinearAlgebra.ml" 230 8246 8270
+"LinearAlgebra.ml" 228 8233 8242 "LinearAlgebra.ml" 228 8233 8257
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 230 8246 8271 "LinearAlgebra.ml" 230 8246 8277
+"LinearAlgebra.ml" 228 8233 8258 "LinearAlgebra.ml" 228 8233 8264
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 228 8154 8160 "LinearAlgebra.ml" 228 8154 8166
+  int_ref m3_2x2 "LinearAlgebra.ml" 226 8141 8147 "LinearAlgebra.ml" 226 8141 8153
 )
-"LinearAlgebra.ml" 230 8246 8278 "LinearAlgebra.ml" 230 8246 8279
+"LinearAlgebra.ml" 228 8233 8265 "LinearAlgebra.ml" 228 8233 8266
 type(
   int
 )
-"LinearAlgebra.ml" 230 8246 8280 "LinearAlgebra.ml" 230 8246 8281
+"LinearAlgebra.ml" 228 8233 8267 "LinearAlgebra.ml" 228 8233 8268
 type(
   int
 )
-"LinearAlgebra.ml" 230 8246 8255 "LinearAlgebra.ml" 230 8246 8281
+"LinearAlgebra.ml" 228 8233 8242 "LinearAlgebra.ml" 228 8233 8268
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 230 8246 8282 "LinearAlgebra.ml" 230 8246 8283
+"LinearAlgebra.ml" 228 8233 8269 "LinearAlgebra.ml" 228 8233 8270
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 230 8246 8284 "LinearAlgebra.ml" 230 8246 8287
+"LinearAlgebra.ml" 228 8233 8271 "LinearAlgebra.ml" 228 8233 8274
 type(
   float
 )
-"LinearAlgebra.ml" 230 8246 8255 "LinearAlgebra.ml" 230 8246 8287
+"LinearAlgebra.ml" 228 8233 8242 "LinearAlgebra.ml" 228 8233 8274
 type(
   bool
 )
-"LinearAlgebra.ml" 230 8246 8248 "LinearAlgebra.ml" 230 8246 8288
+"LinearAlgebra.ml" 228 8233 8235 "LinearAlgebra.ml" 228 8233 8275
 type(
   unit
 )
-"LinearAlgebra.ml" 231 8290 8299 "LinearAlgebra.ml" 231 8290 8314
+"LinearAlgebra.ml" 229 8277 8286 "LinearAlgebra.ml" 229 8277 8301
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 231 8290 8315 "LinearAlgebra.ml" 231 8290 8321
+"LinearAlgebra.ml" 229 8277 8302 "LinearAlgebra.ml" 229 8277 8308
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 228 8154 8160 "LinearAlgebra.ml" 228 8154 8166
+  int_ref m3_2x2 "LinearAlgebra.ml" 226 8141 8147 "LinearAlgebra.ml" 226 8141 8153
 )
-"LinearAlgebra.ml" 231 8290 8322 "LinearAlgebra.ml" 231 8290 8323
+"LinearAlgebra.ml" 229 8277 8309 "LinearAlgebra.ml" 229 8277 8310
 type(
   int
 )
-"LinearAlgebra.ml" 231 8290 8324 "LinearAlgebra.ml" 231 8290 8325
+"LinearAlgebra.ml" 229 8277 8311 "LinearAlgebra.ml" 229 8277 8312
 type(
   int
 )
-"LinearAlgebra.ml" 231 8290 8299 "LinearAlgebra.ml" 231 8290 8325
+"LinearAlgebra.ml" 229 8277 8286 "LinearAlgebra.ml" 229 8277 8312
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 231 8290 8326 "LinearAlgebra.ml" 231 8290 8327
+"LinearAlgebra.ml" 229 8277 8313 "LinearAlgebra.ml" 229 8277 8314
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 231 8290 8328 "LinearAlgebra.ml" 231 8290 8331
+"LinearAlgebra.ml" 229 8277 8315 "LinearAlgebra.ml" 229 8277 8318
 type(
   float
 )
-"LinearAlgebra.ml" 231 8290 8299 "LinearAlgebra.ml" 231 8290 8331
+"LinearAlgebra.ml" 229 8277 8286 "LinearAlgebra.ml" 229 8277 8318
 type(
   bool
 )
-"LinearAlgebra.ml" 231 8290 8292 "LinearAlgebra.ml" 231 8290 8332
+"LinearAlgebra.ml" 229 8277 8279 "LinearAlgebra.ml" 229 8277 8319
 type(
   unit
 )
-"LinearAlgebra.ml" 232 8334 8343 "LinearAlgebra.ml" 232 8334 8358
+"LinearAlgebra.ml" 230 8321 8330 "LinearAlgebra.ml" 230 8321 8345
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 232 8334 8359 "LinearAlgebra.ml" 232 8334 8365
+"LinearAlgebra.ml" 230 8321 8346 "LinearAlgebra.ml" 230 8321 8352
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 228 8154 8160 "LinearAlgebra.ml" 228 8154 8166
+  int_ref m3_2x2 "LinearAlgebra.ml" 226 8141 8147 "LinearAlgebra.ml" 226 8141 8153
 )
-"LinearAlgebra.ml" 232 8334 8366 "LinearAlgebra.ml" 232 8334 8367
+"LinearAlgebra.ml" 230 8321 8353 "LinearAlgebra.ml" 230 8321 8354
 type(
   int
 )
-"LinearAlgebra.ml" 232 8334 8368 "LinearAlgebra.ml" 232 8334 8369
+"LinearAlgebra.ml" 230 8321 8355 "LinearAlgebra.ml" 230 8321 8356
 type(
   int
 )
-"LinearAlgebra.ml" 232 8334 8343 "LinearAlgebra.ml" 232 8334 8369
+"LinearAlgebra.ml" 230 8321 8330 "LinearAlgebra.ml" 230 8321 8356
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 232 8334 8370 "LinearAlgebra.ml" 232 8334 8371
+"LinearAlgebra.ml" 230 8321 8357 "LinearAlgebra.ml" 230 8321 8358
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 232 8334 8372 "LinearAlgebra.ml" 232 8334 8375
+"LinearAlgebra.ml" 230 8321 8359 "LinearAlgebra.ml" 230 8321 8362
 type(
   float
 )
-"LinearAlgebra.ml" 232 8334 8343 "LinearAlgebra.ml" 232 8334 8375
+"LinearAlgebra.ml" 230 8321 8330 "LinearAlgebra.ml" 230 8321 8362
 type(
   bool
 )
-"LinearAlgebra.ml" 232 8334 8336 "LinearAlgebra.ml" 232 8334 8376
+"LinearAlgebra.ml" 230 8321 8323 "LinearAlgebra.ml" 230 8321 8363
 type(
   unit
 )
-"LinearAlgebra.ml" 233 8378 8384 "LinearAlgebra.ml" 233 8378 8394
+"LinearAlgebra.ml" 231 8365 8371 "LinearAlgebra.ml" 231 8365 8381
 type(
   Matrix.m
 )
 ident(
-  def reduced_m3 "LinearAlgebra.ml" 234 8422 8424 "LinearAlgebra.ml" 237 8563 8608
+  def reduced_m3 "LinearAlgebra.ml" 232 8409 8411 "LinearAlgebra.ml" 235 8550 8595
 )
-"LinearAlgebra.ml" 233 8378 8397 "LinearAlgebra.ml" 233 8378 8411
+"LinearAlgebra.ml" 231 8365 8384 "LinearAlgebra.ml" 231 8365 8398
 type(
   Matrix.m -> Matrix.m
 )
 ident(
   int_ref Matrix.echelon "LinearAlgebra.ml" 29 1127 1129 "LinearAlgebra.ml" 29 1127 1148
 )
-"LinearAlgebra.ml" 233 8378 8412 "LinearAlgebra.ml" 233 8378 8418
+"LinearAlgebra.ml" 231 8365 8399 "LinearAlgebra.ml" 231 8365 8405
 type(
   Matrix.m
 )
 ident(
-  int_ref m3_2x2 "LinearAlgebra.ml" 228 8154 8160 "LinearAlgebra.ml" 228 8154 8166
+  int_ref m3_2x2 "LinearAlgebra.ml" 226 8141 8147 "LinearAlgebra.ml" 226 8141 8153
 )
-"LinearAlgebra.ml" 233 8378 8397 "LinearAlgebra.ml" 233 8378 8418
+"LinearAlgebra.ml" 231 8365 8384 "LinearAlgebra.ml" 231 8365 8405
 call(
   stack
 )
 type(
   Matrix.m
 )
-"LinearAlgebra.ml" 234 8422 8431 "LinearAlgebra.ml" 234 8422 8446
+"LinearAlgebra.ml" 232 8409 8418 "LinearAlgebra.ml" 232 8409 8433
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 234 8422 8447 "LinearAlgebra.ml" 234 8422 8457
+"LinearAlgebra.ml" 232 8409 8434 "LinearAlgebra.ml" 232 8409 8444
 type(
   Matrix.m
 )
 ident(
-  int_ref reduced_m3 "LinearAlgebra.ml" 233 8378 8384 "LinearAlgebra.ml" 233 8378 8394
+  int_ref reduced_m3 "LinearAlgebra.ml" 231 8365 8371 "LinearAlgebra.ml" 231 8365 8381
 )
-"LinearAlgebra.ml" 234 8422 8458 "LinearAlgebra.ml" 234 8422 8459
+"LinearAlgebra.ml" 232 8409 8445 "LinearAlgebra.ml" 232 8409 8446
 type(
   int
 )
-"LinearAlgebra.ml" 234 8422 8460 "LinearAlgebra.ml" 234 8422 8461
+"LinearAlgebra.ml" 232 8409 8447 "LinearAlgebra.ml" 232 8409 8448
 type(
   int
 )
-"LinearAlgebra.ml" 234 8422 8431 "LinearAlgebra.ml" 234 8422 8461
+"LinearAlgebra.ml" 232 8409 8418 "LinearAlgebra.ml" 232 8409 8448
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 234 8422 8462 "LinearAlgebra.ml" 234 8422 8463
+"LinearAlgebra.ml" 232 8409 8449 "LinearAlgebra.ml" 232 8409 8450
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 234 8422 8464 "LinearAlgebra.ml" 234 8422 8466
+"LinearAlgebra.ml" 232 8409 8451 "LinearAlgebra.ml" 232 8409 8453
 type(
   float
 )
-"LinearAlgebra.ml" 234 8422 8431 "LinearAlgebra.ml" 234 8422 8466
+"LinearAlgebra.ml" 232 8409 8418 "LinearAlgebra.ml" 232 8409 8453
 type(
   bool
 )
-"LinearAlgebra.ml" 234 8422 8424 "LinearAlgebra.ml" 234 8422 8467
+"LinearAlgebra.ml" 232 8409 8411 "LinearAlgebra.ml" 232 8409 8454
 type(
   unit
 )
-"LinearAlgebra.ml" 235 8469 8478 "LinearAlgebra.ml" 235 8469 8493
+"LinearAlgebra.ml" 233 8456 8465 "LinearAlgebra.ml" 233 8456 8480
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 235 8469 8494 "LinearAlgebra.ml" 235 8469 8504
+"LinearAlgebra.ml" 233 8456 8481 "LinearAlgebra.ml" 233 8456 8491
 type(
   Matrix.m
 )
 ident(
-  int_ref reduced_m3 "LinearAlgebra.ml" 233 8378 8384 "LinearAlgebra.ml" 233 8378 8394
+  int_ref reduced_m3 "LinearAlgebra.ml" 231 8365 8371 "LinearAlgebra.ml" 231 8365 8381
 )
-"LinearAlgebra.ml" 235 8469 8505 "LinearAlgebra.ml" 235 8469 8506
+"LinearAlgebra.ml" 233 8456 8492 "LinearAlgebra.ml" 233 8456 8493
 type(
   int
 )
-"LinearAlgebra.ml" 235 8469 8507 "LinearAlgebra.ml" 235 8469 8508
+"LinearAlgebra.ml" 233 8456 8494 "LinearAlgebra.ml" 233 8456 8495
 type(
   int
 )
-"LinearAlgebra.ml" 235 8469 8478 "LinearAlgebra.ml" 235 8469 8508
+"LinearAlgebra.ml" 233 8456 8465 "LinearAlgebra.ml" 233 8456 8495
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 235 8469 8509 "LinearAlgebra.ml" 235 8469 8510
+"LinearAlgebra.ml" 233 8456 8496 "LinearAlgebra.ml" 233 8456 8497
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 235 8469 8511 "LinearAlgebra.ml" 235 8469 8513
+"LinearAlgebra.ml" 233 8456 8498 "LinearAlgebra.ml" 233 8456 8500
 type(
   float
 )
-"LinearAlgebra.ml" 235 8469 8478 "LinearAlgebra.ml" 235 8469 8513
+"LinearAlgebra.ml" 233 8456 8465 "LinearAlgebra.ml" 233 8456 8500
 type(
   bool
 )
-"LinearAlgebra.ml" 235 8469 8471 "LinearAlgebra.ml" 235 8469 8514
+"LinearAlgebra.ml" 233 8456 8458 "LinearAlgebra.ml" 233 8456 8501
 type(
   unit
 )
-"LinearAlgebra.ml" 236 8516 8525 "LinearAlgebra.ml" 236 8516 8540
+"LinearAlgebra.ml" 234 8503 8512 "LinearAlgebra.ml" 234 8503 8527
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 236 8516 8541 "LinearAlgebra.ml" 236 8516 8551
+"LinearAlgebra.ml" 234 8503 8528 "LinearAlgebra.ml" 234 8503 8538
 type(
   Matrix.m
 )
 ident(
-  int_ref reduced_m3 "LinearAlgebra.ml" 233 8378 8384 "LinearAlgebra.ml" 233 8378 8394
+  int_ref reduced_m3 "LinearAlgebra.ml" 231 8365 8371 "LinearAlgebra.ml" 231 8365 8381
 )
-"LinearAlgebra.ml" 236 8516 8552 "LinearAlgebra.ml" 236 8516 8553
+"LinearAlgebra.ml" 234 8503 8539 "LinearAlgebra.ml" 234 8503 8540
 type(
   int
 )
-"LinearAlgebra.ml" 236 8516 8554 "LinearAlgebra.ml" 236 8516 8555
+"LinearAlgebra.ml" 234 8503 8541 "LinearAlgebra.ml" 234 8503 8542
 type(
   int
 )
-"LinearAlgebra.ml" 236 8516 8525 "LinearAlgebra.ml" 236 8516 8555
+"LinearAlgebra.ml" 234 8503 8512 "LinearAlgebra.ml" 234 8503 8542
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 236 8516 8556 "LinearAlgebra.ml" 236 8516 8557
+"LinearAlgebra.ml" 234 8503 8543 "LinearAlgebra.ml" 234 8503 8544
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 236 8516 8558 "LinearAlgebra.ml" 236 8516 8560
+"LinearAlgebra.ml" 234 8503 8545 "LinearAlgebra.ml" 234 8503 8547
 type(
   float
 )
-"LinearAlgebra.ml" 236 8516 8525 "LinearAlgebra.ml" 236 8516 8560
+"LinearAlgebra.ml" 234 8503 8512 "LinearAlgebra.ml" 234 8503 8547
 type(
   bool
 )
-"LinearAlgebra.ml" 236 8516 8518 "LinearAlgebra.ml" 236 8516 8561
+"LinearAlgebra.ml" 234 8503 8505 "LinearAlgebra.ml" 234 8503 8548
 type(
   unit
 )
-"LinearAlgebra.ml" 237 8563 8572 "LinearAlgebra.ml" 237 8563 8587
+"LinearAlgebra.ml" 235 8550 8559 "LinearAlgebra.ml" 235 8550 8574
 type(
   Matrix.m -> int -> int -> float
 )
 ident(
   int_ref Matrix.find_elt "LinearAlgebra.ml" 54 1919 1921 "LinearAlgebra.ml" 54 1919 1959
 )
-"LinearAlgebra.ml" 237 8563 8588 "LinearAlgebra.ml" 237 8563 8598
+"LinearAlgebra.ml" 235 8550 8575 "LinearAlgebra.ml" 235 8550 8585
 type(
   Matrix.m
 )
 ident(
-  int_ref reduced_m3 "LinearAlgebra.ml" 233 8378 8384 "LinearAlgebra.ml" 233 8378 8394
+  int_ref reduced_m3 "LinearAlgebra.ml" 231 8365 8371 "LinearAlgebra.ml" 231 8365 8381
 )
-"LinearAlgebra.ml" 237 8563 8599 "LinearAlgebra.ml" 237 8563 8600
+"LinearAlgebra.ml" 235 8550 8586 "LinearAlgebra.ml" 235 8550 8587
 type(
   int
 )
-"LinearAlgebra.ml" 237 8563 8601 "LinearAlgebra.ml" 237 8563 8602
+"LinearAlgebra.ml" 235 8550 8588 "LinearAlgebra.ml" 235 8550 8589
 type(
   int
 )
-"LinearAlgebra.ml" 237 8563 8572 "LinearAlgebra.ml" 237 8563 8602
+"LinearAlgebra.ml" 235 8550 8559 "LinearAlgebra.ml" 235 8550 8589
 call(
   stack
 )
 type(
   float
 )
-"LinearAlgebra.ml" 237 8563 8603 "LinearAlgebra.ml" 237 8563 8604
+"LinearAlgebra.ml" 235 8550 8590 "LinearAlgebra.ml" 235 8550 8591
 type(
   float -> float -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"LinearAlgebra.ml" 237 8563 8605 "LinearAlgebra.ml" 237 8563 8607
+"LinearAlgebra.ml" 235 8550 8592 "LinearAlgebra.ml" 235 8550 8594
 type(
   float
 )
-"LinearAlgebra.ml" 237 8563 8572 "LinearAlgebra.ml" 237 8563 8607
+"LinearAlgebra.ml" 235 8550 8559 "LinearAlgebra.ml" 235 8550 8594
 type(
   bool
 )
-"LinearAlgebra.ml" 237 8563 8565 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 235 8550 8552 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 236 8516 8518 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 234 8503 8505 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 235 8469 8471 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 233 8456 8458 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 234 8422 8424 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 232 8409 8411 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 233 8378 8380 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 231 8365 8367 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 232 8334 8336 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 230 8321 8323 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 231 8290 8292 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 229 8277 8279 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 230 8246 8248 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 228 8233 8235 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 229 8202 8204 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 227 8189 8191 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 228 8154 8156 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 226 8141 8143 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 227 8110 8112 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 225 8097 8099 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 226 8066 8068 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 224 8053 8055 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 225 8022 8024 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 223 8009 8011 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 224 7978 7980 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 222 7965 7967 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 223 7930 7932 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 221 7917 7919 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 222 7898 7900 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 220 7885 7887 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 221 7866 7868 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 219 7853 7855 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 220 7834 7836 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 218 7821 7823 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 219 7802 7804 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 217 7789 7791 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 218 7758 7760 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 216 7745 7747 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 217 7714 7716 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 215 7701 7703 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 216 7671 7673 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 214 7658 7660 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 215 7628 7630 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 213 7615 7617 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 214 7585 7587 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 212 7572 7574 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 213 7543 7545 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 211 7530 7532 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 212 7511 7513 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 210 7498 7500 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 211 7479 7481 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 209 7466 7468 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 210 7435 7437 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 208 7422 7424 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 209 7392 7394 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 207 7379 7381 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 208 7349 7351 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 206 7336 7338 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 207 7306 7308 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 205 7293 7295 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 206 7264 7266 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 204 7251 7253 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 205 7221 7223 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 203 7208 7210 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 204 7179 7181 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 202 7166 7168 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 202 7102 7104 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 200 7089 7091 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 200 7027 7029 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 198 7014 7016 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 199 6984 6986 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 197 6971 6973 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 198 6941 6943 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 196 6928 6930 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 197 6898 6900 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 195 6885 6887 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 196 6855 6857 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 194 6842 6844 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 195 6813 6815 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 193 6800 6802 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 194 6770 6772 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 192 6757 6759 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 193 6724 6726 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 191 6711 6713 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 192 6680 6682 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 190 6667 6669 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 191 6636 6638 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 189 6623 6625 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 190 6589 6591 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 188 6576 6578 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 189 6545 6547 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 187 6532 6534 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 188 6508 6510 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 186 6495 6497 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 187 6474 6476 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 185 6461 6463 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit
 )
-"LinearAlgebra.ml" 186 6458 6468 "LinearAlgebra.ml" 237 8563 8608
+"LinearAlgebra.ml" 184 6445 6455 "LinearAlgebra.ml" 235 8550 8595
 type(
   unit -> unit
 )
-"LinearAlgebra.ml" 239 8612 8612 "LinearAlgebra.ml" 239 8612 8617
+"LinearAlgebra.ml" 237 8599 8599 "LinearAlgebra.ml" 237 8599 8604
 type(
   unit -> unit
 )
 ident(
-  int_ref tests "LinearAlgebra.ml" 186 6458 6462 "LinearAlgebra.ml" 186 6458 6467
+  int_ref tests "LinearAlgebra.ml" 184 6445 6449 "LinearAlgebra.ml" 184 6445 6454
 )
-"LinearAlgebra.ml" 239 8612 8618 "LinearAlgebra.ml" 239 8612 8620
+"LinearAlgebra.ml" 237 8599 8605 "LinearAlgebra.ml" 237 8599 8607
 type(
   unit
 )
-"LinearAlgebra.ml" 239 8612 8612 "LinearAlgebra.ml" 239 8612 8620
+"LinearAlgebra.ml" 237 8599 8599 "LinearAlgebra.ml" 237 8599 8607
 call(
   stack
 )

@@ -112,11 +112,9 @@ struct
 
   (* puts an additional column onto a matrix. Known as augmenting a matrix.
      each final column element is the sum of all the variables in the matrix row*)
-  let augment (matrix : m) 
-	      (vector : m) 
-      : m =
+  let augment (matrix : m) (vector : m) : m =
     let len = Array.length matrix.(0) in 
-    let new_matrix = Array.make_matrix ~dimx:len ~dimy:(len + 1) 0. in
+    let new_matrix = Array.make_matrix ~dimx:(len) ~dimy:(len + 1) 0. in
     for i = 0 to len-1 do
       new_matrix.(i) <- append matrix.(i) vector.(i)
     done;
