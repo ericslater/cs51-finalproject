@@ -46,8 +46,16 @@ let rec print_list (list: (string * int) list list) : unit =
 		print_list tl
 ;;
 
-RankingAlgorithms.calculate_massey (to_data (take_input ()))
-RankingAlgorithms.calculate_minton (to_data (take_input ()))
-RankingAlgorithms.calculate_colley (to_data (take_input ()));;
 
+let rec choose_alg () =
+  print_string "CHOOSE AN ALGORITHM (MINTON, MASSEY, COLLEY): ";
+  let algo = read_line () in
+  match String.uppercase algo with
+  | "MINTON" -> RankingAlgorithms.calculate_minton (to_data (take_input ()))
+  | "MASSEY" -> RankingAlgorithms.calculate_massey (to_data (take_input ()))
+  | "COLLEY" -> RankingAlgorithms.calculate_colley (to_data (take_input ()))
+  | _ -> (print_string "INVALID INPUT.\n";
+	  choose_alg ())
+;;
 
+choose_alg ();;

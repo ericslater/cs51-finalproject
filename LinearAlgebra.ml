@@ -88,6 +88,9 @@ struct
   let choose_array matrix i : float list = 
     Array.to_list matrix.(i)
 
+  (* if i is the index of the row and j is the index of the column, transpose 
+   takes the (i,j) element and moves it to the (j,i) position of a new matrix. The 
+   result is a new matrix that is the transpose of the original*)
   let transpose (matrix : m) : m  =  
     let new_height = Array.length matrix.(0) in
     let new_width = Array.length matrix in
@@ -101,11 +104,14 @@ struct
       else new_matrix in
     ihelper (0)
 
+  (* takes two rows of a matrix and swaps their position within the matrix *)
   let swap_rows m i j =
     let tmp = m.(i) in
     m.(i) <- m.(j);
     m.(j) <- tmp
 
+  (* puts an additional column onto a matrix. Known as augmenting a matrix.
+     each final column element is the sum of all the variables in the matrix row*)
   let augment (matrix : m) 
 	      (vector : m) 
       : m =
@@ -117,12 +123,16 @@ struct
     new_matrix
 ;;
 
+(* takes two arrays and a function and outputs an array with with elements resulted
+from the function and the two coresponding elements in the original array *)
 let ericmap f xs ys =
   let n = Array.length xs in
-  if Array.length ys <> n then raise (Invalid_argument "Array.map2");
+  if Array.length ys <> n then raise (Invalid_argument "ericmap problems");
   Array.init n (fun i -> f xs.(i) ys.(i))
 ;;
 
+(* multiplies two matrices by summing the ericmapped of two corresponding rows. One of the
+matrices having been already transposed *)
 let multiply (mat1 : m) (mat2 :m) : m =
   let tmat2 = transpose mat2 in
   let height = Array.length mat1 in
@@ -138,6 +148,9 @@ let multiply (mat1 : m) (mat2 :m) : m =
   column mat1.(0) tmat2.(0) (0)
 ;;
 
+(* Takes a lead point and pivots around this to ensure that each row and column
+has a single element as the number one and the remaining elements as zeros, or if necessary 
+free elements  *)
 let echelon (matx: m)  =
     let lead = ref 0
     and rows = Array.length matx
@@ -169,6 +182,7 @@ let echelon (matx: m)  =
  
 end
 
+(* tests all of our functions *)
 let tests () = 
   let float_m = Matrix.fill 0. in
   let float_m1 = Matrix.fill 123. in
