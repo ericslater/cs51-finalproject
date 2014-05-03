@@ -1,1 +1,1 @@
-UserInput.ml: Array Core RankingAlgorithms String
+UserInput.ml: Array Core List RankingAlgorithms Str String
