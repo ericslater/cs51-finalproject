@@ -44,7 +44,7 @@ struct
      in
      match teams with
      | [] -> []
-     | game :: season -> let [(t1,s1); (t2,s2)] = game in
+     | game :: season -> let [(t1,_); (t2,_)] = game in
 			 clean_list (t1 :: t2 :: (team_list season))
    ;;
 
@@ -55,7 +55,7 @@ struct
    let rec massey_point_spread (stats: (string * int) list list) : m =
      match stats with
      | [] -> Matrix.empty_float_array ()
-     | game :: season -> let [(t1,s1); (t2,s2)] = game in
+     | game :: season -> let [(_,s1); (_,s2)] = game in
 			 let ps1 = float(s1) -. float(s2) in 
 			 Matrix.append (Matrix.fill ps1)
 				       (massey_point_spread season)
@@ -78,7 +78,7 @@ struct
 		       (search: string) : string * int =
      match index_list with 
      | [] -> failwith "We know our search exists"
-     | first :: rest -> let (string, index) = first in
+     | first :: rest -> let (string, _) = first in
 			if search = string
 			then first 
 			else (pull_string rest search)
@@ -96,7 +96,7 @@ struct
      let isolate = List.nth stats swap_index in 
      match isolate with
      | None -> []
-     | Some [(t1,s1); (t2,s2)] -> 
+     | Some [(t1,_); (t2,_)] -> 
 	[(pull_string index_list t1); (pull_string index_list t2)] 
 	:: (update_index stats index_list (swap_index + 1))
 
@@ -113,7 +113,7 @@ struct
        match index_stats with
        | [] -> matrix_x
        | game :: season ->
-	  let [(t1, id_1); (t2, id_2)] = game in 
+	  let [(_, id_1); (_, id_2)] = game in 
 	  Matrix.fix_elt matrix_x game_number id_1 1.;
 	  Matrix.fix_elt matrix_x game_number id_2 (-1.);
 	  help_populate_massey season (game_number + 1) in
@@ -128,7 +128,7 @@ struct
    let rec pull_team (index_list: (string * int) list) (index : int) 
 	   : string = 
      match index_list with 
-     | [] -> failwith "We won't be dealing with this case!"
+     | [] -> "We won't be dealing with this case!"
      | team :: league -> let (string, number) = team in 
 			 if number = index 
 			 then string
@@ -257,14 +257,14 @@ struct
              (string * int) list list = 
      match stats with
      | [] -> []
-     | game :: season -> let [(t1, s1); (t2, s2)] = game in
+     | game :: season -> let [(t1, _); (t2, _)] = game in
 			 if team = t1 || team = t2 
 			 then game :: (pull_games season team)
 			 else pull_games season team
    ;;
    (* calculates the number of point each team scores and points 
       scored against that team *)
-   let rec create_vars (stats: (string * int) list list) 
+   let create_vars (stats: (string * int) list list) 
 		       (team : string) (team_points : float) 
 		       (opponent_points : float) : float * float =
      let stat_list = pull_games stats team in
@@ -274,7 +274,7 @@ struct
        match stats1 with
        | [] -> (team_points1, opponent_points1)
        | game ::  season -> 
-	  let [(t1, s1); (t2, s2)] = game in
+	  let [(t1, s1); (_, s2)] = game in
 	  if t1 = team 
 	  then let team_points = team_points1 +. float(s1) in
 	       let opponent_points = opponent_points1 +.
@@ -288,7 +288,7 @@ struct
    ;;
      
    (* creates the actual point spread for a given team! *)
-   let rec create_spread (stats: (string * int) list list) 
+   let create_spread (stats: (string * int) list list) 
 			 (team : string) (team_points : float) 
 			 (opponent_points : float) : float = 
      let (s1, s2) = (create_vars stats team 0. 0.)
@@ -297,7 +297,7 @@ struct
      
    (* calculates the massey point spread vector of a data set and
     * stores it in matrix format for later use *)
-   let rec minton_point_spread (stats: (string * int) list list)
+   let minton_point_spread (stats: (string * int) list list)
 	   : m =
      (* we are going to iterate through the indexed list so we can keep 
       * track of which slots the point spreads should be stored *)
@@ -342,7 +342,7 @@ struct
            : float * float = 
      match (pull_games stats team) with
      | [] -> (start_wins, start_losses)
-     | game :: season -> let [(t1, s1); (t2, s2)] = game in
+     | game :: season -> let [(t1, s1); (_, s2)] = game in
 			 if t1 = team then 
 			   if s1 > s2 then (wins_losses season team 
 							(start_wins +. 1.)
@@ -363,7 +363,7 @@ struct
 
 
    (* creates the actual point spread for a given team! *)
-   let rec colley_create_spread (stats: (string * int) list list) 
+   let colley_create_spread (stats: (string * int) list list) 
 				(team : string) : float = 
      let (w, l) = (wins_losses stats team 0. 0.) in
      (1. +. ((w -. l) /. 2.)) /. (2. +. w +. l)
@@ -372,7 +372,7 @@ struct
    (* calculates the colley point spread vector 
     * by using colley's ranking algorithm,which incorporates the 
     * number of wins and losses + other constants *)
-   let rec colley_point_spread (stats: (string * int) list list)
+   let colley_point_spread (stats: (string * int) list list)
 	   : m =
      (* we are going to iterate through the indexed list so we can keep 
       * track of which slots the point spreads should be stored *)

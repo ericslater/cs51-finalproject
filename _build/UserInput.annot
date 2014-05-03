@@ -1,0 +1,1268 @@
+"UserInput.ml" 9 222 230 "UserInput.ml" 9 222 240
+type(
+  unit -> string array
+)
+ident(
+  def take_input "UserInput.ml" 9 222 222 "UserInput.ml" 1 0 -1
+)
+"UserInput.ml" 9 222 241 "UserInput.ml" 9 222 243
+type(
+  unit
+)
+"UserInput.ml" 10 261 263 "UserInput.ml" 10 261 275
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"UserInput.ml" 10 261 276 "UserInput.ml" 10 261 309
+type(
+  string
+)
+"UserInput.ml" 10 261 263 "UserInput.ml" 10 261 309
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 11 311 317 "UserInput.ml" 11 311 326
+type(
+  string
+)
+ident(
+  def team_line "UserInput.ml" 12 345 349 "UserInput.ml" 17 510 558
+)
+"UserInput.ml" 11 311 329 "UserInput.ml" 11 311 338
+type(
+  unit -> string
+)
+ident(
+  ext_ref Pervasives.read_line
+)
+"UserInput.ml" 11 311 339 "UserInput.ml" 11 311 341
+type(
+  unit
+)
+"UserInput.ml" 11 311 329 "UserInput.ml" 11 311 341
+call(
+  stack
+)
+type(
+  string
+)
+"UserInput.ml" 12 345 355 "UserInput.ml" 12 345 364
+type(
+  string
+)
+ident(
+  int_ref team_line "UserInput.ml" 11 311 317 "UserInput.ml" 11 311 326
+)
+"UserInput.ml" 13 370 376 "UserInput.ml" 13 370 381
+type(
+  string
+)
+"UserInput.ml" 13 370 385 "UserInput.ml" 13 370 389
+type(
+  string array
+)
+"UserInput.ml" 14 390 396 "UserInput.ml" 14 390 400
+type(
+  string
+)
+ident(
+  def team "UserInput.ml" 14 390 404 "UserInput.ml" 17 510 558
+)
+"UserInput.ml" 14 390 404 "UserInput.ml" 14 390 416
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"UserInput.ml" 14 390 417 "UserInput.ml" 14 390 436
+type(
+  string
+)
+"UserInput.ml" 14 390 404 "UserInput.ml" 14 390 436
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 15 438 449 "UserInput.ml" 15 438 454
+type(
+  string
+)
+ident(
+  def score "UserInput.ml" 16 473 482 "UserInput.ml" 17 510 558
+)
+"UserInput.ml" 15 438 457 "UserInput.ml" 15 438 466
+type(
+  unit -> string
+)
+ident(
+  ext_ref Pervasives.read_line
+)
+"UserInput.ml" 15 438 467 "UserInput.ml" 15 438 469
+type(
+  unit
+)
+"UserInput.ml" 15 438 457 "UserInput.ml" 15 438 469
+call(
+  stack
+)
+type(
+  string
+)
+"UserInput.ml" 16 473 482 "UserInput.ml" 16 473 494
+type(
+  string array -> string array -> string array
+)
+ident(
+  ext_ref Core.Std.Array.append
+)
+"UserInput.ml" 16 473 497 "UserInput.ml" 16 473 506
+type(
+  string
+)
+ident(
+  int_ref team_line "UserInput.ml" 11 311 317 "UserInput.ml" 11 311 326
+)
+"UserInput.ml" 16 473 495 "UserInput.ml" 16 473 508
+type(
+  string array
+)
+"UserInput.ml" 17 510 519 "UserInput.ml" 17 510 531
+type(
+  string array -> string array -> string array
+)
+ident(
+  ext_ref Core.Std.Array.append
+)
+"UserInput.ml" 17 510 534 "UserInput.ml" 17 510 539
+type(
+  string
+)
+ident(
+  int_ref score "UserInput.ml" 15 438 449 "UserInput.ml" 15 438 454
+)
+"UserInput.ml" 17 510 532 "UserInput.ml" 17 510 541
+type(
+  string array
+)
+"UserInput.ml" 17 510 543 "UserInput.ml" 17 510 553
+type(
+  unit -> string array
+)
+ident(
+  int_ref take_input "UserInput.ml" 9 222 230 "UserInput.ml" 9 222 240
+)
+"UserInput.ml" 17 510 554 "UserInput.ml" 17 510 556
+type(
+  unit
+)
+"UserInput.ml" 17 510 543 "UserInput.ml" 17 510 556
+call(
+  stack
+)
+type(
+  string array
+)
+"UserInput.ml" 17 510 519 "UserInput.ml" 17 510 557
+call(
+  stack
+)
+type(
+  string array
+)
+"UserInput.ml" 16 473 482 "UserInput.ml" 17 510 558
+call(
+  tail
+)
+type(
+  string array
+)
+"UserInput.ml" 15 438 445 "UserInput.ml" 17 510 558
+type(
+  string array
+)
+"UserInput.ml" 14 390 404 "UserInput.ml" 17 510 558
+type(
+  string array
+)
+"UserInput.ml" 12 345 349 "UserInput.ml" 17 510 558
+type(
+  string array
+)
+"UserInput.ml" 11 311 313 "UserInput.ml" 17 510 558
+type(
+  string array
+)
+"UserInput.ml" 10 261 263 "UserInput.ml" 17 510 558
+type(
+  string array
+)
+type(
+  string array
+)
+"UserInput.ml" 9 222 241 "UserInput.ml" 17 510 558
+type(
+  unit -> string array
+)
+"UserInput.ml" 21 618 626 "UserInput.ml" 21 618 633
+type(
+  string array -> (string * int) list list
+)
+ident(
+  def to_data "UserInput.ml" 21 618 618 "UserInput.ml" 1 0 -1
+)
+"UserInput.ml" 21 618 635 "UserInput.ml" 21 618 641
+type(
+  string array
+)
+ident(
+  def sarray "UserInput.ml" 21 618 657 "UserInput.ml" 30 991 1035
+)
+"UserInput.ml" 22 687 695 "UserInput.ml" 22 687 701
+type(
+  string array
+)
+ident(
+  int_ref sarray "UserInput.ml" 21 618 635 "UserInput.ml" 21 618 641
+)
+"UserInput.ml" 23 707 711 "UserInput.ml" 23 707 715
+type(
+  string array
+)
+"UserInput.ml" 23 707 719 "UserInput.ml" 23 707 721
+type(
+  (string * int) list list
+)
+"UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+type(
+  string array
+)
+ident(
+  def array "UserInput.ml" 24 722 735 "UserInput.ml" 30 991 1035
+)
+"UserInput.ml" 24 722 738 "UserInput.ml" 24 722 750
+type(
+  string array -> int
+)
+ident(
+  ext_ref Core.Std.Array.length
+)
+"UserInput.ml" 24 722 751 "UserInput.ml" 24 722 757
+type(
+  string array
+)
+ident(
+  int_ref sarray "UserInput.ml" 21 618 635 "UserInput.ml" 21 618 641
+)
+"UserInput.ml" 24 722 738 "UserInput.ml" 24 722 757
+call(
+  stack
+)
+type(
+  int
+)
+"UserInput.ml" 24 722 758 "UserInput.ml" 24 722 759
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"UserInput.ml" 24 722 760 "UserInput.ml" 24 722 761
+type(
+  int
+)
+"UserInput.ml" 24 722 738 "UserInput.ml" 24 722 761
+type(
+  bool
+)
+"UserInput.ml" 25 762 775 "UserInput.ml" 25 762 780
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 25 762 782 "UserInput.ml" 25 762 783
+type(
+  int
+)
+"UserInput.ml" 25 762 775 "UserInput.ml" 25 762 784
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 25 762 786 "UserInput.ml" 25 762 799
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"UserInput.ml" 25 762 800 "UserInput.ml" 25 762 805
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 25 762 807 "UserInput.ml" 25 762 808
+type(
+  int
+)
+"UserInput.ml" 25 762 800 "UserInput.ml" 25 762 809
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 25 762 786 "UserInput.ml" 25 762 810
+type(
+  int
+)
+"UserInput.ml" 25 762 775 "UserInput.ml" 25 762 810
+type(
+  string * int
+)
+"UserInput.ml" 26 814 820 "UserInput.ml" 26 814 825
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 26 814 827 "UserInput.ml" 26 814 828
+type(
+  int
+)
+"UserInput.ml" 26 814 820 "UserInput.ml" 26 814 829
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 26 814 831 "UserInput.ml" 26 814 844
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"UserInput.ml" 26 814 845 "UserInput.ml" 26 814 850
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 26 814 852 "UserInput.ml" 26 814 853
+type(
+  int
+)
+"UserInput.ml" 26 814 845 "UserInput.ml" 26 814 854
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 26 814 831 "UserInput.ml" 26 814 855
+type(
+  int
+)
+"UserInput.ml" 26 814 820 "UserInput.ml" 26 814 855
+type(
+  string * int
+)
+"UserInput.ml" 26 814 819 "UserInput.ml" 26 814 856
+type(
+  (string * int) list
+)
+"UserInput.ml" 25 762 774 "UserInput.ml" 26 814 856
+type(
+  (string * int) list
+)
+"UserInput.ml" 25 762 773 "UserInput.ml" 26 814 857
+type(
+  (string * int) list
+)
+"UserInput.ml" 27 862 868 "UserInput.ml" 27 862 875
+type(
+  string array -> (string * int) list list
+)
+ident(
+  int_ref to_data "UserInput.ml" 21 618 626 "UserInput.ml" 21 618 633
+)
+"UserInput.ml" 27 862 877 "UserInput.ml" 27 862 886
+type(
+  (string array, string array) Blit.sub
+)
+ident(
+  ext_ref Core.Std.Array.sub
+)
+"UserInput.ml" 27 862 887 "UserInput.ml" 27 862 893
+type(
+  string array
+)
+ident(
+  int_ref sarray "UserInput.ml" 21 618 635 "UserInput.ml" 21 618 641
+)
+"UserInput.ml" 27 862 894 "UserInput.ml" 27 862 895
+type(
+  int
+)
+"UserInput.ml" 28 897 910 "UserInput.ml" 28 897 922
+type(
+  string array -> int
+)
+ident(
+  ext_ref Core.Std.Array.length
+)
+"UserInput.ml" 28 897 923 "UserInput.ml" 28 897 929
+type(
+  string array
+)
+ident(
+  int_ref sarray "UserInput.ml" 21 618 635 "UserInput.ml" 21 618 641
+)
+"UserInput.ml" 28 897 910 "UserInput.ml" 28 897 929
+call(
+  stack
+)
+type(
+  int
+)
+"UserInput.ml" 28 897 931 "UserInput.ml" 28 897 932
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"UserInput.ml" 28 897 933 "UserInput.ml" 28 897 934
+type(
+  int
+)
+"UserInput.ml" 28 897 909 "UserInput.ml" 28 897 934
+type(
+  int
+)
+"UserInput.ml" 27 862 877 "UserInput.ml" 28 897 935
+call(
+  stack
+)
+type(
+  string array
+)
+"UserInput.ml" 27 862 868 "UserInput.ml" 28 897 936
+call(
+  stack
+)
+type(
+  (string * int) list list
+)
+"UserInput.ml" 25 762 773 "UserInput.ml" 28 897 937
+type(
+  (string * int) list list
+)
+"UserInput.ml" 29 938 952 "UserInput.ml" 29 938 957
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 29 938 959 "UserInput.ml" 29 938 960
+type(
+  int
+)
+"UserInput.ml" 29 938 952 "UserInput.ml" 29 938 961
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 29 938 963 "UserInput.ml" 29 938 976
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"UserInput.ml" 29 938 977 "UserInput.ml" 29 938 982
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 29 938 984 "UserInput.ml" 29 938 985
+type(
+  int
+)
+"UserInput.ml" 29 938 977 "UserInput.ml" 29 938 986
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 29 938 963 "UserInput.ml" 29 938 987
+type(
+  int
+)
+"UserInput.ml" 29 938 952 "UserInput.ml" 29 938 987
+type(
+  string * int
+)
+"UserInput.ml" 30 991 997 "UserInput.ml" 30 991 1002
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 30 991 1004 "UserInput.ml" 30 991 1005
+type(
+  int
+)
+"UserInput.ml" 30 991 997 "UserInput.ml" 30 991 1006
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 30 991 1008 "UserInput.ml" 30 991 1021
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"UserInput.ml" 30 991 1022 "UserInput.ml" 30 991 1027
+type(
+  string array
+)
+ident(
+  int_ref array "UserInput.ml" 24 722 726 "UserInput.ml" 24 722 731
+)
+"UserInput.ml" 30 991 1029 "UserInput.ml" 30 991 1030
+type(
+  int
+)
+"UserInput.ml" 30 991 1022 "UserInput.ml" 30 991 1031
+type(
+  string
+)
+type(
+  string array -> int -> string
+)
+ident(
+  ext_ref Core.Std.Array.get
+)
+"UserInput.ml" 30 991 1008 "UserInput.ml" 30 991 1032
+type(
+  int
+)
+"UserInput.ml" 30 991 997 "UserInput.ml" 30 991 1032
+type(
+  string * int
+)
+"UserInput.ml" 30 991 996 "UserInput.ml" 30 991 1033
+type(
+  (string * int) list
+)
+"UserInput.ml" 29 938 951 "UserInput.ml" 30 991 1033
+type(
+  (string * int) list
+)
+"UserInput.ml" 29 938 950 "UserInput.ml" 30 991 1034
+type(
+  (string * int) list
+)
+type(
+  (string * int) list list
+)
+"UserInput.ml" 29 938 949 "UserInput.ml" 30 991 1035
+type(
+  (string * int) list list
+)
+"UserInput.ml" 24 722 735 "UserInput.ml" 30 991 1035
+type(
+  (string * int) list list
+)
+"UserInput.ml" 22 687 689 "UserInput.ml" 30 991 1035
+type(
+  (string * int) list list
+)
+type(
+  (string * int) list list
+)
+"UserInput.ml" 21 618 634 "UserInput.ml" 30 991 1035
+type(
+  string array -> (string * int) list list
+)
+"UserInput.ml" 34 1102 1110 "UserInput.ml" 34 1102 1120
+type(
+  (string * int) list list -> unit
+)
+ident(
+  def print_list "UserInput.ml" 34 1102 1102 "UserInput.ml" 1 0 -1
+)
+"UserInput.ml" 34 1102 1122 "UserInput.ml" 34 1102 1126
+type(
+  (string * int) list list
+)
+ident(
+  def list "UserInput.ml" 34 1102 1154 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 35 1163 1171 "UserInput.ml" 35 1163 1175
+type(
+  (string * int) list list
+)
+ident(
+  int_ref list "UserInput.ml" 34 1102 1122 "UserInput.ml" 34 1102 1126
+)
+"UserInput.ml" 36 1181 1185 "UserInput.ml" 36 1181 1187
+type(
+  (string * int) list list
+)
+"UserInput.ml" 36 1181 1191 "UserInput.ml" 36 1181 1193
+type(
+  unit
+)
+"UserInput.ml" 37 1194 1198 "UserInput.ml" 37 1194 1200
+type(
+  (string * int) list
+)
+ident(
+  def hd "UserInput.ml" 37 1194 1210 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 37 1194 1204 "UserInput.ml" 37 1194 1206
+type(
+  (string * int) list list
+)
+ident(
+  def tl "UserInput.ml" 37 1194 1210 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 37 1194 1198 "UserInput.ml" 37 1194 1206
+type(
+  (string * int) list list
+)
+"UserInput.ml" 37 1194 1216 "UserInput.ml" 37 1194 1218
+type(
+  string
+)
+ident(
+  def t1 "UserInput.ml" 38 1241 1243 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 37 1194 1219 "UserInput.ml" 37 1194 1221
+type(
+  int
+)
+ident(
+  def s1 "UserInput.ml" 38 1241 1243 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 37 1194 1216 "UserInput.ml" 37 1194 1221
+type(
+  string * int
+)
+"UserInput.ml" 37 1194 1224 "UserInput.ml" 37 1194 1226
+type(
+  string
+)
+ident(
+  def t2 "UserInput.ml" 38 1241 1243 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 37 1194 1227 "UserInput.ml" 37 1194 1229
+type(
+  int
+)
+ident(
+  def s2 "UserInput.ml" 38 1241 1243 "UserInput.ml" 46 1391 1406
+)
+"UserInput.ml" 37 1194 1224 "UserInput.ml" 37 1194 1229
+type(
+  string * int
+)
+"UserInput.ml" 37 1194 1223 "UserInput.ml" 37 1194 1230
+type(
+  (string * int) list
+)
+"UserInput.ml" 37 1194 1215 "UserInput.ml" 37 1194 1230
+type(
+  (string * int) list
+)
+"UserInput.ml" 37 1194 1214 "UserInput.ml" 37 1194 1231
+type(
+  (string * int) list
+)
+"UserInput.ml" 37 1194 1234 "UserInput.ml" 37 1194 1236
+type(
+  (string * int) list
+)
+ident(
+  int_ref hd "UserInput.ml" 37 1194 1198 "UserInput.ml" 37 1194 1200
+)
+"UserInput.ml" 38 1241 1243 "UserInput.ml" 38 1241 1255
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"UserInput.ml" 38 1241 1256 "UserInput.ml" 38 1241 1258
+type(
+  string
+)
+ident(
+  int_ref t1 "UserInput.ml" 37 1194 1216 "UserInput.ml" 37 1194 1218
+)
+"UserInput.ml" 38 1241 1243 "UserInput.ml" 38 1241 1258
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 39 1260 1262 "UserInput.ml" 39 1260 1275
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"UserInput.ml" 39 1260 1276 "UserInput.ml" 39 1260 1278
+type(
+  unit
+)
+"UserInput.ml" 39 1260 1262 "UserInput.ml" 39 1260 1278
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 40 1280 1282 "UserInput.ml" 40 1280 1291
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"UserInput.ml" 40 1280 1292 "UserInput.ml" 40 1280 1294
+type(
+  int
+)
+ident(
+  int_ref s1 "UserInput.ml" 37 1194 1219 "UserInput.ml" 37 1194 1221
+)
+"UserInput.ml" 40 1280 1282 "UserInput.ml" 40 1280 1294
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 41 1296 1298 "UserInput.ml" 41 1296 1311
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"UserInput.ml" 41 1296 1312 "UserInput.ml" 41 1296 1314
+type(
+  unit
+)
+"UserInput.ml" 41 1296 1298 "UserInput.ml" 41 1296 1314
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 42 1316 1318 "UserInput.ml" 42 1316 1330
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"UserInput.ml" 42 1316 1331 "UserInput.ml" 42 1316 1333
+type(
+  string
+)
+ident(
+  int_ref t2 "UserInput.ml" 37 1194 1224 "UserInput.ml" 37 1194 1226
+)
+"UserInput.ml" 42 1316 1318 "UserInput.ml" 42 1316 1333
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 43 1335 1337 "UserInput.ml" 43 1335 1350
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"UserInput.ml" 43 1335 1351 "UserInput.ml" 43 1335 1353
+type(
+  unit
+)
+"UserInput.ml" 43 1335 1337 "UserInput.ml" 43 1335 1353
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 44 1355 1357 "UserInput.ml" 44 1355 1366
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"UserInput.ml" 44 1355 1367 "UserInput.ml" 44 1355 1369
+type(
+  int
+)
+ident(
+  int_ref s2 "UserInput.ml" 37 1194 1227 "UserInput.ml" 37 1194 1229
+)
+"UserInput.ml" 44 1355 1357 "UserInput.ml" 44 1355 1369
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 45 1371 1373 "UserInput.ml" 45 1371 1386
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"UserInput.ml" 45 1371 1387 "UserInput.ml" 45 1371 1389
+type(
+  unit
+)
+"UserInput.ml" 45 1371 1373 "UserInput.ml" 45 1371 1389
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 46 1391 1393 "UserInput.ml" 46 1391 1403
+type(
+  (string * int) list list -> unit
+)
+ident(
+  int_ref print_list "UserInput.ml" 34 1102 1110 "UserInput.ml" 34 1102 1120
+)
+"UserInput.ml" 46 1391 1404 "UserInput.ml" 46 1391 1406
+type(
+  (string * int) list list
+)
+ident(
+  int_ref tl "UserInput.ml" 37 1194 1204 "UserInput.ml" 37 1194 1206
+)
+"UserInput.ml" 46 1391 1393 "UserInput.ml" 46 1391 1406
+call(
+  tail
+)
+type(
+  unit
+)
+"UserInput.ml" 45 1371 1373 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 44 1355 1357 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 43 1335 1337 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 42 1316 1318 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 41 1296 1298 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 40 1280 1282 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 39 1260 1262 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 38 1241 1243 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 37 1194 1210 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+"UserInput.ml" 35 1163 1165 "UserInput.ml" 46 1391 1406
+type(
+  unit
+)
+type(
+  unit
+)
+"UserInput.ml" 34 1102 1121 "UserInput.ml" 46 1391 1406
+type(
+  (string * int) list list -> unit
+)
+"UserInput.ml" 50 1412 1420 "UserInput.ml" 50 1412 1430
+type(
+  unit -> unit
+)
+ident(
+  def choose_alg "UserInput.ml" 50 1412 1412 "UserInput.ml" 1 0 -1
+)
+"UserInput.ml" 50 1412 1431 "UserInput.ml" 50 1412 1433
+type(
+  unit
+)
+"UserInput.ml" 51 1436 1438 "UserInput.ml" 51 1436 1450
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"UserInput.ml" 51 1436 1451 "UserInput.ml" 51 1436 1499
+type(
+  string
+)
+"UserInput.ml" 51 1436 1438 "UserInput.ml" 51 1436 1499
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 52 1501 1507 "UserInput.ml" 52 1501 1511
+type(
+  string
+)
+ident(
+  def algo "UserInput.ml" 53 1530 1532 "UserInput.ml" 58 1839 1856
+)
+"UserInput.ml" 52 1501 1514 "UserInput.ml" 52 1501 1523
+type(
+  unit -> string
+)
+ident(
+  ext_ref Pervasives.read_line
+)
+"UserInput.ml" 52 1501 1524 "UserInput.ml" 52 1501 1526
+type(
+  unit
+)
+"UserInput.ml" 52 1501 1514 "UserInput.ml" 52 1501 1526
+call(
+  stack
+)
+type(
+  string
+)
+"UserInput.ml" 53 1530 1538 "UserInput.ml" 53 1530 1554
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.String.uppercase
+)
+"UserInput.ml" 53 1530 1555 "UserInput.ml" 53 1530 1559
+type(
+  string
+)
+ident(
+  int_ref algo "UserInput.ml" 52 1501 1507 "UserInput.ml" 52 1501 1511
+)
+"UserInput.ml" 53 1530 1538 "UserInput.ml" 53 1530 1559
+call(
+  stack
+)
+type(
+  string
+)
+"UserInput.ml" 54 1565 1569 "UserInput.ml" 54 1565 1577
+type(
+  string
+)
+"UserInput.ml" 54 1565 1581 "UserInput.ml" 54 1565 1615
+type(
+  (string * int) list list -> unit
+)
+ident(
+  ext_ref RankingAlgorithms.RankingAlgorithms.calculate_minton
+)
+"UserInput.ml" 54 1565 1617 "UserInput.ml" 54 1565 1624
+type(
+  string array -> (string * int) list list
+)
+ident(
+  int_ref to_data "UserInput.ml" 21 618 626 "UserInput.ml" 21 618 633
+)
+"UserInput.ml" 54 1565 1626 "UserInput.ml" 54 1565 1636
+type(
+  unit -> string array
+)
+ident(
+  int_ref take_input "UserInput.ml" 9 222 230 "UserInput.ml" 9 222 240
+)
+"UserInput.ml" 54 1565 1637 "UserInput.ml" 54 1565 1639
+type(
+  unit
+)
+"UserInput.ml" 54 1565 1626 "UserInput.ml" 54 1565 1639
+call(
+  stack
+)
+type(
+  string array
+)
+"UserInput.ml" 54 1565 1617 "UserInput.ml" 54 1565 1640
+call(
+  stack
+)
+type(
+  (string * int) list list
+)
+"UserInput.ml" 54 1565 1581 "UserInput.ml" 54 1565 1641
+call(
+  tail
+)
+type(
+  unit
+)
+"UserInput.ml" 55 1642 1646 "UserInput.ml" 55 1642 1654
+type(
+  string
+)
+"UserInput.ml" 55 1642 1658 "UserInput.ml" 55 1642 1692
+type(
+  (string * int) list list -> unit
+)
+ident(
+  ext_ref RankingAlgorithms.RankingAlgorithms.calculate_massey
+)
+"UserInput.ml" 55 1642 1694 "UserInput.ml" 55 1642 1701
+type(
+  string array -> (string * int) list list
+)
+ident(
+  int_ref to_data "UserInput.ml" 21 618 626 "UserInput.ml" 21 618 633
+)
+"UserInput.ml" 55 1642 1703 "UserInput.ml" 55 1642 1713
+type(
+  unit -> string array
+)
+ident(
+  int_ref take_input "UserInput.ml" 9 222 230 "UserInput.ml" 9 222 240
+)
+"UserInput.ml" 55 1642 1714 "UserInput.ml" 55 1642 1716
+type(
+  unit
+)
+"UserInput.ml" 55 1642 1703 "UserInput.ml" 55 1642 1716
+call(
+  stack
+)
+type(
+  string array
+)
+"UserInput.ml" 55 1642 1694 "UserInput.ml" 55 1642 1717
+call(
+  stack
+)
+type(
+  (string * int) list list
+)
+"UserInput.ml" 55 1642 1658 "UserInput.ml" 55 1642 1718
+call(
+  tail
+)
+type(
+  unit
+)
+"UserInput.ml" 56 1719 1723 "UserInput.ml" 56 1719 1731
+type(
+  string
+)
+"UserInput.ml" 56 1719 1735 "UserInput.ml" 56 1719 1769
+type(
+  (string * int) list list -> unit
+)
+ident(
+  ext_ref RankingAlgorithms.RankingAlgorithms.calculate_colley
+)
+"UserInput.ml" 56 1719 1771 "UserInput.ml" 56 1719 1778
+type(
+  string array -> (string * int) list list
+)
+ident(
+  int_ref to_data "UserInput.ml" 21 618 626 "UserInput.ml" 21 618 633
+)
+"UserInput.ml" 56 1719 1780 "UserInput.ml" 56 1719 1790
+type(
+  unit -> string array
+)
+ident(
+  int_ref take_input "UserInput.ml" 9 222 230 "UserInput.ml" 9 222 240
+)
+"UserInput.ml" 56 1719 1791 "UserInput.ml" 56 1719 1793
+type(
+  unit
+)
+"UserInput.ml" 56 1719 1780 "UserInput.ml" 56 1719 1793
+call(
+  stack
+)
+type(
+  string array
+)
+"UserInput.ml" 56 1719 1771 "UserInput.ml" 56 1719 1794
+call(
+  stack
+)
+type(
+  (string * int) list list
+)
+"UserInput.ml" 56 1719 1735 "UserInput.ml" 56 1719 1795
+call(
+  tail
+)
+type(
+  unit
+)
+"UserInput.ml" 57 1796 1800 "UserInput.ml" 57 1796 1801
+type(
+  string
+)
+"UserInput.ml" 57 1796 1806 "UserInput.ml" 57 1796 1818
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"UserInput.ml" 57 1796 1819 "UserInput.ml" 57 1796 1837
+type(
+  string
+)
+"UserInput.ml" 57 1796 1806 "UserInput.ml" 57 1796 1837
+call(
+  stack
+)
+type(
+  unit
+)
+"UserInput.ml" 58 1839 1842 "UserInput.ml" 58 1839 1852
+type(
+  unit -> unit
+)
+ident(
+  int_ref choose_alg "UserInput.ml" 50 1412 1420 "UserInput.ml" 50 1412 1430
+)
+"UserInput.ml" 58 1839 1853 "UserInput.ml" 58 1839 1855
+type(
+  unit
+)
+"UserInput.ml" 58 1839 1842 "UserInput.ml" 58 1839 1855
+call(
+  tail
+)
+type(
+  unit
+)
+"UserInput.ml" 57 1796 1806 "UserInput.ml" 58 1839 1855
+type(
+  unit
+)
+"UserInput.ml" 53 1530 1532 "UserInput.ml" 58 1839 1856
+type(
+  unit
+)
+"UserInput.ml" 52 1501 1503 "UserInput.ml" 58 1839 1856
+type(
+  unit
+)
+"UserInput.ml" 51 1436 1438 "UserInput.ml" 58 1839 1856
+type(
+  unit
+)
+"UserInput.ml" 50 1412 1431 "UserInput.ml" 58 1839 1856
+type(
+  unit -> unit
+)
+"UserInput.ml" 61 1861 1861 "UserInput.ml" 61 1861 1871
+type(
+  unit -> unit
+)
+ident(
+  int_ref choose_alg "UserInput.ml" 50 1412 1420 "UserInput.ml" 50 1412 1430
+)
+"UserInput.ml" 61 1861 1872 "UserInput.ml" 61 1861 1874
+type(
+  unit
+)
+"UserInput.ml" 61 1861 1861 "UserInput.ml" 61 1861 1874
+call(
+  stack
+)
+type(
+  unit
+)
