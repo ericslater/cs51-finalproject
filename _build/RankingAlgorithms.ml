@@ -169,10 +169,17 @@ struct
    (* prints the results in a semi-pretty format *)
    let print_results (hierarchy: (string * float) list) = 
      let rankings = List.rev (hierarchy) in
-     List.iter rankings 
-	       (fun x -> let (string, _) = x in print_string string; 
-						print_newline ())
-
+     let rec print_helper (ordered: (string * float) list) (counter: int) : unit =
+       match ordered with
+       | [] -> ()
+       | (string, _) :: rest -> (print_int counter;
+				 print_string ". ";
+				 print_string string;
+				 print_newline();
+				 print_helper rest (counter + 1)) in
+     print_helper rankings 1
+    ;; 
+    
    (* all of massey's functionality, compressed to 1 function *)
    let calculate_massey data =
      (* first entry point for passed in data *)

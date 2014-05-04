@@ -20,6 +20,161 @@ File "LinearAlgebra.ml", line 175, characters 26-36:
 Warning 6: labels were omitted in the application of this function.
 File "LinearAlgebra.ml", line 139, characters 18-20:
 Warning 27: unused variable c1.
-Fatal error: exception Out_of_memory
-Command exited with code 2.
-# Compilation unsuccessful.
+# Target: RankingAlgorithms.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:RankingAlgorithms.cmo, file:RankingAlgorithms.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o RankingAlgorithms.cmo RankingAlgorithms.ml
++ ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o RankingAlgorithms.cmo RankingAlgorithms.ml
+File "RankingAlgorithms.ml", line 37, characters 30-44:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 48, characters 30-44:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 87, characters 5-188:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+Some []
+File "RankingAlgorithms.ml", line 106, characters 8-28:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 221, characters 30-46:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 238, characters 8-30:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 257, characters 30-46:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 274, characters 8-25:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 342, characters 30-47:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 403, characters 8-30:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 289, characters 21-32:
+Warning 27: unused variable team_points.
+File "RankingAlgorithms.ml", line 290, characters 5-20:
+Warning 27: unused variable opponent_points.
+# Target: UserInput.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:UserInput.cmo, file:UserInput.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o UserInput.cmo UserInput.ml
++ ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o UserInput.cmo UserInput.ml
+File "UserInput.ml", line 27, characters 15-24:
+Warning 6: labels were omitted in the application of this function.
+File "UserInput.ml", line 37, characters 21-36:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "UserInput.ml", line 73, characters 6-86:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+_::[]
+File "UserInput.ml", line 110, characters 2-432:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+""
+File "UserInput.ml", line 106, characters 8-19:
+Warning 39: unused rec flag.
+File "UserInput.ml", line 14, characters 6-10:
+Warning 27: unused variable team.
+File "UserInput.ml", line 65, characters 9-11:
+Warning 27: unused variable tl.
+# Target: LinearAlgebra.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:LinearAlgebra.cmx, file:LinearAlgebra.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o LinearAlgebra.cmx LinearAlgebra.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o LinearAlgebra.cmx LinearAlgebra.ml
+File "LinearAlgebra.ml", line 82, characters 32-49:
+Warning 6: labels were omitted in the application of this function.
+File "LinearAlgebra.ml", line 87, characters 22-32:
+Warning 6: labels were omitted in the application of this function.
+File "LinearAlgebra.ml", line 129, characters 2-12:
+Warning 6: labels were omitted in the application of this function.
+File "LinearAlgebra.ml", line 171, characters 18-27:
+Warning 6: labels were omitted in the application of this function.
+File "LinearAlgebra.ml", line 175, characters 26-36:
+Warning 6: labels were omitted in the application of this function.
+File "LinearAlgebra.ml", line 139, characters 18-20:
+Warning 27: unused variable c1.
+# Target: RankingAlgorithms.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:RankingAlgorithms.cmx, file:RankingAlgorithms.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o RankingAlgorithms.cmx RankingAlgorithms.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o RankingAlgorithms.cmx RankingAlgorithms.ml
+File "RankingAlgorithms.ml", line 37, characters 30-44:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 48, characters 30-44:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 87, characters 5-188:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+Some []
+File "RankingAlgorithms.ml", line 106, characters 8-28:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 221, characters 30-46:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 238, characters 8-30:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 257, characters 30-46:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 274, characters 8-25:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 342, characters 30-47:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 403, characters 8-30:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "RankingAlgorithms.ml", line 289, characters 21-32:
+Warning 27: unused variable team_points.
+File "RankingAlgorithms.ml", line 290, characters 5-20:
+Warning 27: unused variable opponent_points.
+# Target: UserInput.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:UserInput.cmx, file:UserInput.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o UserInput.cmx UserInput.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o UserInput.cmx UserInput.ml
+File "UserInput.ml", line 27, characters 15-24:
+Warning 6: labels were omitted in the application of this function.
+File "UserInput.ml", line 37, characters 21-36:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+[]
+File "UserInput.ml", line 73, characters 6-86:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+_::[]
+File "UserInput.ml", line 110, characters 2-432:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+""
+File "UserInput.ml", line 106, characters 8-19:
+Warning 39: unused rec flag.
+File "UserInput.ml", line 14, characters 6-10:
+Warning 27: unused variable team.
+File "UserInput.ml", line 65, characters 9-11:
+Warning 27: unused variable tl.
+# Target: UserInput.native, tags: { annot, bin_annot, debug, dont_link_with, extension:native, file:UserInput.native, link, native, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), program, quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt str.cmxa -linkpkg -g -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core LinearAlgebra.cmx RankingAlgorithms.cmx UserInput.cmx -o UserInput.native
+# Compilation successful.
